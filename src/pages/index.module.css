@@ -29,28 +29,10 @@
   font-weight: bolder;
 }
 
-/*
- when squeezed
- like a hot
- dog
- then
- look like
- a hot dog
- stand
-*/
 @media screen and (max-width: 996px) {
   .heroBanner {
     padding: 2rem;
-    background-position: right;
-    background-size:cover;
-  }
-
-  .heroBanner h1 {
-    color:yellow;
-  }
-  
-  .heroBanner h1 span {
-    color:crimson;
+    background-image: none;
   }
 }
 
