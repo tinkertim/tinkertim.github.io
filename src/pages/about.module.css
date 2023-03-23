@@ -1,1 +1,9 @@
 /* Content Styles Go Here */
+
+.book {
+  justify-content: right;
+  align-items: right;
+  border-radius: 25px;
+  margin-top: .5rem;
+}
+
