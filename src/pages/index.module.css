@@ -14,7 +14,7 @@
   background-size: contain;
   min-height: 450px;
   background-color: black;
-  color: tan;
+  color:lawngreen;
 }
 
 @media screen and (max-width: 996px) {
@@ -24,6 +24,9 @@
 }
 
 .heroBanner h1 {
+  color: #ccc;
+}
+.heroBanner h1 span {
   color:mediumslateblue;
 }
 

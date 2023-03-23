@@ -3,29 +3,7 @@ import clsx from "clsx";
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
-import styles from "./index.module.css";
-
-function HomepageHeader() {
-  const { siteConfig } = useDocusaurusContext();
-  return (
-    <header className={clsx("hero hero--secondary", styles.heroBanner)}>
-      <div className="container">
-        <h1 className="hero__title">
-          <span>&#91;</span>&nbsp;{siteConfig.title}&nbsp;<span>&#93;</span>
-        </h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="#"
-          >
-            Check Back In Six To Eight Days ⏱️
-          </Link>
-        </div>
-      </div>
-    </header>
-  );
-}
+import styles from "./about.module.css";
 
 function HomePageContent() {
   return (
@@ -45,7 +23,6 @@ export default function Home() {
       title={`${siteConfig.title}`}
       description="Description will go into a meta tag in <head />"
     >
-      <HomepageHeader />
       <main>
         <HomePageContent />
       </main>
