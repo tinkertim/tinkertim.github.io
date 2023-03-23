@@ -47,13 +47,16 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Tim\'s Site',
+        title: 'Tim\'s Site >>',
+        /*
         logo: {
           alt: 'logo',
           src: 'img/logo.svg',
         },
+        */
         items: [
           {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/about', label: 'About Tim', position: 'left'},
           {
             href: 'https://github.com/tinkertim',
             label: 'My Github Profile',
