@@ -46,7 +46,7 @@ const config = {
       // Replace with your project's social card
       image: "img/docusaurus-social-card.jpg",
       navbar: {
-        title: "@tinkertim > ",
+        title: "~/@tinkertim >> ",
         /*
         logo: {
           alt: 'logo',
@@ -60,8 +60,8 @@ const config = {
           { to: "/contact", label: "Contact", position: "left" },
           {
             href: "https://github.com/tinkertim",
-            label: "My Github Profile",
-            position: "right",
+            label: "Github",
+            position: "left",
           },
         ],
       },
