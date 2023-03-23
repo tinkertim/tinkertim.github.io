@@ -3,8 +3,6 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
-
 import styles from './index.module.css';
 
 function HomepageHeader() {
@@ -26,6 +24,17 @@ function HomepageHeader() {
   );
 }
 
+function HomePageContent() {
+  return (
+    <section>
+      <div className="container">
+        <h1>This is a content heading 1</h1>
+        <p>This is a paragraph. This is all inside the "container" tag.</p>
+      </div>
+    </section>
+  )
+}
+
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -34,7 +43,7 @@ export default function Home() {
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
+        <HomePageContent />
       </main>
     </Layout>
   );

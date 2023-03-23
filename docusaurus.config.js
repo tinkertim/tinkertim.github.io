@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Tim Post',
-  tagline: 'Code, Culture & Cannabis - The O.G. DevRel',
+  tagline: 'Code & Culture With The O.G. DevRel',
   favicon: 'img/favicon.ico',
   url: 'https://tinkertim.github.io/',
   baseUrl: '/',
@@ -62,7 +62,7 @@ const config = {
         ],
       },
       footer: {
-        style: 'dark',
+        style: 'light',
         links: [
           {
             title: 'Find Me On ...',
