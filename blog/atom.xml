@@ -12,21 +12,21 @@
         <id>https://tinkertim.github.io/blog/welcome</id>
         <link href="https://tinkertim.github.io/blog/welcome"/>
         <updated>2023-03-23T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Did the whole Twitter shakeup make you stop and think about]]></summary>
-        <content type="html"><![CDATA[<p>Did the whole Twitter shakeup make you stop and think about
-how much time you spend creating content on other people's
-platforms? I thought about it quite a bit when it was touch-and-go
-if Twitter would stabilize again, and in all fairness, that's still
-mostly the case.</p><p>I also realized that I was leaking my own narrative, abut two hundred
-characters at a time. Instead of writing the stories of my experiences
-coherently, with my own purpose and vision, I was just adding short
-quips to the collective narrative. There's nothing wrong with adding to
-the collective, provided that you're writing your own version, too.</p><p>So, I had to do the thing I said I wasn't going to do again: I had to build
-yet another personal website. I didn't feel like getting a degree in
-hot new frameworks, so I was originally going to go with Astro but Tailwind
-is just not comfortable for me for a personal project, so I ended up using:</p><p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500" class="img_ev3q"></p><p>... at least for now. I really want to play with Astro, as well as Fresh,
-but the ecosystems around both are pretty Tailwind-heavy for the time being.</p><p>And for just a blog with a few static pages - Docusaurus is fine. I may even
-bring back the docs and create some tutorials eventually, but the goal right now is to just have a better professional presence.</p>]]></content>
+        <summary type="html"><![CDATA[Did the whole Twitter shakeup make you stop and think about how much time you]]></summary>
+        <content type="html"><![CDATA[<p>Did the whole Twitter shakeup make you stop and think about how much time you
+spend creating content on other people's platforms? I thought about it quite a
+bit when it was touch-and-go if Twitter would stabilize again, and in all
+fairness, that's still mostly the case.</p><p>I also realized that I was leaking my own narrative, abut two hundred characters
+at a time. Instead of writing the stories of my experiences coherently, with my
+own purpose and vision, I was just adding short quips to the collective
+narrative. There's nothing wrong with adding to the collective, provided that
+you're writing your own version, too.</p><p>So, I had to do the thing I said I wasn't going to do again: I had to build yet
+another personal website. I didn't feel like getting a degree in hot new
+frameworks, so I was originally going to go with Astro but Tailwind is just not
+comfortable for me for a personal project, so I ended up using:</p><p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500" class="img_ev3q"></p><p>... at least for now. I really want to play with Astro, as well as Fresh, but
+the ecosystems around both are pretty Tailwind-heavy for the time being.</p><p>And for just a blog with a few static pages - Docusaurus is fine. I may even
+bring back the docs and create some tutorials eventually, but the goal right now
+is to just have a better professional presence.</p>]]></content>
         <author>
             <name>Tim Post</name>
             <uri>https://tinkertim.github.io</uri>
