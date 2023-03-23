@@ -17,17 +17,41 @@
   color:lawngreen;
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
-}
-
 .heroBanner h1 {
   color: #ccc;
 }
+
 .heroBanner h1 span {
   color:mediumslateblue;
+}
+
+.heroBanner p {
+  font-weight: bolder;
+}
+
+/*
+ when squeezed
+ like a hot
+ dog
+ then
+ look like
+ a hot dog
+ stand
+*/
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+    background-position: right;
+    background-size:cover;
+  }
+
+  .heroBanner h1 {
+    color:yellow;
+  }
+  
+  .heroBanner h1 span {
+    color:crimson;
+  }
 }
 
 .buttons {
