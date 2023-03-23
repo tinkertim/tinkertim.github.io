@@ -9,8 +9,6 @@ const config = {
   title: 'Tim Post',
   tagline: 'Code, Cannabis & Culture',
   favicon: 'img/favicon.ico',
-
-  // Set the production url of your site here
   url: 'https://tinkertim.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
@@ -20,7 +18,7 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'tinkertim', // Usually your GitHub org/user name.
   projectName: 'tinkertim.github.io', // Usually your repo name.
-
+  deploymentBranch: 'github-pages',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
