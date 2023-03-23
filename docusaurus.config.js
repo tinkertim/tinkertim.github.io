@@ -1,41 +1,40 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Tim Post',
-  tagline: 'Code & Culture With The O.G. DevRel',
-  favicon: 'img/favicon.ico',
-  url: 'https://tinkertim.github.io/',
-  baseUrl: '/',
+  title: "Tim Post",
+  tagline: "Code & Culture With The O.G. DevRel",
+  favicon: "img/favicon.ico",
+  url: "https://tinkertim.github.io/",
+  baseUrl: "/",
 
-  organizationName: 'tinkertim',
-  projectName: 'tinkertim.github.io',
-  deploymentBranch: 'github-pages',
-  onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
+  organizationName: "tinkertim",
+  projectName: "tinkertim.github.io",
+  deploymentBranch: "github-pages",
+  onBrokenLinks: "warn",
+  onBrokenMarkdownLinks: "warn",
 
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: "en",
+    locales: ["en"],
   },
 
   presets: [
     [
-      'classic',
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: false,
         blog: {
           showReadingTime: true,
-          editUrl:
-            'https://github.com/tinkertim/tinkertim.github.io/tree/main',
+          editUrl: "https://github.com/tinkertim/tinkertim.github.io/tree/main",
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       }),
     ],
@@ -45,9 +44,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: "img/docusaurus-social-card.jpg",
       navbar: {
-        title: 'Tim\'s Site >>',
+        title: "Tim's Site >>",
         /*
         logo: {
           alt: 'logo',
@@ -55,33 +54,35 @@ const config = {
         },
         */
         items: [
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {to: '/about', label: 'About Tim', position: 'left'},
+          { to: "/blog", label: "Blog", position: "left" },
+          { to: "/about", label: "About Tim", position: "left" },
           {
-            href: 'https://github.com/tinkertim',
-            label: 'My Github Profile',
-            position: 'right',
+            href: "https://github.com/tinkertim",
+            label: "My Github Profile",
+            position: "right",
           },
         ],
       },
       footer: {
-        style: 'light',
+        style: "light",
         links: [
           {
-            title: 'Find Me On ...',
+            title: "Find Me On ...",
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/users/50049/tim-post',
+                label: "Stack Overflow",
+                href: "https://stackoverflow.com/users/50049/tim-post",
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/tinkertim',
+                label: "Twitter",
+                href: "https://twitter.com/tinkertim",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Tim Post. Built with Docusaurus.`,
+        copyright: `Copyright © ${
+          new Date().getFullYear()
+        } Tim Post. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
