@@ -88,6 +88,14 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      announcementBar: {
+        id: "wip",
+        content:
+          'Not quite done yet - Pardon The Dust. The Only Thing Functional Right Now Is The Blog',
+        backgroundColor: "#121212",
+        textColor: "orange",
+        isCloseable: false,
+      },
     }),
 };
 
