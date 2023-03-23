@@ -9,7 +9,7 @@ const config = {
   title: 'Tim Post',
   tagline: 'Code, Cannabis & Culture',
   favicon: 'img/favicon.ico',
-  url: 'https://tinkertim.github.io',
+  url: 'https://tinkertim.github.io/',
   baseUrl: '/',
 
   organizationName: 'tinkertim',
