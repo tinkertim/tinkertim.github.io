@@ -9,7 +9,7 @@ function HomePageContent() {
   return (
     <section>
       <div className="container">
-        <h1 className="margin-top--md">This is a content heading 1</h1>
+        <h1 className="margin-top--lg">How To Get In Touch</h1>
         <p>This is a paragraph. This is all inside the "container" tag.</p>
       </div>
     </section>
