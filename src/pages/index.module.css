@@ -10,7 +10,7 @@
   overflow: hidden;
   background-image: url('/img/tim_header_zoomed.png');
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: bottom right;
   background-size: contain;
   min-height: 450px;
   background-color: black;
@@ -32,7 +32,7 @@
 @media screen and (max-width: 996px) {
   .heroBanner {
     padding: 2rem;
-    background-image: none;
+    background-image: url('/img/tim_header.png');
   }
 }
 
