@@ -77,7 +77,9 @@ function LatestWorkContent() {
               </div>
               <div className="card__body">
                 <p>
-                  WIIFM: (W)hat's (I)n (I)t (F)or (M)e 
+                  <strong>
+                  WIIFM: (W)hat's (I)n (I)t (F)or (M)e?
+                  </strong> 
                 </p>
                 <p>
                   Be entertaining, and be brief. Developers love brevity because they highly value
@@ -179,7 +181,7 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
+      description="Tim Post's Latest Productions"
     >
       <main>
         <LatestWorkContent />
