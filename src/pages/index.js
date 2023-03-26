@@ -69,6 +69,11 @@ function HomePageContent() {
             <p className="margin-top-md">
              But I do just about everything else, so don't hesitate to reach out if you think I can help you!
             </p>
+            <Link
+            className="button button--primary button--lg"
+            to="/blog/welcome"
+          >Latest Blog: "New Site! Again!"  &raquo;&raquo;
+          </Link>
           </div>
         </div>
       </div>
