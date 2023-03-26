@@ -72,7 +72,7 @@ function HomePageContent() {
             <Link
             className="button button--primary button--lg"
             to="/blog/welcome"
-          >Latest Blog: "New Site! Again!"  &raquo;&raquo;
+          >Latest Blog: "New Site! Again!"  &raquo;
           </Link>
           </div>
         </div>
