@@ -10,7 +10,7 @@ function LatestWorkContent() {
   return (
     <section>
       <div className="container">
-        <h1 className="margin-top--lg">Stuff I've Been Working On:</h1>
+        <h1 className="margin-top--lg">Stuff I've Recently Produced:</h1>
         <p className="margin-top--md">
           I very much enjoy the content production side of DevRel! Here are samples of some of the 
           latest things I've been working on, mostly for <Link href="https://deno.com">Deno</Link> 
