@@ -4,37 +4,39 @@ import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import styles from "./latest.module.css";
-import YouTubePlayer from "../components/YouTubePlayer";
+import YouTubePlayer, { YouTubeShortPlayer } from "../components/YouTubePlayer";
 
 function LatestWorkContent() {
   return (
     <section>
       <div className="container">
         <h1 className="margin-top--lg">Stuff I've Been Working On:</h1>
-        <p>
+        <p className="margin-top--md">
           I very much enjoy the content production side of DevRel! Here are samples of some of the 
           latest things I've been working on, mostly for <Link href="https://deno.com">Deno</Link> 
           &nbsp;for the last few months. These are right from Deno's site & social channels: 
         </p>
         <div className="row">
           <div className="col col--12">
-            <h2>"Release Notes" Style Video Content Production</h2>
+            <h2>Deno's Release Notes (Series 1.29 - 1.31):</h2>
           </div>
         </div>
         <div className="row">
           <div className="col col--4">
             <div className="card margin-top--lg">
               <div className="card__header">
-                <h3>Deno 1.31 Release Notes</h3>
+                <h3>Deno 1.31</h3>
               </div>
               <div className="card__body">
                 <p>
-                  Release notes can often be a challenging bag of unrelated changes. It's a DevRel's job to
-                  weave a story around these, and make users as excited about each release as possible. 
+                  Release notes are more than just a "book report" on what's usually 
+                  just a mixed-bag of new features and bug fixes; they're one of the
+                  most frequent forms of contact you'll have with your customers.
                 </p>
                 <p>
-                  When I record these, I imagine how I used to read changelogs to find out if anything I cared
-                  about was changed. I try to bring the same spontaneous sense of discovery to these.
+                  It's challenging, but you have to find the story buried in there, 
+                  if there is one. If not, you have to lend your personality where
+                  the message lacks interest. I strive to do this.
                 </p>
               </div>
             </div>
@@ -42,7 +44,131 @@ function LatestWorkContent() {
           <div className="col col--8">
             <YouTubePlayer id="cjQiMz0KUY0" />
           </div>
-        </div> 
+        </div>
+        <div className="row">
+          <div className="col col--4">
+            <div className="card margin-top--lg">
+              <div className="card__header">
+                <h3>Deno 1.30</h3>
+              </div>
+              <div className="card__body">
+                <p>
+                  Plain text animation with upbeat narration trumps fancy effects for 
+                  <em>most</em> kinds of developer content; at least that's been true
+                  in my experience. 
+                </p>
+                <p>
+                  I think people really pick up on presenters having a genuine emotional
+                  connection to what they're presenting. This is why I can't demo products
+                  that don't thrill me in some way, it'll look forced and fake. 
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col col--8">
+            <YouTubePlayer id="ke06eWWBEgk" />
+          </div>
+        </div>
+        <div className="row">
+          <div className="col col--4">
+            <div className="card margin-top--lg">
+              <div className="card__header">
+                <h3>Deno 1.29</h3>
+              </div>
+              <div className="card__body">
+                <p>
+                  WIIFM: (W)hat's (I)n (I)t (F)or (M)e 
+                </p>
+                <p>
+                  Be entertaining, and be brief. Developers love brevity because they highly value
+                  their time. Sometimes it feels like a challenge when you're packing more information 
+                  that can fit into 1:30 into a video. 
+                </p>
+                <p>
+                  But even when there's no story but a slide with 10 unrelated things to get through, I
+                  try to still get people excited about it. 
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col col--8">
+            <YouTubePlayer id="ueHc967hw8A" />
+          </div>
+        </div>
+        <div className="row">
+          <div className="col col--12">
+            <h2 className="margin-top--md">Deno's Express Tutorial Series</h2>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col col--4">
+            <div className="card margin-top--lg">
+              <div className="card__header">
+                <h3>Express / Deno I</h3>
+              </div>
+              <div className="card__body">
+                <p>
+                 Express remains a much-loved framework for REST API implementations and
+                 I had a great time making the first one with Deno as soon as NPM compatibility
+                 was stable enough.
+                </p>
+                <p>
+                At times, I code "live" in videos where viewers see me typing in real-time, but
+                only when I want to add emphasis to something. I'd say my videos tend to be 85%
+                talking through code I've written, and 15% coding as I talk.  
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col col--8">
+            <YouTubePlayer id="TDFv2hBRUtQ" />
+          </div>
+        </div>
+        <div className="row">
+          <div className="col col--4">
+            <div className="card margin-top--lg">
+              <div className="card__header">
+                <h3>Express / Deno II</h3>
+              </div>
+              <div className="card__body">
+                <p>
+                 The <Link href="https://github.com/tinkertim/deno-express-project">companion repository</Link> for this 
+                 series also links to the <Link href="#">blog posts on Deno's site</Link> that summarizes the episodes.
+                </p>
+                <p>
+                 Adding a "let's play" energy to tutorial videos makes them more enjoyable, at least
+                 in my experience as a learner. I can dial my inflections from very conservative to 
+                 exaggerated for presentation; I'm comfortable anywhere.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col col--8">
+            <YouTubePlayer id="Mz59tNtv8" />
+          </div>
+        </div>
+        <div className="row">
+          <div className="col col--12">
+            <h2 className="margin-top--md">"Shorts" and "Reels" and TikTok, Oh My!</h2>
+            <p className="margin-top--md">
+              You may have strong feelings about TikTok (and short videos in general), but lots of developers
+              enjoy them and even prefer them for learning. Creating these has also made me think about my process
+              as a whole, since I like to target multiple formats with minimal editing!
+            </p>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col col--4">
+            <YouTubeShortPlayer id="QT6HuKjxU08" />
+          </div>
+          <div className="col col--4">
+            <YouTubeShortPlayer id="hhWPJWNCFrQ" />
+          </div>
+          <div className="col col--4">
+            <YouTubeShortPlayer id="j8q4_gr9Y1I" />
+          </div>
+        </div>
+        <div className="bottom">&nbsp;</div>
       </div>
     </section>
   );
