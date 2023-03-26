@@ -26,3 +26,29 @@ html[data-theme='dark'] .videoEmbed {
     height: 100%;
     border-radius: 15px;
 }
+
+.shortEmbed {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: .5rem 0 .5rem 0;
+    min-height: 375px;
+}
+
+html[data-theme='dark'] .shortEmbed {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; 
+    margin: .5rem 0 .5rem 0;
+    min-height: 375px; 
+}
+
+.shortEmbed iframe {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%;   
+}
