@@ -44,7 +44,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: "img/docusaurus-social-card.jpg",
+      image: "img/banner.png",
       navbar: {
         title: "~/@tinkertim >> ",
         /*
@@ -91,7 +91,7 @@ const config = {
         darkTheme: darkCodeTheme,
       },
       colorMode: {
-        defaultMode: 'dark',
+        defaultMode: "dark",
         disableSwitch: false,
         respectPrefersColorScheme: false,
       },
