@@ -44,3 +44,13 @@
   align-items: left;
   justify-content: left;
 }
+
+.vanity {
+  display: inline-flex;
+  margin: none;
+  margin: .25rem 0 1rem 0;
+  height: 425px;
+  width: auto;
+  border-radius: 12px;
+  opacity: 0.8;
+}
