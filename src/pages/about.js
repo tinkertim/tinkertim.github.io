@@ -9,9 +9,10 @@ function AboutPageContent() {
   return (
     <section>
       <div className="container">
-        <h1 className="margin-top--lg">About Me - An "O.G." DevRel!</h1>
-        <div class="row">
+        
+        <div class="row margin-top--lg">
           <div class="col col--6">
+            <h1 className="margin-top--lg">About Me - An "O.G." DevRel!</h1>
             <p className="padding-top--md">
               I got my start in tech back in the 1990s, during the first dot-com
               bubble. I'd been writing code pretty regularly since learning C
@@ -19,27 +20,22 @@ function AboutPageContent() {
               before on a TRS-80 and C-64.
             </p>
             <p className="padding-top--md">
-              It's actually the UNIX philosophy that initially encouraged me to
-              want to learn more and grow as a programmer, so I basically did
-              systems-level programming for most of my career. I worked on file
-              systems, kernels (multiple), shells, hypervisors and what led to
-              be known as IAAS / PAAS. It was my journey in the hosting industry
+              I spent the first half of my programming career strictly in the UNIX world. 
+              I worked on file systems, multiple kernels, shells, hypervisors and what 
+              led to be known as IAAS / PAAS. It was my journey in the hosting industry
               that ultimately landed me in The Philippines, where I settled for
               nearly 15 years and started a family.
             </p>
             <p className="padding-top--md">
-              I became known through word-of-mouth as someone who could pull
-              projects that were way behind, and in heavy financial and
-              technical debt, back into something that actually ships. This was
-              hugely challenging and rewarding, but it meant that every new
-              project meant stepping into a new death march, and all the fun of
-              managing one. I decided to explore the human aspects of software
+              I became known as someone who could pull over-budget death-marches back
+              into the black. This was hugely challenging and rewarding, but too crushing
+              to continyue. I decided to explore the human aspects of software
               development and joined the Stack Overflow Community Growth Team.
             </p>
           </div>
           <div class="col col--6">
             <img
-              className={clsx(styles.book, "item shadow--tl")}
+              className={clsx(styles.book, "item shadow--tl margin-top--md")}
               src="/img/banner.png"
               alt="Tim Post Was Here!"
               title="I might actually write this one day."
