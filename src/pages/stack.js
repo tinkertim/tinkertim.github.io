@@ -193,7 +193,7 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Contacting Tim Post"
+      description="Tim's Tech & Studio Stack"
     >
       <main>
         <StackPageContent />
