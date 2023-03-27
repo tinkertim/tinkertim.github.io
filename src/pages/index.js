@@ -62,8 +62,8 @@ function HomePageContent() {
           </div>
           <div className="col col--8">
             <p className="margin-top--md">
-              Storytelling is my favorite pasttime. I love to make what the people behind developer products come alive 
-              when I present and support them. I tell myself that I'm an actor, and it's my job to play the person that 
+              Storytelling is my favorite pasttime. I love bring out the care and passion that goes into developer
+              products when I demo them. I tell myself that I'm an actor, and it's my job to play the person that 
               put everything they own into the development of what I'm showing. 
             </p>
             <p className="margin-top--md">
