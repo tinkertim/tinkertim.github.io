@@ -74,6 +74,7 @@ function HomePageContent() {
             <p className="margin-top-md">
              But I do just about everything else, so don't hesitate to reach out if you think I can help you!
             </p>
+            <p><strong>You do you; I recommend this site in <em>dark mode</em>. Top-right. You're welcome.</strong></p>
             <Link
             className="button button--primary button--lg"
             to="/blog/welcome"
