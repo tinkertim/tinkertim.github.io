@@ -12,7 +12,7 @@ function AboutPageContent() {
         
         <div class="row margin-top--lg">
           <div class="col col--6">
-            <h1 className="margin-top--lg">About Tim Post: An "O.G." DevRel!</h1>
+            <h1 className="margin-top--lg">About Tim Post - Your Friendly Inbound Funnel Mechanic!</h1>
             <p className="padding-top--md">
               I got my start in tech back in the 1990s, during the first dot-com
               bubble. I'd been writing code pretty regularly since learning C
