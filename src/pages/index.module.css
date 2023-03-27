@@ -54,3 +54,13 @@
   border-radius: 12px;
   opacity: 0.8;
 }
+
+.coolStory {
+  font-weight: 400;
+  font-style: italic;
+  margin-top: .5em;
+  padding-left: 17px;
+  border-left: solid 9px #999;
+  margin-left: 5px;
+  border-radius: 15px;
+} 

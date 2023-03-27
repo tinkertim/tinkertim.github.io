@@ -32,22 +32,27 @@ function HomePageContent() {
       <div className="container">
         <div className="row">
           <div class="col col--12 margin-top--md">
-            <h1 className="margin-top--md">When it comes down to it, DevRel Means Funnel Mechanic! 🔧</h1>
-            <p className="margin-top-md">
-              When nobody knows what it is, we tell the product story. When nobody knows what to change, we tell user
+            <h1 className="margin-top--md">When it comes down to it, DevRel Means "Funnel Mechanic"!</h1>
+            <p className={styles.coolStory}>
+              When nobody knows what it is, we tell the product story. When nobody knows what to do next, we tell user
               stories.
-            </p> 
-            <p className="margin-top--md">
-              When we need to hire developers to grow it, we edit job descriptions and help HR know where to advertise. 
-              When there are no sales, we're salesfolk; when there are no CS engineers, we're support specialists. 
-            </p>
-            <p className="margin-top-md">  
-              When we need to learn hard lessons, we write the soliloquies. When there are heroes in our midst, we elevate them.  
-            </p>
-            <p>
+              <br />
+              <br />
+              When we need to hire developers to grow it, we create job descriptions and advise on where to post them.<br /> 
+              When there are no sales, we're salesfolk;<br />
+              when there are no CS engineers, we're support specialists. 
+              <br />
+              <br /> 
+              When we need to publicly learn hard lessons, we write the soliloquies. When there are heroes in our midst, we elevate them.  
+              <br />
+              <br />
               When there are no heroes, we encourage and develop heroes through ambassador programs. We're experts in figuring out
               what funnels should be built, and why they're clogging. DevRel is anything but simple. I'm Tim, and I'm one of the
               first I know of to work in this role. 
+              <br />
+              <br />
+              -- me.
+              <br />
             </p>
           </div>
         </div>
