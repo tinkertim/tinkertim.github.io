@@ -33,7 +33,7 @@ function HomePageContent() {
       <div className="container">
         <div className="row">
           <div class="col col--12 margin-top--md">
-            <h1 className="margin-top--md">
+            <h1 className="margin-top--lg">
               DevRel Is More Than Just Content - So Much More!
             </h1>
             <p className={styles.coolStory}>
@@ -63,7 +63,7 @@ function HomePageContent() {
             </p>
           </div>
         </div>
-        <div className="row row--no--gutters">
+        <div className="row row--no--gutters margin-top--lg">
           <div className="col col--4 padding-left--lg">
             <img
               src="/img/tim1.jpeg"
