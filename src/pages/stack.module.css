@@ -1,1 +1,8 @@
 /* Content Styles Go Here */
+.cardNormalizerLarge {
+    min-height: 625px;
+}
+
+.cardNormalizerSmall {
+    min-height: 575px;
+}

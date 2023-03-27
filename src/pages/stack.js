@@ -8,7 +8,7 @@ import styles from "./stack.module.css";
 function StackPageCodeStack() {
   return (
     <div className="container">
-      <h3>The Tech Part:</h3>
+      <h2>The Tech Part:</h2>
       <p className="margin-top--md">
         I created this part of the page while looking for a way to show my expertise and familiarity
         with things in a way that also set people's expectations accordingly. Myself, along
@@ -51,7 +51,7 @@ function StackPageCodeStack() {
 function StackPageStudioStack() {
   return (
     <div className="container">
-      <h3>The Studio Part:</h3>
+      <h2>The Studio Part:</h2>
       <p className="margin-top--md">
         Having a background in live audio and sound reinforcement definitely didn't
         hurt when I decided that communications was about to become a major part of 
@@ -60,7 +60,7 @@ function StackPageStudioStack() {
       </p>
       <div className="row margin-top--md">
         <div className="col col--6">
-          <div class="card">
+          <div className={clsx("card", styles.cardNormalizerLarge)}>
             <div class="card__image">
               <img src="/img/gear/mixer-center.jpg" alt="Behringer Xenyx" title="My main mixer" />
             </div>
@@ -78,7 +78,7 @@ function StackPageStudioStack() {
           </div>
         </div>
         <div className="col col--6">
-          <div class="card">
+          <div className={clsx("card", styles.cardNormalizerLarge)}>
             <div class="card__image">
               <img src="/img/gear/compressor-rack.jpg" alt="Sound Effects Rack" title="Sound Effects Rack" />
             </div>
@@ -93,9 +93,9 @@ function StackPageStudioStack() {
           </div>
         </div>
       </div>
-      <div className="row margin-top--md">
+      <div className="row margin-top--xl">
         <div className="col col--4">
-          <div class="card">
+          <div className={clsx("card", styles.cardNormalizerSmall)}>
             <div class="card__image">
               <img src="/img/gear/portastudio-controls.jpg" alt="Tascam Portastudio" title="I keep finding new uses for this old thing." />
             </div>
@@ -110,7 +110,7 @@ function StackPageStudioStack() {
           </div>
         </div>
         <div className="col col--4">
-          <div class="card">
+          <div className={clsx("card", styles.cardNormalizerSmall)}>
             <div class="card__image">
               <img src="/img/gear/desktop.jpg" alt="A desk with USB HID controls" title="A very messy desk" />
             </div>
@@ -127,7 +127,7 @@ function StackPageStudioStack() {
           </div>
         </div>
         <div className="col col--4">
-          <div class="card">
+          <div className={clsx("card", styles.cardNormalizerSmall)}>
             <div class="card__image">
               <img src="/img/gear/zoom-processor.jpg" alt="Zoom Vocal Processor" title="Zoom Vocal Processor" />
             </div>
@@ -147,7 +147,7 @@ function StackPageStudioStack() {
       </div>
       <div className="row">
         <div className="col col--12">
-          <h3 className="margin-top--md">Microphones & Interfaces</h3>
+          <h3 className="margin-top--xl">Microphones & Interfaces</h3>
           <p className="margin-top-md">
             I have too many audio interfaces. Once you get an audio interface, it will just lead
             to more audio interfaces. Primarily, I use the interface in the Xenyx, along with some
@@ -165,7 +165,9 @@ function StackPageStudioStack() {
             don't take it as an indication that you need to buy it to be successful.
           </p>
           <p>
-            The total value of my stuff is remarkably low, as not many crave the analog side anymore.
+            This is all less than $5,000 worth of stuff if it had to be replaced today. 25 years ago I could 
+            not have dreamed of having compressors like those at home. They make a huge difference, in my
+            humble opinion, anyway.
           </p>
         </div>
       </div>
