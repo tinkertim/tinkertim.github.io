@@ -8,7 +8,7 @@ import YouTubePlayer, { YouTubeShortPlayer } from "../components/YouTubePlayer";
 
 function LatestWorkContent() {
   return (
-    <section>
+    <section className="margin-bottom--lg">
       <div className="container">
         <h1 className="margin-top--lg">Stuff I've Recently Produced:</h1>
         <p className="margin-top--md">
@@ -45,7 +45,7 @@ function LatestWorkContent() {
             <YouTubePlayer id="cjQiMz0KUY0" />
           </div>
         </div>
-        <div className="row">
+        <div className="row margin-top--lg">
           <div className="col col--4">
             <div className="card margin-top--lg">
               <div className="card__header">
@@ -69,7 +69,7 @@ function LatestWorkContent() {
             <YouTubePlayer id="ke06eWWBEgk" />
           </div>
         </div>
-        <div className="row">
+        <div className="row margin-top--lg">
           <div className="col col--4">
             <div className="card margin-top--lg">
               <div className="card__header">
@@ -97,7 +97,7 @@ function LatestWorkContent() {
             <YouTubePlayer id="ueHc967hw8A" />
           </div>
         </div>
-        <div className="row">
+        <div className="row margin-top--lg">
           <div className="col col--12">
             <h2 className="margin-top--md">Deno's Express Tutorial Series</h2>
           </div>
@@ -126,7 +126,7 @@ function LatestWorkContent() {
             <YouTubePlayer id="TDFv2hBRUtQ" />
           </div>
         </div>
-        <div className="row">
+        <div className="row margin-top--lg">
           <div className="col col--4">
             <div className="card margin-top--lg">
               <div className="card__header">
@@ -149,7 +149,7 @@ function LatestWorkContent() {
             <YouTubePlayer id="Mz59tNtv8" />
           </div>
         </div>
-        <div className="row">
+        <div className="row margin-top--lg">
           <div className="col col--12">
             <h2 className="margin-top--md">"Shorts" and "Reels" and TikTok, Oh My!</h2>
             <p className="margin-top--md">
