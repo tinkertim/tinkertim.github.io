@@ -82,7 +82,7 @@ const config = {
               {
                 label: "LinkedIn",
                 href: "https://www.linkedin.com/in/tim-post28/",
-              }
+              },
             ],
           },
         ],

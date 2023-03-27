@@ -9,10 +9,11 @@ function AboutPageContent() {
   return (
     <section>
       <div className="container">
-        
         <div class="row margin-top--lg">
           <div class="col col--6">
-            <h1 className="margin-top--lg">About Tim Post - Your Friendly Inbound Funnel Mechanic!</h1>
+            <h1 className="margin-top--lg">
+              About Tim Post - Your Friendly Inbound Funnel Mechanic!
+            </h1>
             <p className="padding-top--md">
               I got my start in tech back in the 1990s, during the first dot-com
               bubble. I'd been writing code pretty regularly since learning C
@@ -20,17 +21,19 @@ function AboutPageContent() {
               before on a TRS-80 and C-64.
             </p>
             <p className="padding-top--md">
-              I spent the first half of my programming career strictly in the UNIX world. 
-              I worked on file systems, multiple kernels, shells, hypervisors and what 
-              led to be known as IAAS / PAAS. It was my journey in the hosting industry
-              that ultimately landed me in The Philippines, where I settled for
-              nearly 15 years and started a family.
+              I spent the first half of my programming career strictly in the
+              UNIX world. I worked on file systems, multiple kernels, shells,
+              hypervisors and what led to be known as IAAS / PAAS. It was my
+              journey in the hosting industry that ultimately landed me in The
+              Philippines, where I settled for nearly 15 years and started a
+              family.
             </p>
             <p className="padding-top--md">
-              I became known as someone who could pull over-budget death-marches back
-              into the black. This was hugely challenging and rewarding, but too crushing
-              to continyue. I decided to explore the human aspects of software
-              development and joined the Stack Overflow Community Growth Team.
+              I became known as someone who could pull over-budget death-marches
+              back into the black. This was hugely challenging and rewarding,
+              but too crushing to continyue. I decided to explore the human
+              aspects of software development and joined the Stack Overflow
+              Community Growth Team.
             </p>
           </div>
           <div class="col col--6">
