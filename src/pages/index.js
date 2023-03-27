@@ -47,11 +47,10 @@ function HomePageContent() {
               <br />
               <br />
               When there are no heroes, we encourage and develop heroes through ambassador programs. We're experts in figuring out
-              what funnels should be built, and why they're clogging. DevRel is anything but simple. I'm Tim, and I'm one of the
-              first I know of to work in this role. 
+              what funnels should be built, and why they're clogging. DevRel is anything but simple.
               <br />
               <br />
-              -- me.
+              -- Tim Post
               <br />
             </p>
           </div>
@@ -61,6 +60,10 @@ function HomePageContent() {
             <img src="/img/tim1.jpeg" alt="Tim Post" title="Tim Post In His Studio" className={styles.vanity} />
           </div>
           <div className="col col--8">
+            <p className="margin-top--md">
+              I'm Tim, and I'm one of the first that I know of to work the role that we call Developer Relations (DevRel) 
+              today. Please believe me when I say it was an accidental career move, but the best one I ever made.
+            </p>
             <p className="margin-top--md">
               Storytelling is my favorite pasttime. I love bring out the care and passion that goes into developer
               products when I demo them. I tell myself that I'm an actor, and it's my job to play the person that 
