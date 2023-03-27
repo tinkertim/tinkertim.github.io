@@ -46,7 +46,7 @@ const config = {
       // Replace with your project's social card
       image: "img/tim_header.png",
       navbar: {
-        title: "~/@tinkertim >> ",
+        title: "tinkertim@localhost:~/$ ",
         /*
         logo: {
           alt: 'logo',
@@ -54,15 +54,11 @@ const config = {
         },
         */
         items: [
-          { to: "/blog", label: "Blog", position: "left" },
-          { to: "/about", label: "About", position: "left" },
-          { to: "/latest", label: "Latest Work", position: "left" },
-          { to: "/contact", label: "Contact", position: "left" },
-          {
-            href: "https://github.com/tinkertim",
-            label: "Github",
-            position: "left",
-          },
+          { to: "/latest", label: "Latest Work/", position: "left" },
+          { to: "/about", label: "About Me/", position: "left" },
+          { to: "/blog", label: "Blog/", position: "left" },
+          { to: "/stack", label: "Tech Stack/", position: "left" },
+          { to: "/contact", label: "Contact/", position: "left" },
         ],
       },
       footer: {
@@ -76,9 +72,17 @@ const config = {
                 href: "https://stackoverflow.com/users/50049/tim-post",
               },
               {
+                label: "Github",
+                href: "https://github.com/tinkertim",
+              },
+              {
                 label: "Twitter",
                 href: "https://twitter.com/tinkertim",
               },
+              {
+                label: "LinkedIn",
+                href: "https://www.linkedin.com/in/tim-post28/",
+              }
             ],
           },
         ],
