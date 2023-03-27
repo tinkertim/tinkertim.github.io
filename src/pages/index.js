@@ -32,7 +32,7 @@ function HomePageContent() {
       <div className="container">
         <div className="row">
           <div class="col col--12 margin-top--md">
-            <h1 className="margin-top--md">For Most Intents And Purposes, DevRel Means "Funnel Mechanic".</h1>
+            <h1 className="margin-top--md">DevRel Is More Than Just Content - So Much More!</h1>
             <p className={styles.coolStory}>
               When nobody knows what it is, we tell the product story. When nobody knows what to do next, we tell user
               stories.
