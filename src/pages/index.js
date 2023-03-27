@@ -47,7 +47,8 @@ function HomePageContent() {
               <br />
               <br />
               When there are no heroes, we encourage and develop heroes through ambassador programs. We're experts in figuring out
-              what funnels should be built, and why they're clogging. DevRel is anything but simple.
+              what funnels should be built, and why they're clogging. DevRel is anything but simple, and it's <strong>way</strong> more 
+              than just creating content.
               <br />
               <br />
               -- Tim Post
