@@ -34,6 +34,8 @@ html[data-theme='dark'] .videoEmbed {
     position: relative;
     margin: .5rem 0 .5rem 0;
     min-height: 375px;
+    background-color: #666;
+    border-radius: 15px;
 }
 
 html[data-theme='dark'] .shortEmbed {
@@ -43,6 +45,8 @@ html[data-theme='dark'] .shortEmbed {
     position: relative; 
     margin: .5rem 0 .5rem 0;
     min-height: 375px; 
+    background-color: #666;
+    border-radius: 15px;
 }
 
 .shortEmbed iframe {
@@ -50,5 +54,6 @@ html[data-theme='dark'] .shortEmbed {
     top: 0; 
     left: 0; 
     width: 100%; 
-    height: 100%;   
+    height: 100%;
+    border-radius: 15px;
 }
