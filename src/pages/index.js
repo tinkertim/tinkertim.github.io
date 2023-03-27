@@ -56,8 +56,8 @@ function HomePageContent() {
             </p>
           </div>
         </div>
-        <div className="row">
-          <div className="col col--4">
+        <div className="row row--no--gutters">
+          <div className="col col--4 padding-left--lg">
             <img src="/img/tim1.jpeg" alt="Tim Post" title="Tim Post In His Studio" className={styles.vanity} />
           </div>
           <div className="col col--8">
