@@ -1,9 +1,9 @@
 import React from "react";
-import clsx from "clsx";
-import Link from "@docusaurus/Link";
+import clsx from "clsx"
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import styles from "./stack.module.css";
+import CodeContent from "../mdx-content/TechOverview.mdx";
 
 function StackPageCodeStack() {
   return (
@@ -16,41 +16,12 @@ function StackPageCodeStack() {
         broader population of folks in DevRel are what most people might refer
         to as "polyglots" when it comes to languages, frameworks and services.
       </p>
-      <h3>Programming languages:</h3>
       <p>
-        I know C extremely well. I'm most comfortable in POSIX environments, but
-        have lots of experience as a packager / maintainer across many
-        architectures.
+        There's a difference between knowing something competently, and knowing
+        something well enough to demo it in conjunction with other things. Please,
+        step up to my hot dog stand below, where I've organized this in tables:
       </p>
-      <p>
-        I know JS/TS, Python, PHP and Perl well enough that I could ramp-up to
-        relatively proficient within a few weeks to a month. I just don't use
-        them consistently enough to have deep habits with them and often start
-        "cold."
-      </p>
-      <p>
-        I'm learning Rust (which I'm growing increasingly fond of) as well as
-        Go. However, with URL loading becoming more prevelant thanks to Deno,
-        I'm thinking of letting go of Go and buckling down on TypeScript.
-      </p>
-      <h3>Frameworks:</h3>
-      <p>
-        I'm comfortable with React and variants. I've built oodles of
-        documentation websites using everything from Wordpress to Docusaurus to
-        Django and I still encounter a fair amount of jQuery in the wild. If it
-        has some semblence of documentation, I can usually figure it out. I also
-        love Astro, Gatsby and of course, Docusaurus!
-      </p>
-      <p>
-        I've worked with many tools around REST APIs, and I'm comfortable
-        designing / implementing them.
-      </p>
-      <h3>Platforms:</h3>
-      <p>
-        I'm all about the freemium, basically, but I'm familiar with almost all
-        of them. Would love to do more with Kubernetes but clusters are
-        expensive.
-      </p>
+      <CodeContent />
     </div>
   );
 }
@@ -183,7 +154,7 @@ function StackPageStudioStack() {
       </div>
       <div className="row">
         <div className="col col--12">
-          <h3 className="margin-top--xl">Microphones & Interfaces</h3>
+          <h3 className="margin-top--lg">Microphones & Interfaces</h3>
           <p className="margin-top-md">
             I have too many audio interfaces. Once you get an audio interface,
             it will just lead to more audio interfaces. Primarily, I use the
@@ -191,24 +162,45 @@ function StackPageStudioStack() {
             by Berhringer. It depends on the application.
           </p>
           <p>
-            For Mics, I use a wide variety. Shure SM7B is my battle tank for the
-            usual stuff, but I also have mics by MXL, Audio Technica, Neumann,
-            Samson and more. Even cheap mics can add value to sound design, so I
-            tend to have too many of those as well.
+            I respect legendary microphones, but legendary mics don't
+            automatically create pleasant tracks. For both vocals and sound
+            design, I use mics that have the properties I need, and they
+            frequently don't cost very much. I have mics from the following:
+          </p>
+          <ul>
+            <li>Shure (SM7)</li>
+            <li>Samson (Dynamic & Broadcast)</li>
+            <li>MXL Ribbon & Cardiod</li>
+            <li>Neumann Cardiod (old)</li>
+            <li>Audix Leveler Mics</li>
+            <li>Rode shotgun & lav mics (for video)</li>
+          </ul>
+          <p>
+            Interfaces can be where audio becomes a rather expensive hobby /
+            job. ART, FocusRite, PreSonus and Behringer make great interfaces
+            that have very capable and universal mic preamps, as well as lots of
+            connectivity options. Unless you're doing multi-track recording, you
+            don't need more than a two-channel interface.
           </p>
           <p>
-            As a general rule, I won't spend more than $500 on any single thing,
-            microphones included. While there have been some exceptions to this,
-            I've acquired most of what I have through sheer luck, and knowing
-            how to win on Ebay. It takes years to build up a bunch of stuff;
-            don't take it as an indication that you need to buy it to be
-            successful.
+            Preamps can be another temptation that hit your wallet hard. I like
+            tube preamps, but solid-state preamps are great too! I never get an
+            amp unless I have a specific need and goal for it. When I get them,
+            I try to make sure they have high / low pass filters, phase reverse
+            and phantom power so they're useful in many settings.
           </p>
           <p>
-            This is all less than $5,000 worth of stuff if it had to be replaced
-            today. 25 years ago I could not have dreamed of having compressors
-            like those at home. They make a huge difference, in my humble
-            opinion, anyway.
+            As a general rule, I won't spend more than $500 (usually way less)
+            on any single thing, microphones included. While there have been
+            some exceptions to this, I've acquired most of what I have through
+            sheer luck, and knowing how to win on Ebay.
+          </p>
+          <p className="margin-bottom--xl">
+            You could get all of this virtually with one purchase of Pro Tools
+            (which I don't use). I like the feel and sound of the tube effects,
+            and quirks of each mic and interface. All in, it would cost less
+            than $5k to replace all of this stuff, FX included, and you'd save
+            lots of room if you went 100% digital. I cling to an older era.
           </p>
         </div>
       </div>
@@ -222,11 +214,11 @@ function StackPageContent() {
       <div className="container">
         <h1 className="margin-top--lg">My Tech & Studio Stack:</h1>
       </div>
-      <StackPageStudioStack />
-      <div className="container">
-        <hr />
-      </div>
       <StackPageCodeStack />
+      <div className="container">
+        <hr className="margin-top--lg margin-bottom--lg" />
+      </div>
+      <StackPageStudioStack />
     </section>
   );
 }

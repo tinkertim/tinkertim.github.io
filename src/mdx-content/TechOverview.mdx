@@ -1,0 +1,73 @@
+import styles from "./TechOverview.module.css";
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs defaultValue="languages">
+
+<TabItem value="languages" label="Languages" attributes={{className: styles.red}}>
+
+I have used other languages, and even demonstrated things with them, but being able to 
+demonstrate something is very different from developing with it daily. Rust is on my list 
+to learn, and I plan to ramp up more with TypeScript soon. 
+
+| Language | Experience Level | Last Used | Notes |
+| --- | --- | --- | --- |
+| C | Advanced / Expert | Recently | C is my primary (and first serious) language |
+| C++ | Beginner | A Year Ago | I can navigate C++ and understand it; I'm just very slow |
+| PHP | Advanced | 4 Years Ago | I haven't used most of the new stuff in PHP8 yet. |
+| Python | Mid-Level | 2 Years Ago | I write shell scripts with Python, mostly. |
+| Perl | Mid-Level | 5 Years Ago | I used to reach for Perl before learning Python |
+| JavaScript | Mid-Level | Recently | I've done work for Deno in the past |
+| TypeScript | Mid-Level | Recently | See JS notes |
+
+</TabItem>
+    
+<TabItem value="frameworks" label="Frameworks" attributes={{className: styles.orange}}>
+
+I've used far more than is listed here, but not really enough for them to have been memorable. I'm 
+always trying new React / Preact frameworks, particularly those that run on Deno (e.g. Fresh / Astro).
+
+| Framework | Experience Level | Last Used | Notes |
+| --- | --- | --- | --- |
+| React-flavored | Mid-Level | Recently | I'm extremely familiar with content-focused frameworks, less so on media-focused. |
+| Preact-flavored | Beginner | Recently | I'm still juggling the whole island thing, but I can work with them. |
+| Vue | Beginner | 2 Years Ago | Was more evaluating than seriously using |
+| PHP-MVC | Mid-Level | 2 Years Ago | I can use most MVC-oriented PHP frameworks. |
+| Wordpress | Advanced | 2 Years Ago | I've written plugins. I can use WP well. |
+
+
+</TabItem>
+    
+<TabItem value="environments" label="Environments" attributes={{className: styles.brown}}>
+
+I'm comfortable developing *for* UNIX-like operating systems on any GNU/Linux distro, MacOS, 
+ChromeOS or Windows.
+
+I have specific experience packaging software for `.rpm` and `.deb` based distros. I'm very 
+comfortable with containers.
+
+Clusters are expensive, so I don't get to play with them as much as I'd like, but I've set 
+them up on GCP and Digital Ocean.
+
+I love working on embedded systems. 
+
+</TabItem>
+
+<TabItem value="tools" label="Tools / SAAS" attributes={{className: styles.orange}}>
+
+Code (VSCode) is my main IDE. I also like KATE, Sublime Text, Nano and PHPStorm.
+
+I use Valgrind for memory debugging and GDB for general debugging. I'm familiar with
+most popular build systems.
+
+My VCS of choice is Git, but I'm equally enamored with Mercurial. I've also used 
+Subversion, Bazaar, CVS, Bitkeeper and others. 
+
+I use Configu to manage configurations whenever possible, which is cool because it 
+works with all the popular secret managers.
+
+GitHub actions is my main CI server, however I like almost all of them.
+
+</TabItem>
+
+</Tabs>

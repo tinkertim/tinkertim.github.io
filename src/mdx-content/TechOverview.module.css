@@ -1,0 +1,55 @@
+.red {
+    color: red;
+    background-color: #eee;
+    margin: 0px 6px 0px 0px;
+}
+
+.red[aria-selected="true"] {
+    border-bottom-color: red;
+}
+  
+.orange {
+    color: orange;
+    background-color: #eee;
+    margin: 0px 6px 0px 6px;
+}
+
+.orange[aria-selected="true"] {
+    border-bottom-color: orange;
+}
+  
+.brown {
+    color: brown;
+    background-color: #eee;
+    margin: 0px 6px 0px 6px;
+}
+
+.brown[aria-selected="true"] {
+    border-bottom-color: brown;
+}
+
+.crimson {
+    color: crimson;
+    background-color: #eee;
+    margin: 0px 0px 0px 6px;
+}
+
+.crimson[aria-selected="true"] {
+    border-bottom-color: crimson;
+}
+
+html[data-theme="dark"] .red {
+    background-color: black;
+}
+
+html[data-theme="dark"] .orange {
+    background-color: black;
+}
+
+html[data-theme="dark"] .brown {
+    background-color: black;
+}
+
+html[data-theme="dark"] .crimson {
+    background-color: black;
+}
