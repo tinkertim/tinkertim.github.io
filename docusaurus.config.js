@@ -30,6 +30,10 @@ const config = {
       ({
         docs: false,
         blog: {
+          blogTitle: "Tim Post's Blog",
+          blogDescription: "Code, Cannabis, Culture & Coffee. Maybe not in that order.",
+          blogSidebarTitle: "Latest Posts & Reviews",
+          blogSidebarCount: "ALL",
           showReadingTime: true,
           editUrl: "https://github.com/tinkertim/tinkertim.github.io/tree/main",
         },
