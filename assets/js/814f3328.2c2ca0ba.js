@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktinkertim_github_io=self.webpackChunktinkertim_github_io||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"New Site! Again!","permalink":"/blog/welcome"}]}')}}]);
