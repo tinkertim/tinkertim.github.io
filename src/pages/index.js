@@ -31,39 +31,7 @@ function HomePageContent() {
   return (
     <section className="margin-bottom--lg">
       <div className="container">
-        <div className="row">
-          <div class="col col--12 margin-top--md">
-            <h1 className="margin-top--lg">
-              DevRel Is More Than Just Content - So Much More!
-            </h1>
-            <p className={styles.coolStory}>
-              When nobody knows what it is, we tell the product story. When
-              nobody knows what to do next, we tell user stories.
-              <br />
-              <br />
-              When we need to hire developers to grow it, we create job
-              descriptions and advise on where to post them.<br />
-              When there are no sales, we're salesfolk;<br />
-              when there are no CS engineers, we're support specialists.
-              <br />
-              <br />
-              When we need to publicly learn hard lessons, we write the
-              soliloquies. When there are heroes in our midst, we elevate them.
-              <br />
-              <br />
-              When there are no heroes, we encourage and develop heroes through
-              ambassador programs. We're experts in figuring out what funnels
-              should be built, and why they're clogging. DevRel is anything but
-              simple, and it's <strong>way</strong>{" "}
-              more than just creating content.
-              <br />
-              <br />
-              -- Tim Post
-              <br />
-            </p>
-          </div>
-        </div>
-        <div className="row row--no--gutters margin-top--lg">
+      <div className="row row--no--gutters margin-top--lg">
           <div className="col col--4 padding-left--lg">
             <img
               src="/img/tim1.jpeg"
@@ -104,11 +72,43 @@ function HomePageContent() {
               </strong>
             </p>
             <Link
-              className="button button--primary button--lg"
+              className="button button--secondary button--lg"
               to="/blog/welcome"
             >
               Latest Blog: "New Site! Again!" &raquo;
             </Link>
+          </div>
+        </div>
+        <div className="row">
+          <div class="col col--12">
+            <h1 className="margin-top--lg">
+              DevRel Is More Than Just Content - So Much More!
+            </h1>
+            <p className={styles.coolStory}>
+              When nobody knows what it is, we tell the product story. When
+              nobody knows what to do next, we tell user stories.
+              <br />
+              <br />
+              When we need to hire developers to grow it, we create job
+              descriptions and advise on where to post them.<br />
+              When there are no sales, we're salesfolk;<br />
+              when there are no CS engineers, we're support specialists.
+              <br />
+              <br />
+              When we need to publicly learn hard lessons, we write the
+              soliloquies. When there are heroes in our midst, we elevate them.
+              <br />
+              <br />
+              When there are no heroes, we encourage and develop heroes through
+              ambassador programs. We're experts in figuring out what funnels
+              should be built, and why they're clogging. DevRel is anything but
+              simple, and it's <strong>way</strong>{" "}
+              more than just creating content.
+              <br />
+              <br />
+              -- Tim Post
+              <br />
+            </p>
           </div>
         </div>
       </div>
