@@ -1,5 +1,5 @@
 import React from "react";
-import clsx from "clsx"
+import clsx from "clsx";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import styles from "./stack.module.css";
@@ -17,8 +17,9 @@ function StackPageCodeStack() {
       </p>
       <p>
         There's a difference between knowing something competently, and knowing
-        something well enough to demo it in conjunction with other things. Please,
-        step up to my hot dog stand below, where I've organized this in tables:
+        something well enough to demo it in conjunction with other things.
+        Please, step up to my hot dog stand below, where I've organized this in
+        tables:
       </p>
       <CodeContent />
     </div>
@@ -29,8 +30,16 @@ function StackPageStudioStack() {
   return (
     <div className="container">
       <h2 className="margin-top--lg">Now For The Studio Part:</h2>
-      <div className="row margin-top--lg">
+      <div className="row margin-top--sm">
         <div className="col col--12">
+          <p className="margin-top--sm">
+            <strong>
+            First: the whole enchilada - my basement converted to a studio / office with 
+            room to record up to 5 or 6 people. The only stuff I can't host is loud
+            precussion. I've done sound treatment throughout, and have very understanding
+            neighbors.
+            </strong> 
+          </p>
           <div className={clsx("card", styles.cardNormalizerLarge)}>
             <div class="card_image">
               <img
@@ -42,10 +51,12 @@ function StackPageStudioStack() {
             <div class="card__body">
               <h4>Here, I Surround Myself With BlinkyFlashy Things.</h4>
               <small>
-                This also illustrates the mic arrangement. Not pictured is the green screen setup, 
-                because that's where I threw all of my clutter so that I could take this picture. It's 
-                also kinda boring as it's just fabric stapled to a wall with a crapton of lights. My voiceover 
-                booth is also not really pictured, because the walls are a mess.
+                This also illustrates the mic arrangement. Not pictured is the
+                green screen setup, because that's where I threw all of my
+                clutter so that I could take this picture. It's also kinda
+                boring as it's just fabric stapled to a wall with a crapton of
+                lights. My voiceover booth is also not really pictured, because
+                the walls are a mess.
               </small>
             </div>
           </div>
@@ -53,13 +64,13 @@ function StackPageStudioStack() {
       </div>
       <div className="row margin-top--lg">
         <div className="col col--12">
-        <p className="margin-top--md">
-          Having a background in live audio and sound reinforcement definitely
-          didn't hurt when I decided that communications was about to become a
-          major part of my daily focus. Pepople <em>always</em> ask me about my 
-          studio equipment when they see it on video calls, so here's a virtual 
-          tour of most of it:
-      </p>
+          <p className="margin-top--md">
+            Having a background in live audio and sound reinforcement definitely
+            didn't hurt when I decided that communications was about to become a
+            major part of my daily focus. Pepople <em>always</em>{" "}
+            ask me about my studio equipment when they see it on video calls, so
+            here's a virtual tour of most of it:
+          </p>
         </div>
       </div>
       <div className="row margin-top--lg">
@@ -110,10 +121,11 @@ function StackPageStudioStack() {
       <div className="row margin-top--lg">
         <div className="col col--12">
           <p className="margin-top--md">
-            What you can't really see pictured are two CyberPower 1500VA UPS systems along with a couple 
-            Morley hum eliminators. Clean power with a ground that's isolated from noise 
-            producers is essential to clean recording. I haven't found APC to be any 
-            "cleaner" when it comes to the output of their PDUs.
+            What you can't really see pictured are two CyberPower 1500VA UPS
+            systems along with a couple Morley hum eliminators. Clean power with
+            a ground that's isolated from noise producers is essential to clean
+            recording. I haven't found APC to be any "cleaner" when it comes to
+            the output of their PDUs.
           </p>
         </div>
       </div>

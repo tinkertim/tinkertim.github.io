@@ -31,7 +31,7 @@ function HomePageContent() {
   return (
     <section className="margin-bottom--lg">
       <div className="container">
-      <div className="row row--no--gutters margin-top--lg">
+        <div className="row row--no--gutters margin-top--lg">
           <div className="col col--4 padding-left--lg">
             <img
               src="/img/tim1.jpeg"
@@ -45,8 +45,8 @@ function HomePageContent() {
               I'm Tim, and I'm one of the first that I know of to work the role
               that we call Developer Relations (DevRel) today. Please believe me
               when I say it was an accidental career move, but the best one I
-              ever made. You might know me from the work I've done at Stack Overflow, 
-              Swimm and Deno.
+              ever made. You might know me from the work I've done at Stack
+              Overflow, Swimm and Deno.
             </p>
             <p className="margin-top--md">
               Storytelling is my favorite pasttime. I love bring out the care
@@ -59,15 +59,18 @@ function HomePageContent() {
               Developers do not like or trust traditional marketing. If you
               don't authentically like and use the tool or library or whatever
               it is that you're promoting, nobody is going to want to try it.
-              You can't fake a genuine admiration for something. If I can help 
+              You can't fake a genuine admiration for something. If I can help
               you tell your story, please reach out!
             </p>
             <p className="margin-top-md">
-              <small>P.S.: Check out dark mode -- upper-right. You're welcome.</small>
+              <small>
+                P.S.: Check out dark mode -- upper-right. You're welcome.
+              </small>
             </p>
             <Link
               className="button button--secondary button--lg"
-              to="/blog/welcome">
+              to="/blog/welcome"
+            >
               Latest Blog: "New Site! Again!" &raquo;
             </Link>
           </div>
@@ -78,10 +81,13 @@ function HomePageContent() {
               DevRel Is More Than Just Content - So Much More!
             </h1>
             <p>
-              I don't claim to have the sole authority on what Developer Relations <em>should</em> entail, 
-              but if you thought it was just content marketing with a developer twist, you're missing 85% 
-              of the rest (and extremely rewarding) parts of the role. Yes, <strong>content is critical</strong>, 
-              but it's just <strong>one part of many</strong> in a successful DevRel strategy.
+              I don't claim to have the sole authority on what Developer
+              Relations <em>should</em>{" "}
+              entail, but if you thought it was just content marketing with a
+              developer twist, you're missing 85% of the rest (and extremely
+              rewarding) parts of the role. Yes,{" "}
+              <strong>content is critical</strong>, but it's just{" "}
+              <strong>one part of many</strong> in a successful DevRel strategy.
             </p>
             <p>
               This quote is the best way I've managed to explain it:
@@ -112,8 +118,9 @@ function HomePageContent() {
               <br />
             </p>
             <p>
-              I hope you enjoy your visit to my site - <Link href="/contact">please reach out </Link> 
-              if I can be of service to you!
+              I hope you enjoy your visit to my site -{" "}
+              <Link href="/contact">please reach out</Link>
+              {" "}if I can be of service to you!
             </p>
           </div>
         </div>

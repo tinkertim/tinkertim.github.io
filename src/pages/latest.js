@@ -11,16 +11,22 @@ function LatestWorkContent() {
     <section className="margin-bottom--lg">
       <div className="container">
         <h1 className="margin-top--lg">Stuff I've Recently Produced:</h1>
-        <p className="margin-top--md" style={{color: "orange"}}>
-          <strong>This page loads a lot of external content; please allow a second for everything to load, thanks!</strong>
+        <p className="margin-top--md" style={{ color: "orange" }}>
+          <strong>
+            This page loads a lot of external content; please allow a second for
+            everything to load, thanks!
+          </strong>
         </p>
         <p className="margin-top--md">
-          I enjoy creating video content <em>almost</em> as much as I enjoy creating written content. Video 
-          is a powerful storytelling medium; if you're thinking about learning video editing, I highly recommend 
-          that you pursue it because it will unlock another level of teaching techniques. I like doing voice over 
-          text animation and code narrations, but I don't do a lot of live coding because it's not the best 
-          experience for the viewer. Some people pull it off really well, but if you're coding live you need to 
-          also be a keyboard ninja, so I do my typing off-camera. 
+          I enjoy creating video content <em>almost</em>{" "}
+          as much as I enjoy creating written content. Video is a powerful
+          storytelling medium; if you're thinking about learning video editing,
+          I highly recommend that you pursue it because it will unlock another
+          level of teaching techniques. I like doing voice over text animation
+          and code narrations, but I don't do a lot of live coding because it's
+          not the best experience for the viewer. Some people pull it off really
+          well, but if you're coding live you need to also be a keyboard ninja,
+          so I do my typing off-camera.
         </p>
         <div className="row">
           <div className="col col--12">
@@ -178,7 +184,7 @@ function LatestWorkContent() {
               You may have strong feelings about TikTok (and short videos in
               general), but lots of developers enjoy them and even prefer them
               for learning. Creating these has also made me think about my
-              process as a whole, since I've developed the muscle to structure 
+              process as a whole, since I've developed the muscle to structure
               production so I can target multiple formats with minimal editing!
             </p>
           </div>
