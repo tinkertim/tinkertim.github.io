@@ -30,17 +30,10 @@ function StackPageStudioStack() {
   return (
     <div className="container">
       <h2>The Studio Part:</h2>
-      <p className="margin-top--md">
-        Having a background in live audio and sound reinforcement definitely
-        didn't hurt when I decided that communications was about to become a
-        major part of my daily focus. Pepople <em>always</em>{" "}
-        ask me about my studio equipment when they see it on Zoom calls, so
-        here's a virtual tour of most of it:
-      </p>
       <div className="row margin-top--md">
         <div className="col col--12">
           <div className={clsx("card", styles.cardNormalizerLarge)}>
-            <div class="card__image">
+            <div class="card_image">
               <img
                 src="/img/gear/studio-zoomed.jpg"
                 alt="Tim's Studio"
@@ -59,7 +52,18 @@ function StackPageStudioStack() {
           </div>
         </div>
       </div>
-      <div className="row margin-top--md">
+      <div className="row margin-top--lg">
+        <div className="col col--12">
+        <p className="margin-top--md">
+          Having a background in live audio and sound reinforcement definitely
+          didn't hurt when I decided that communications was about to become a
+          major part of my daily focus. Pepople <em>always</em> ask me about my 
+          studio equipment when they see it on video calls, so here's a virtual 
+          tour of most of it:
+      </p>
+        </div>
+      </div>
+      <div className="row margin-top--lg">
         <div className="col col--6">
           <div className={clsx("card", styles.cardNormalizerLarge)}>
             <div class="card__image">
@@ -104,7 +108,17 @@ function StackPageStudioStack() {
           </div>
         </div>
       </div>
-      <div className="row margin-top--xl">
+      <div className="row margin-top--lg">
+        <div className="col col--12">
+          <p className="margin-top--md">
+            What you can't really see pictured are two CyberPower 1500VA UPS systems along with a couple 
+            Morley hum eliminators. Clean power with a ground that's isolated from noise 
+            producers is essential to clean recording. I haven't found APC to be any 
+            "cleaner" when it comes to the output of their PDUs.
+          </p>
+        </div>
+      </div>
+      <div className="row margin-top--lg">
         <div className="col col--4">
           <div className={clsx("card", styles.cardNormalizerSmall)}>
             <div class="card__image">

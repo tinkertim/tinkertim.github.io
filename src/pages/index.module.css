@@ -49,7 +49,7 @@
   display: inline-flex;
   margin: none;
   margin: 12px 0;
-  height: auto;
+  max-height: 425px;
   width: auto;
   border-radius: 12px;
   opacity: 0.8;
