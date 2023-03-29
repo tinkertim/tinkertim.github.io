@@ -8,9 +8,8 @@ import CodeContent from "../mdx-content/TechOverview.mdx";
 function StackPageCodeStack() {
   return (
     <div className="container">
-      <h2>The Tech Part:</h2>
       <p className="margin-top--md">
-        I created this part of the page while looking for a way to show my
+        I created this part of the site while looking for a way to show my
         expertise and familiarity with things in a way that also set people's
         expectations accordingly. Myself, along with what I suspect is the
         broader population of folks in DevRel are what most people might refer
@@ -29,8 +28,8 @@ function StackPageCodeStack() {
 function StackPageStudioStack() {
   return (
     <div className="container">
-      <h2>The Studio Part:</h2>
-      <div className="row margin-top--md">
+      <h2 className="margin-top--lg">Now For The Studio Part:</h2>
+      <div className="row margin-top--lg">
         <div className="col col--12">
           <div className={clsx("card", styles.cardNormalizerLarge)}>
             <div class="card_image">
@@ -251,9 +250,6 @@ function StackPageContent() {
         <h1 className="margin-top--lg">My Tech & Studio Stack:</h1>
       </div>
       <StackPageCodeStack />
-      <div className="container">
-        <hr className="margin-top--lg margin-bottom--lg" />
-      </div>
       <StackPageStudioStack />
     </section>
   );
