@@ -45,7 +45,8 @@ function HomePageContent() {
               I'm Tim, and I'm one of the first that I know of to work the role
               that we call Developer Relations (DevRel) today. Please believe me
               when I say it was an accidental career move, but the best one I
-              ever made.
+              ever made. You might know me from the work I've done at Stack Overflow, 
+              Swimm and Deno.
             </p>
             <p className="margin-top--md">
               Storytelling is my favorite pasttime. I love bring out the care
@@ -84,6 +85,15 @@ function HomePageContent() {
             <h1 className="margin-top--lg">
               DevRel Is More Than Just Content - So Much More!
             </h1>
+            <p>
+              I don't claim to have the sole authority on what Developer Relations <em>should</em> entail, 
+              but if you thought it was just content marketing with a developer twist, you're missing 85% 
+              of the rest (and extremely rewarding) parts of the role. Yes, <strong>content is critical</strong>, 
+              but it's just <strong>one part of many</strong> in a successful DevRel strategy.
+            </p>
+            <p>
+              This quote is the best way I've managed to explain it:
+            </p>
             <p className={styles.coolStory}>
               When nobody knows what it is, we tell the product story. When
               nobody knows what to do next, we tell user stories.
@@ -108,6 +118,10 @@ function HomePageContent() {
               <br />
               -- Tim Post
               <br />
+            </p>
+            <p>
+              I hope you enjoy your visit to my site - <Link href="/contact">please reach out </Link> 
+              if I can be of service to you!
             </p>
           </div>
         </div>

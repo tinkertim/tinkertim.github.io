@@ -13,11 +13,8 @@ function LatestWorkContent() {
         <h1 className="margin-top--lg">Stuff I've Recently Produced:</h1>
         <p className="margin-top--md">
           I very much enjoy the content production side of DevRel! Here are
-          samples of some of the latest things I've been working on, mostly for
-          {" "}
-          <Link href="https://deno.com">Deno</Link>
-          &nbsp;for the last few months. These are right from Deno's site &
-          social channels:
+          samples of some of the latest things I've been working on. This page 
+          loads a lot of external content - please give it a second, thanks!
         </p>
         <div className="row">
           <div className="col col--12">
