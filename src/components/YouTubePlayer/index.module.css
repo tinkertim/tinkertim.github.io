@@ -1,4 +1,4 @@
-html[data-theme='light'] .videoEmbed {
+.videoEmbed {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,7 +13,7 @@ html[data-theme='dark'] .videoEmbed {
     align-items: center;
     justify-content: center;
     position: relative; 
-    padding-bottom: 56.25%; /* 16:9 */  
+    padding-bottom: 56.25%; 
     padding-top: 25px;
     margin: .5rem 0 .5rem 0;
 }
@@ -25,6 +25,7 @@ html[data-theme='dark'] .videoEmbed {
     width: 100%; 
     height: 100%;
     border-radius: 15px;
+    background-color: black;
 }
 
 .shortEmbed {
@@ -34,7 +35,6 @@ html[data-theme='dark'] .videoEmbed {
     position: relative;
     margin: .5rem 0 .5rem 0;
     min-height: 375px;
-    background-color: #666;
     border-radius: 15px;
 }
 
@@ -56,4 +56,5 @@ html[data-theme='dark'] .shortEmbed {
     width: 100%; 
     height: 100%;
     border-radius: 15px;
+    background-color: black;
 }
