@@ -11,6 +11,9 @@ function LatestWorkContent() {
     <section className="margin-bottom--lg">
       <div className="container">
         <h1 className="margin-top--lg">Stuff I've Recently Produced:</h1>
+        <p className="margin-top--md" style={{color: "orange"}}>
+          <strong>This page loads a lot of external content; please allow a second for everything to load, thanks!</strong>
+        </p>
         <p className="margin-top--md">
           I enjoy creating video content <em>almost</em> as much as I enjoy creating written content. Video 
           is a powerful storytelling medium; if you're thinking about learning video editing, I highly recommend 
@@ -18,9 +21,6 @@ function LatestWorkContent() {
           text animation and code narrations, but I don't do a lot of live coding because it's not the best 
           experience for the viewer. Some people pull it off really well, but if you're coding live you need to 
           also be a keyboard ninja, so I do my typing off-camera. 
-        </p>
-        <p className="margin-top--md">
-          <strong>This page loads a lot of external content - please give it a second, thanks!</strong>
         </p>
         <div className="row">
           <div className="col col--12">
