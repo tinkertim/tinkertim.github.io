@@ -59,23 +59,15 @@ function HomePageContent() {
               Developers do not like or trust traditional marketing. If you
               don't authentically like and use the tool or library or whatever
               it is that you're promoting, nobody is going to want to try it.
-              You can't fake a genuine admiration for something, which is why I
-              can't do crypto.
+              You can't fake a genuine admiration for something. If I can help 
+              you tell your story, please reach out!
             </p>
             <p className="margin-top-md">
-              But I do just about everything else, so don't hesitate to reach
-              out if you think I can help you!
-            </p>
-            <p>
-              <strong>
-                You do you; I recommend this site in{" "}
-                <em>dark mode</em>. Top-right. You're welcome.
-              </strong>
+              <small>P.S.: Check out dark mode -- upper-right. You're welcome.</small>
             </p>
             <Link
               className="button button--secondary button--lg"
-              to="/blog/welcome"
-            >
+              to="/blog/welcome">
               Latest Blog: "New Site! Again!" &raquo;
             </Link>
           </div>

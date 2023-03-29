@@ -48,12 +48,13 @@
 .vanity {
   display: inline-flex;
   margin: none;
-  margin: .25rem 0 .25rem 0;
-  height: 425px;
+  margin: 12px 0;
+  height: auto;
   width: auto;
   border-radius: 12px;
   opacity: 0.8;
   padding: none;
+  align-content: left;
 }
 
 .coolStory {
