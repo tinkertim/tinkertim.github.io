@@ -38,6 +38,28 @@ function StackPageStudioStack() {
         here's a virtual tour of most of it:
       </p>
       <div className="row margin-top--md">
+        <div className="col col--12">
+          <div className={clsx("card", styles.cardNormalizerLarge)}>
+            <div class="card__image">
+              <img
+                src="/img/gear/studio-zoomed.jpg"
+                alt="Tim's Studio"
+                title="My Office & Studio"
+              />
+            </div>
+            <div class="card__body">
+              <h4>Here, I Surround Myself With BlinkyFlashy Things.</h4>
+              <small>
+                This also illustrates the mic arrangement. Not pictured is the green screen setup, 
+                because that's where I threw all of my clutter so that I could take this picture. It's 
+                also kinda boring as it's just fabric stapled to a wall with a crapton of lights. My voiceover 
+                booth is also not really pictured, because the walls are a mess.
+              </small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="row margin-top--md">
         <div className="col col--6">
           <div className={clsx("card", styles.cardNormalizerLarge)}>
             <div class="card__image">
