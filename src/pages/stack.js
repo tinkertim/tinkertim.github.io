@@ -110,7 +110,7 @@ function StackPageStudioStack() {
               <h4>FX / Compressor Rack</h4>
               <small>
                 I use VST plugins for most things like modern people do, but
-                I've yet to find vaccume tube valve-style compressors & preamps
+                I've yet to find vacuum tube valve-style compressors & preamps
                 to be replicated in that way. So, I use them outboard, along
                 with some equalizers that provide easy "hands on" control.
               </small>
