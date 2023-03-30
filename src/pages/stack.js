@@ -268,10 +268,9 @@ function StackPageContent() {
 }
 
 export default function Home() {
-  const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title}`}
+      title={`My Tech Stack`}
       description="Tim's Tech & Studio Stack"
     >
       <main>

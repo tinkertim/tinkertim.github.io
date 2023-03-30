@@ -78,10 +78,9 @@ function AboutPageContent() {
 }
 
 export default function Home() {
-  const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title}`}
+      title={`About Tim`}
       description="About Tim Post - O.G. DevRel"
     >
       <main>

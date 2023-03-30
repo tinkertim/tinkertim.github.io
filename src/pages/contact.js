@@ -25,10 +25,9 @@ function ContactPageContent() {
 }
 
 export default function Home() {
-  const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title}`}
+      title={`Contact Tim`}
       description="Contacting Tim Post"
     >
       <main>

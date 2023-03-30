@@ -207,10 +207,9 @@ function LatestWorkContent() {
 }
 
 export default function Home() {
-  const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title}`}
+      title={`Latest Work`}
       description="Tim Post's Latest Productions"
     >
       <main>
