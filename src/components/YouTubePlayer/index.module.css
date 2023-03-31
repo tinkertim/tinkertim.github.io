@@ -26,6 +26,10 @@ html[data-theme='dark'] .videoEmbed {
     height: 100%;
     border-radius: 15px;
     background-color: black;
+    background-image: url('/img/loading-16-9.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
 
 .shortEmbed {
@@ -57,4 +61,8 @@ html[data-theme='dark'] .shortEmbed {
     height: 100%;
     border-radius: 15px;
     background-color: black;
+    background-image: url('/img/loading-9-16.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
