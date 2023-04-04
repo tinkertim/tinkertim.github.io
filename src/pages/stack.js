@@ -34,11 +34,11 @@ function StackPageStudioStack() {
         <div className="col col--12">
           <p className="margin-top--sm">
             <strong>
-            First: the whole enchilada - my basement converted to a studio / office with 
-            room to record up to 5 or 6 people. The only stuff I can't host is loud
-            precussion. I've done sound treatment throughout, and have very understanding
-            neighbors.
-            </strong> 
+              First: the whole enchilada - my basement converted to a studio /
+              office with room to record up to 5 or 6 people. The only stuff I
+              can't host is loud precussion. I've done sound treatment
+              throughout, and have very understanding neighbors.
+            </strong>
           </p>
           <div className={clsx("card", styles.cardNormalizerLarge)}>
             <div class="card_image">

@@ -119,8 +119,8 @@ function HomePageContent() {
             </p>
             <p>
               I hope you enjoy your visit to my site -{" "}
-              <Link href="/contact">please reach out</Link>
-              {" "}if I can be of service to you!
+              <Link href="/contact">please reach out</Link>{" "}
+              if I can be of service to you!
             </p>
           </div>
         </div>
