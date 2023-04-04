@@ -69,9 +69,9 @@ function HomePageContent() {
             </p>
             <Link
               className="button button--secondary button--lg"
-              to="/blog/welcome"
+              to="/blog/job-hunting"
             >
-              Latest Blog: "New Site! Again!" &raquo;
+              Latest Blog: "I'm Looking For A New Long-Term Adventure!" &raquo;
             </Link>
           </div>
         </div>
