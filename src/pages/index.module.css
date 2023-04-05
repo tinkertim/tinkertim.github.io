@@ -57,6 +57,14 @@
   align-content: left;
 }
 
+.bottomish {
+  border-radius: 21px;
+  color: #ccc;
+  background-color: black;
+  padding: 10px 15px;
+  margin: 10px 0 10px 0;
+}
+
 .coolStory {
   font-weight: 400;
   font-style: italic;

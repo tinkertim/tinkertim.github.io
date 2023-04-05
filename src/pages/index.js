@@ -92,7 +92,8 @@ function HomePageContent() {
             <p>
               This quote is the best way I've managed to explain it:
             </p>
-            <p className={styles.coolStory}>
+            <div className={styles.bottomish}>
+              <p className={styles.coolStory}>
               When nobody knows what it is, we tell the product story. When
               nobody knows what to do next, we tell user stories.
               <br />
@@ -116,11 +117,14 @@ function HomePageContent() {
               <br />
               -- Tim Post
               <br />
-            </p>
+              </p>
+            </div>
             <p>
-              I hope you enjoy your visit to my site -{" "}
-              <Link href="/contact">please reach out</Link>{" "}
-              if I can be of service to you!
+              <strong>
+                I hope you enjoy your visit to my site -{" "}
+                <Link href="/contact">please reach out</Link>{" "}
+                if I can be of service to you!
+              </strong>
             </p>
           </div>
         </div>
