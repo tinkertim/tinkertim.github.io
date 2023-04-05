@@ -58,11 +58,17 @@
 }
 
 .bottomish {
+  font-size: large;
   border-radius: 21px;
-  color: #ccc;
-  background-color: black;
+  color: #fff;
+  background-color: #444;
   padding: 10px 15px;
   margin: 10px 0 10px 0;
+}
+
+[data-theme="dark"] .bottomish {
+  color: #ccc;
+  background-color: black;
 }
 
 .coolStory {
