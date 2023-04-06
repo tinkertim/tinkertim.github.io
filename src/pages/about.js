@@ -12,8 +12,13 @@ function AboutPageContent() {
         <div class="row margin-top--lg">
           <div class="col col--6">
             <h1 className="margin-top--lg">
-              About Tim Post - Your Friendly Inbound Funnel Mechanic!
+              About Tim Post: O.G. DevRel!
             </h1>
+            <p className="padding-top--md">
+              <strong>
+                I've also been called an inbound funnel mechanic.
+              </strong>
+            </p>
             <p className="padding-top--md">
               I got my start in tech back in the 1990s, during the first dot-com
               bubble. I'd been writing code pretty regularly since learning C
