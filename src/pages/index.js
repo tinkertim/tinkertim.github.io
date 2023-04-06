@@ -68,7 +68,7 @@ function HomePageContent() {
               </small>
             </p>
             <Link
-              className="button button--primary button--lg"
+              className={clsx("button button--primary button--lg", styles.poof)}
               to="/blog/job-hunting"
             >
               Latest Blog: "I'm Looking For A New Long-Term Adventure!" &raquo;

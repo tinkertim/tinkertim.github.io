@@ -29,6 +29,10 @@
   font-weight: bolder;
 }
 
+.poof {
+  display:inline-flex;
+}
+
 @media screen and (max-width: 996px) {
   .heroBanner {
     padding: 2rem;
@@ -36,6 +40,10 @@
     text-align: center;
     background-image: none;
     min-height: 200px;
+  }
+
+  .poof {
+    display: none;
   }
 }
 
