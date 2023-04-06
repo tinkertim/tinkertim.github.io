@@ -68,7 +68,7 @@ function HomePageContent() {
               </small>
             </p>
             <Link
-              className="button button--secondary button--lg"
+              className="button button--primary button--lg"
               to="/blog/job-hunting"
             >
               Latest Blog: "I'm Looking For A New Long-Term Adventure!" &raquo;

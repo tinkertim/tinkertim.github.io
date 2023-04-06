@@ -52,9 +52,13 @@
   max-height: 425px;
   width: auto;
   border-radius: 12px;
-  opacity: 0.8;
   padding: none;
   align-content: left;
+  box-shadow: 8px 8px 1px 1px mediumslateblue;
+}
+
+[data-theme="dark"] .vanity {
+  box-shadow: none;
 }
 
 .bottomish {
