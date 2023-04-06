@@ -62,7 +62,7 @@
   border-radius: 12px;
   padding: none;
   align-content: left;
-  box-shadow: 8px 8px 1px 1px mediumslateblue;
+  box-shadow: 0 12px 28px 0 rgba(0, 0, 0, 0.2);
 }
 
 [data-theme="dark"] .vanity {
