@@ -1,6 +1,5 @@
 import React from "react";
 import clsx from "clsx";
-import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import styles from "./stack.module.css";
 import CodeContent from "../mdx-content/TechOverview.mdx";
