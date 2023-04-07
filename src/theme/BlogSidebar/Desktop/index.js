@@ -24,15 +24,16 @@ export default function BlogSidebarDesktop({sidebar}) {
             <h2>Code, Coffee, Culture.</h2>
             <small>
               Not necessarily in that order. Sometimes I talk programming, sometimes I wonder
-              why people are who they are. Both matter a lot when your code touches lives.
+              why people are who they are. Both matter a lot when your code touches lives. Pull 
+              a feed if you like!
             </small>
           </div>
           <div class="card__footer" style={{textAlign: "center"}}>
             <Link to="/blog/rss.xml" class="button button--primary button--sm">RSS</Link>
             &nbsp;|&nbsp; 
-            <Link to="/blog/rss.xml" class="button button--primary button--sm">ATOM</Link>
+            <Link to="/blog/atom.xml" class="button button--primary button--sm">ATOM</Link>
             &nbsp;|&nbsp;
-            <Link to="/blog/rss.xml" class="button button--primary button--sm">JSON</Link>
+            <Link to="/blog/feed.json" class="button button--primary button--sm">JSON</Link>
           </div>
         </div>
         <div className={clsx(styles.sidebarItemTitle, 'margin-bottom--md')}>
