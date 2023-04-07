@@ -17,9 +17,9 @@ export default function BlogSidebarDesktop({ sidebar }) {
         <div class="avatar avatar--vertical margin-bottom--lg">
           <img
             class="avatar__photo avatar__photo--xl"
-            src="/img/tim_purim.jpeg"
+            src="/img/timprofile.jpg"
             alt="Tim Post"
-            title="Purim Tim In A Tophat"
+            title="Inverted drop kick by Hailey Post"
           />
           <div class="avatar__intro">
             <h2 class="avatar__name margin-top--md">Code, Coffee, Culture</h2>
