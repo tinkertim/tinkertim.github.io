@@ -62,7 +62,7 @@
   border-radius: 12px;
   padding: none;
   align-content: left;
-  box-shadow: 0 12px 28px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: var(--ifm-global-shadow-tl);
 }
 
 [data-theme="dark"] .vanity {
