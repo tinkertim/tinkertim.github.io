@@ -17,12 +17,21 @@ function ContactPageContent() {
           as an ordinary "citizen" of SO or the Stack Exchange network, feel free to drop in!
         </p>
         <p className="margin-top--md">
-          The best way to reach me is via e-mail; I'm <code>tinkertim@gmail.com</code>
+          The best way to reach me is via e-mail; I'm <code>tinkertim@gmail.com</code>.
         </p>
         <p>
           You can also reach out to me on Twitter or LinkedIn - see the links in the footer. My DMs on 
-          Twitter are open, but it may take me a few days to see your message request. 
+          Twitter are open, but it may take me a few days to see your message request. If you're a recruiter, 
+          or would be interested in exploring hiring me, you can get a copy of my CV from <a href="https://notanothercv.com" target="_new">Not Another CV</a> 
+          {" "} who I've teamed up with to host it:
         </p>
+        <object 
+          title="Download CV" 
+          data="https://download.notanothercv.com/embed/640b272923b49b1fd71279aa?theme=dark" 
+          width="100%">Error: Failed to load CV Download Component
+        </object>
+        <p>Alternately, you can just <a href="https://notanothercv.com/u/640b272923b49b1fd71279aa" target="_new">view my CV</a> at Not Another CV. They're a great
+        alternative to LinkedIn!</p>
       </div>
     </section>
   );
