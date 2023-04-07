@@ -1,5 +1,4 @@
 // @ts-check
-// Note: type annotations allow type checking and IDEs autocompletion
 
 const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
@@ -12,11 +11,14 @@ const config = {
   url: "https://tinkertim.github.io/",
   baseUrl: "/",
 
+  // GH Pages 
   organizationName: "tinkertim",
   projectName: "tinkertim.github.io",
   deploymentBranch: "github-pages",
-  onBrokenLinks: "warn",
-  onBrokenMarkdownLinks: "warn",
+
+  // How should broken links be handled?
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "throw",
 
   i18n: {
     defaultLocale: "en",
@@ -53,11 +55,11 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
       image: "img/tim_header.png",
       navbar: {
         title: "tinkertim@localhost:~/$ ",
         /*
+         // for now I just use text, it's fine for me. 
         logo: {
           alt: 'logo',
           src: 'img/logo.svg',
@@ -111,9 +113,9 @@ const config = {
       },
       /*
       announcementBar: {
-        id: "wip",
+        id: "megaphone",
         content:
-          'Not quite done yet - Pardon The Dust. The Only Thing Functional Right Now Is The Blog',
+          'Very important message goes here. HTML works.',
         backgroundColor: "#000",
         textColor: "#ccc",
         isCloseable: false,
