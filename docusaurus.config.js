@@ -100,7 +100,7 @@ const config = {
         ],
         copyright: `Copyright © ${
           new Date().getFullYear()
-        } Tim Post. Built with Docusaurus.`,
+        } Design, Theme And Content By Tim Post. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
