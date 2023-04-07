@@ -31,11 +31,17 @@ const config = {
         docs: false,
         blog: {
           blogTitle: "Tim Post's Blog",
-          blogDescription: "Code, Cannabis, Culture & Coffee. Maybe not in that order.",
-          blogSidebarTitle: "Latest Posts & Reviews",
+          blogDescription: "Code, Culture & Coffee. Maybe not in that order.",
+          blogSidebarTitle: "Let's see what we have here ...",
           blogSidebarCount: "ALL",
           showReadingTime: true,
           editUrl: "https://github.com/tinkertim/tinkertim.github.io/tree/main",
+          feedOptions: {
+            type: "all",
+            copyright: "Copyright 2023 Tim Post",
+            title: "Tim Post's Blog Feed",
+            description: "Let's see what we have here ...",
+          }
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
