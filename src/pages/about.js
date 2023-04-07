@@ -63,15 +63,15 @@ function AboutPageContent() {
             lung cancer that had spread, and spread rapidly, through my brain. I
             was lucky enough to achive 100% remission, which is soon entering
             its seventh year. But, this came at a cost, both physical and
-            financial, and left me with multiple disabilities. I write about 
+            financial, and left me with multiple disabilities. I write about
             this experience probably more than I should, but going through it
             really turned me into an advocate on many fronts.
           </p>
           <p className="margin-bottom--xl">
             Now, I do mostly contract work as my physical health allows, while
             also focusing time on putting my experiences to work in advocacy for
-            not just disabled folks re-gaining their skills in tech, but also those
-            fighting their own cancer battles. 
+            not just disabled folks re-gaining their skills in tech, but also
+            those fighting their own cancer battles.
           </p>
         </div>
       </div>

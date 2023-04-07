@@ -114,8 +114,8 @@ function StackPageStudioStack() {
                 with some equalizers that provide easy "hands on" control.
                 <br />
                 <br />
-                My eight-year-old can tell you how this dually functions as 
-                the bridge of her starship. 
+                My eight-year-old can tell you how this dually functions as the
+                bridge of her starship.
               </small>
             </div>
           </div>

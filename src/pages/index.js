@@ -49,7 +49,7 @@ function HomePageContent() {
               Overflow, Swimm and Deno.
             </p>
             <p className="margin-top--md">
-              Storytelling is my favorite pasttime. I love bring out the care
+              Storytelling is my favorite past time. I love bring out the care
               and passion that goes into developer products when I demo them. I
               tell myself that I'm an actor, and it's my job to play the person
               that put everything they own into the development of what I'm
@@ -94,29 +94,30 @@ function HomePageContent() {
             </p>
             <div className={styles.bottomish}>
               <p className={styles.coolStory}>
-              When nobody knows what it is, we tell the product story. When
-              nobody knows what to do next, we tell user stories.
-              <br />
-              <br />
-              When we need to hire developers to grow it, we create job
-              descriptions and advise on where to post them.<br />
-              When there are no sales, we're salesfolk;<br />
-              when there are no CS engineers, we're support specialists.
-              <br />
-              <br />
-              When we need to publicly learn hard lessons, we write the
-              soliloquies. When there are heroes in our midst, we elevate them.
-              <br />
-              <br />
-              When there are no heroes, we encourage and develop heroes through
-              ambassador programs. We're experts in figuring out what funnels
-              should be built, and why they're clogging. DevRel is anything but
-              simple, and it's <strong>way</strong>{" "}
-              more than just creating content.
-              <br />
-              <br />
-              -- Tim Post
-              <br />
+                When nobody knows what it is, we tell the product story. When
+                nobody knows what to do next, we tell user stories.
+                <br />
+                <br />
+                When we need to hire developers to grow it, we create job
+                descriptions and advise on where to post them.<br />
+                When there are no sales, we're sales folk;<br />
+                when there are no CS engineers, we're support specialists.
+                <br />
+                <br />
+                When we need to publicly learn hard lessons, we write the
+                soliloquies. When there are heroes in our midst, we elevate
+                them.
+                <br />
+                <br />
+                When there are no heroes, we encourage and develop heroes
+                through ambassador programs. We're experts in figuring out what
+                funnels should be built, and why they're clogging. DevRel is
+                anything but simple, and it's <strong>way</strong>{" "}
+                more than just creating content.
+                <br />
+                <br />
+                -- Tim Post
+                <br />
               </p>
             </div>
             <p>
