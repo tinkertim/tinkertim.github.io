@@ -13,25 +13,25 @@ export default function BlogSidebarDesktop({sidebar}) {
           message: 'Blog recent posts navigation',
           description: 'The ARIA label for recent posts in the blog sidebar',
         })}>
-<div class="avatar avatar--vertical margin-bottom--lg">
-  <img
-    class="avatar__photo avatar__photo--xl"
-    src="https://github.com/tinkertim.png" />
-  <div class="avatar__intro">
-    <h2 class="avatar__name margin-top--md">Code, Coffee, Culture</h2>
-    <small class="avatar__subtitle">
-        Not always in that order, but all three matter when
-        your code touches lives. Grab a feed :)
-    </small>
-    <div class="card__footer" style={{textAlign: "center"}}>
-            <Link to="/blog/rss.xml" class="button button--primary button--sm">RSS</Link>
-            &nbsp;|&nbsp; 
-            <Link to="/blog/atom.xml" class="button button--primary button--sm">ATOM</Link>
-            &nbsp;|&nbsp;
-            <Link to="/blog/feed.json" class="button button--primary button--sm">JSON</Link>
+        <div class="avatar avatar--vertical margin-bottom--lg">
+          <img
+            class="avatar__photo avatar__photo--xl"
+            src="https://github.com/tinkertim.png" />
+          <div class="avatar__intro">
+            <h2 class="avatar__name margin-top--md">Code, Coffee, Culture</h2>
+            <small class="avatar__subtitle">
+                Not always in that order, but all three matter when
+                your code touches lives. Grab a feed :)
+            </small>
+            <div class="card__footer" style={{textAlign: "center"}}>
+                    <Link to="/blog/rss.xml" class="button button--primary button--sm">RSS</Link>
+                    &nbsp;|&nbsp; 
+                    <Link to="/blog/atom.xml" class="button button--primary button--sm">ATOM</Link>
+                    &nbsp;|&nbsp;
+                    <Link to="/blog/feed.json" class="button button--primary button--sm">JSON</Link>
+                  </div>
           </div>
-  </div>
-</div>
+        </div>
         <div className={clsx(styles.sidebarItemTitle, 'margin-bottom--md')}>
           {sidebar.title}
         </div>
