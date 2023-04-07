@@ -24,7 +24,7 @@ function ContactPageContent() {
         </p>
         <object 
           title="Download CV" 
-          data="https://download.notanothercv.com/embed/640b272923b49b1fd71279aa?theme=dynamic" 
+          data="https://download.notanothercv.com/embed/640b272923b49b1fd71279aa?theme=dynamic&allowtransparency=yes" 
           width="100%">Error: Failed to load CV Download Component
         </object>
         <p>Alternately, you can just <a href="https://notanothercv.com/u/640b272923b49b1fd71279aa" target="_new">view my CV</a> at Not Another CV. They're a great
