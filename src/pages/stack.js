@@ -112,6 +112,10 @@ function StackPageStudioStack() {
                 I've yet to find vacuum tube valve-style compressors & preamps
                 to be replicated in that way. So, I use them outboard, along
                 with some equalizers that provide easy "hands on" control.
+                <br />
+                <br />
+                My eight-year-old can tell you how this dually functions as 
+                the bridge of her starship. 
               </small>
             </div>
           </div>
