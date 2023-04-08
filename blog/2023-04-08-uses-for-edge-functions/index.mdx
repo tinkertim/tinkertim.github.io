@@ -1,0 +1,77 @@
+---
+slug: uses-for-edge-functions
+title: Things I'm Thinking About Getting Edgy With
+description: Everyone seems to want to use edge functions, but nobody knows quite what to do with them. Here's my current list of things I want to build this year.
+authors: [tpost]
+tags: [edge-functions, typescript]
+---
+
+[Edge functions](https://www.google.com/search?q=edge+functions) <sup><small>(<em>Google Link</em>)</small></sup> 
+are really appealing to me because the majority of web work that I do involves some 
+kind of documentation, which these days usually means using a static site generator 
+of some sort. These well-orchestrated SPAs are great, in fact this blg post is being 
+brought to you with one of them, but they're just that - static.
+
+I used the Google link because the vendors are still figuring it out. This is all 
+still kinda new, which is neat (IMHO).
+
+There are enough places that provide usable "freemium tier" edge functions, some
+even complete with storage, that hobbyists and open-source enthisiasts like me 
+can build stuff and not need to pay a monthly bill for it. I might even package
+a few I'm building around my own site, if I can think of a sensible way to "package"
+the serverless part of it. 
+
+So without further rambling, here's my list in no real order other than recall:
+
+### "Was this document helpful?" plugin for Docusaurus
+
+I have no desire to implement comments or anything else that would require moderation,
+but getting feedback about the relevancy and usefulness of all of your docs and 
+blog posts would be pretty super duper, right? 
+
+Edge functions are great at handling all of the rate limiting and other stuff you'd
+want to implement server-side, as well as an API to get stats from it. Many of them 
+offer some kind of storage option on the same physical network to store responses.
+
+The caveat here is, you may or may not be able to access local storage and dependency
+resolution / loading could be an obstacle. Anyway, I'm kicking around the idea of 
+building it if I can do it in a portable way manageably.
+
+I could probably get a V0 option for that done very quickly on Deno, but that kinda 
+marries using the plugin to using Deno Deploy or someone that resold it. Not ideal.
+
+### My DevRel Discord Bot Box (Awaitbot)
+
+It's easy to run user engagement events in Discord when you have droids helping you 
+manage it. Over the years, I've found that self-service contests work extremely well
+for some of the same scenarios you might think about organizing a hackathon to boost.
+
+The idea is, you let the user set their own definition of "done" for a project by 
+allowing the user to tell a bot that they're working on something, and then letting 
+the bot know when the project was done by including a link or a screen shot. 
+
+The bot can then (do a hundred other things) including giving the person a QR code to
+get their prize shipped, and then someone from the company can reach out if warranted.
+
+This project actually illustrates how you have to think about GDPR ahead of everything
+else when you glue lots of stuff together like this, and there are indeed challenges
+with the Discord API at scale, but I believe it's a project that will work.
+
+I have a repo for this I'll dust off next month, maybe.
+
+### Client Side -> Edge Side Search
+
+For really big sites, it would be interesting if the compiled client-side index used for
+client-side search could be just moved to an edge function upon deployment. It's not a 
+bad idea, though a little unconventional and prone to timing issues. 
+
+Third-party search options are getting harder to get working (and more expensive) as the 
+products evolve, so this might be a neat hybrid approach. 
+
+---
+
+Anyway, that's my list for the year, mostly around static sites. But I've seen people doing
+all kinds of interesting things from fully-blown functional CRON systems to raw data pipes
+to worker farms to others - and there's plenty of freemium options, so it's a fun thing to 
+play with.
+
