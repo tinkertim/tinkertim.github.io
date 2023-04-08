@@ -8,7 +8,7 @@ function AboutPageContent() {
     <section>
       <div className="container">
         <div class="row margin-top--lg">
-          <div class="col col--6">
+          <div class="col col--7">
             <h1 className="margin-top--lg">
               About Tim Post: An O.G. DevRel!
             </h1>
@@ -37,7 +37,7 @@ function AboutPageContent() {
               family.
             </p>
           </div>
-          <div class="col col--6">
+          <div class="col col--5">
             <img
               className={clsx(styles.book, "item shadow--tl margin-top--md")}
               src="/img/banner.png"
