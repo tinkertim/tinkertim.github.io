@@ -27,14 +27,13 @@ function ContactPageContent() {
           <a href="https://notanothercv.com" target="_new">Not Another CV</a>
           {"  "}who I've teamed up with to host it:
         </p>
-        <object
-          allowtransparency="true"
+        <iframe
           title="Download CV"
-          data="https://download.notanothercv.com/embed/640b272923b49b1fd71279aa?theme=dynamic"
+          src="https://download.notanothercv.com/embed/640b272923b49b1fd71279aa?theme=dynamic"
           width="100%"
         >
           Error: Failed to load CV Download Component
-        </object>
+        </iframe>
         <p>
           Alternately, you can just{" "}
           <a
