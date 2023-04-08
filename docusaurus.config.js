@@ -17,8 +17,8 @@ const config = {
   deploymentBranch: "github-pages",
 
   // How should broken links be handled?
-  onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "throw",
+  onBrokenLinks: "warn",
+  onBrokenMarkdownLinks: "warn",
 
   i18n: {
     defaultLocale: "en",

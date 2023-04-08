@@ -29,24 +29,17 @@ export default function BlogSidebarDesktop({ sidebar }) {
             </small>
             <div class="card__footer" style={{ textAlign: "center" }}>
               <Link
-                to="/blog/rss.xml"
+                to="/blog/rss"
                 class="button button--secondary button--sm"
               >
                 RSS
               </Link>
               &nbsp;|&nbsp;
               <Link
-                to="/blog/atom.xml"
+                to="/blog/atom"
                 class="button button--secondary button--sm"
               >
                 ATOM
-              </Link>
-              &nbsp;|&nbsp;
-              <Link
-                to="/blog/feed.json"
-                class="button button--secondary button--sm"
-              >
-                JSON
               </Link>
             </div>
           </div>
