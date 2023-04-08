@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktinkertim_github_io=self.webpackChunktinkertim_github_io||[]).push([[490],{9625:e=>{e.exports=JSON.parse('{"label":"edge-functions","permalink":"/blog/tags/edge-functions","allTagsPath":"/blog/tags","count":1}')}}]);

@@ -4,11 +4,20 @@
         <title>Tim Post's Blog Feed</title>
         <link>https://tinkertim.github.io/blog</link>
         <description>Let's see what we have here ...</description>
-        <lastBuildDate>Tue, 04 Apr 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 08 Apr 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <copyright>Copyright 2023 Tim Post</copyright>
+        <item>
+            <title><![CDATA[Things I'm Thinking About Getting Edgy With]]></title>
+            <link>https://tinkertim.github.io/blog/uses-for-edge-functions</link>
+            <guid>https://tinkertim.github.io/blog/uses-for-edge-functions</guid>
+            <pubDate>Sat, 08 Apr 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Everyone seems to want to use edge functions, but nobody knows quite what to do with them. Here's my current list of things I want to build this year.]]></description>
+            <category>edge-functions</category>
+            <category>typescript</category>
+        </item>
         <item>
             <title><![CDATA[I'm Looking For A New Long-Term Adventure!]]></title>
             <link>https://tinkertim.github.io/blog/job-hunting</link>
