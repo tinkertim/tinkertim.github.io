@@ -32,7 +32,7 @@ function HomePageContent() {
     <section className="margin-bottom--lg">
       <div className="container">
         <div className="row row--no--gutters margin-top--lg">
-          <div className="col col--4 padding-left--lg">
+          <div className="col col--3 padding-left--lg">
             <img
               src="/img/tim1.jpeg"
               alt="Tim Post"
@@ -40,7 +40,7 @@ function HomePageContent() {
               className={styles.vanity}
             />
           </div>
-          <div className="col col--8">
+          <div className="col col--9">
             <p className="margin-top--md">
               I'm Tim, and I'm one of the first that I know of to work the role
               that we call Developer Relations (DevRel) today. Please believe me
