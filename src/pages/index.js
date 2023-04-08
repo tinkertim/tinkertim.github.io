@@ -71,7 +71,7 @@ function HomePageContent() {
               className={clsx("button button--primary button--lg", styles.poof)}
               to="/blog/uses-for-edge-functions"
             >
-              Latest Blog: "Things I'm Thinking About Getting Edgy About" &raquo;
+              Latest Blog: "Things I'm Thinking About Getting Edgy With" &raquo;
             </Link>
           </div>
         </div>
