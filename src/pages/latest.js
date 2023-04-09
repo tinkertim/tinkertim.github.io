@@ -225,6 +225,10 @@ function LatestWrittenWorkContent() {
               help, take a look at my {" "}
               <a href="https://stackoverflow.com/users/50049/tim-post">main Stack Overflow profile</a>.
             </p>
+            <p className="margin-top--md">
+              These are all published and live; click on any of the screenshots below to view the original 
+              post in a new browser tab. 
+            </p>
           </div>
         </div>
 
