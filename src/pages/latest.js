@@ -56,7 +56,7 @@ function LatestWorkContent() {
         </div>
         <div className="row margin-top--lg">
           <div className="col col--12">
-            <h2>Deno's Release Notes (Series 1.29 - 1.31):</h2>
+            <h2>Release Notes (Deno Series 1.29 - 1.31 along with Swimm Feature Releases):</h2>
           </div>
         </div>
         <div className="row">
@@ -89,6 +89,29 @@ function LatestWorkContent() {
           <div className="col col--4">
             <div className="card margin-top--lg">
               <div className="card__header">
+                <h3>Swimm's Smart Text Update</h3>
+              </div>
+              <div className="card__body">
+                <p>
+                  Smart Text is a key feature for Swimm to keep documentation 
+                  tightly-coupled to and in sync with the code that it supports. 
+                </p>
+                <p>
+                  If you've ever had to mass rename a bunch of stuff due to refactoring, 
+                  you can definitely relate to how well-received this feature was, and
+                  you can definitely hear me enjoying it. 
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col col--8">
+            <YouTubePlayer id="YylvDtK5yzk" />
+          </div>
+        </div>
+        <div className="row margin-top--lg">
+          <div className="col col--4">
+            <div className="card margin-top--lg">
+              <div className="card__header">
                 <h3>Deno 1.30</h3>
               </div>
               <div className="card__body">
@@ -110,6 +133,31 @@ function LatestWorkContent() {
           </div>
           <div className="col col--8">
             <YouTubePlayer id="ke06eWWBEgk" />
+          </div>
+        </div>
+        <div className="row margin-top--lg">
+          <div className="col col--4">
+            <div className="card margin-top--lg">
+              <div className="card__header">
+                <h3>Swimm's Snippet Studio Update</h3>
+              </div>
+              <div className="card__body">
+                <p>
+                  Swimm has to make creating documentation <em>fun</em>, or at least 
+                  not painful, if developers are going to use it. The studio that lets 
+                  developers select and document regions of code is very fluid, and very
+                  easy and natural to use. 
+                </p>
+                <p>
+                  I like to record my first exposure to features because you capture a very 
+                  natural sense of discovery that puts levity into these, which need strong 
+                  positive energy. 
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col col--8">
+            <YouTubePlayer id="ywruwiRcvpo" />
           </div>
         </div>
         <div className="row margin-top--lg">
