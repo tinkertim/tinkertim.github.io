@@ -69,9 +69,9 @@ function HomePageContent() {
             </p>
             <Link
               className={clsx("button button--primary button--lg", styles.poof)}
-              to="/blog/uses-for-edge-functions"
+              to="/blog/community-software"
             >
-              Latest Blog: "Things I'm Thinking About Getting Edgy With" &raquo;
+              Latest Blog: "Don't Get Hung Up On Community Software" &raquo;
             </Link>
           </div>
         </div>
