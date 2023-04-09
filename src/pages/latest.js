@@ -204,6 +204,181 @@ function LatestWorkContent() {
   );
 }
 
+function LatestWrittenWorkContent() {
+  return (
+    <section>
+
+      <div className="container">
+
+        <div className="row margin-top--lg">
+          <div class="col col--12">
+            <h2>Writing & Engagement Project Samples:</h2>
+            <p className="margin-top--md">
+              I was Stack Overflow's main outward voice in written form for almost 
+              eight years. You can get a very good feel for how I relate to others 
+              from a community management perspective {" "}
+              <a href="https://meta.stackexchange.com/users/50049" target="_blank">on my Meta Stack Exchange profile</a> {" "} 
+              as well as my <a href="https://meta.stackoverflow.com/users/50049" target="_blank">Meta Stack Overflow</a> profile.
+            </p>
+            <p className="margin-top--md">
+              For an idea of how I relate to other developers when it comes to helping out, or asking for
+              help, take a look at my {" "}
+              <a href="https://stackoverflow.com/users/50049/tim-post">main Stack Overflow profile</a>.
+            </p>
+          </div>
+        </div>
+
+        <div class="row margin-top--lg">
+          <div className="col col--5">
+            <a 
+            href="https://area51.meta.stackexchange.com/questions/20987/internationalization-state-of-the-stack-stack-overflow-edition"
+            target="_blank">
+              <img src="/img/samples/internationalization.png" 
+                alt="screen shot of stack overflow internationalization update"
+                title="I managed the internationalization of Stack Overflow" 
+                className={styles.sample} 
+                />
+            </a>
+          </div>
+          <div className="col col--7">
+            <div className="card margin-top--sm">
+              <div className="card__header">
+                <h3>The Stack Overflow Internationalization Project (Project Lead, Communications Manager)</h3>
+              </div>
+              <div className="card__body">
+                <p>
+                  For a very long time, Stack Overflow resisted localizing in multiple
+                  languages because their information architecture makes translating and
+                  transliterating rather difficult. It's not intentional, there's a reason
+                  those sites are so fast, but they're difficult for volunteers to translate 
+                  using customary tools. 
+                </p>
+                <p className="margin-top--md">
+                  It took years and quite a few tears, but the site is now able to properly 
+                  serve many more developers in their primary working language, which opened
+                  up engagement across areas of the world that weren't able to use the main site
+                  effectively. 
+                </p>
+                <p className="margin-top--md">
+                  Pictured and linked is just one sample from the project. Communications were 
+                  frequent to stakeholders, our board, communities that were helping, translation 
+                  teams, the press - it was a big deal at the time.  
+                </p>
+                <p className="margin-top--md">
+                  We couldn't support all of the languages that we wanted to, but we launched 
+                  Stack Overflow for Portuguese, Spanish, Russian and Japanese within just a couple
+                  of years. 
+                </p>
+              </div>
+            </div>   
+          </div>
+        </div>
+
+        <div class="row margin-top--lg">
+          <div className="col col-7">
+            <div className="card margin-top--md">
+                <div className="card__header">
+                  <h3>Creative &amp; Unexpected Fun To Drive Engagement</h3>
+                </div>
+                <div className="card__body">
+                  <p className="margin-top--md">
+                    Do you appreciate it when people go out of their way to make you happy 
+                    just because they felt like doing that for you? Users do, too! 
+                  </p>
+                  <p className="margin-top--md">
+                    Impromptu "fun" just for the sake of it can come in many forms, even just 
+                    a quick give-away on social media, or perhaps you actually have some goals
+                    for the fun, like I did when I challenged myself to see how absurd I could
+                    get and still be taken seriously. 
+                  </p>
+                  <p className="margin-top--md">
+                    In this case, I needed some ideas for the next Winter Bash hat event, and 
+                    engagement was in a cyclical lull. Events like this helped us make sure that
+                    we didn't see as much downturn as other advertisers did during the usual 
+                    low points of the year, and really made people feel good. 
+                  </p>
+                  <p className="margin-top--md">
+                    All these require is creativity; if you click through, you'll see that dozens
+                    of people contributed ideas made out of everything from LEGO bricks to icing. One 
+                    fun event like this can go a long way toward making people be extra careful to 
+                    bite their tongues a bit if future discussions become passionate and adversarial 
+                    <em>because they know you're a person underneath that corporate exterior.</em>
+                  </p>
+                  <p className="margin-top--md">
+                    I ended up running close to a dozen of these throughout my time there, another
+                    funny one being <a href="https://meta.stackexchange.com/questions/231739/what-happens-when-you-plug-a-ups-into-itself" target="_blank">What happens when you plug a UPS into itself?</a> which actually became 
+                    {" "}<a href="https://meta.stackexchange.com/questions/232040/was-the-stack-exchange-ups-plugged-into-itself-a-joke-or-real" target="_blank">kind of legendary!</a>
+                  </p>
+                </div>
+            </div>   
+          </div>
+          <div className="col col--5">
+            <a 
+            href="https://meta.stackexchange.com/questions/304500/a-moose-some-silly-putty-and-a-desperate-plea-for-help"
+            target="_blank">
+              <img src="/img/samples/contest.png" 
+                alt="screen shot of stack overflow impromptu contest"
+                title="Impromptu contests and surprise group fun are a great way to bolster engagement, show appreciation, and just be awesome." 
+                className={styles.sample}
+                />
+            </a>       
+          </div>
+        </div>
+
+        <div class="row margin-top--md margin-bottom--xl">
+          <div className="col col--5">
+            <a 
+              href="https://stackoverflow.blog/2018/11/21/our-theory-of-moderation-re-visited/"
+              target="_blank">
+              <img src="/img/samples/rallying.png" 
+                alt="screen shot of new badges being announced on stack overflow"
+                title="Coming up with new badges is quite a lengthy process that involves a ton of data and empathy." 
+                className={styles.sample} 
+                />
+            </a>
+          </div>
+          <div className="col col--7">
+            <div className="card margin-top--lg">
+              <div className="card__header">
+                <h3>Leading A Community Means Providing Agency &amp; Purpose</h3>
+              </div>
+              <div className="card__body">
+                <p className="margin-top--md">
+                  Stack Exchange sites are <a href="#">self-moderated</a> by community-elected
+                  leadership that has unparalleled access to the core Q&A engine and ways that 
+                  users participate with it. Moderators are trusted with everything from keeping
+                  PII safe, to upholding a pretty famous code of conduct. 
+                </p>
+                <p className="margin-top--md">
+                  Sometimes, however, trust has to be re-invigorated along with that same sense 
+                  of purpose that initially attracted people to the roles they took on in any
+                  given community. Sometimes people like to hear what you told them a while ago, 
+                  just so they're reminded that it hasn't changed.
+                </p>
+                <p className="margin-top--md">
+                  This later became an integrated part of the engineering VMSO because it came out 
+                  so inspiring, and so the teams supporting the moderators would subsequently work
+                  from the same shared value statement. 
+                </p>
+                <p className="margin-top--md">
+                  When you build a group of volunteers such as the Stack Exchange moderators, you 
+                  positively can not do enough for them. Their time is what addresses every shortcoming 
+                  that the engine has, and they do it just because they love the communities that they 
+                  serve.
+                </p>
+                <p>
+                  If you take care of people properly, you'll have a community just like them. Well, not 
+                  <em>just</em> - they're special ;)
+                </p>
+              </div>
+            </div>   
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
 export default function Home() {
   return (
     <Layout
@@ -212,6 +387,7 @@ export default function Home() {
     >
       <main>
         <LatestWorkContent />
+        <LatestWrittenWorkContent />
       </main>
     </Layout>
   );

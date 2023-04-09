@@ -1,1 +1,10 @@
 /* Content Styles Go Here */
+.sample {
+    max-height: 675px;
+    border: 4px solid #ccc;
+    border-radius: 12px;
+}
+
+[data-theme="dark"] .sample {
+    border: 4px solid #444;
+}
