@@ -4,7 +4,7 @@
         <title>Tim Post's Blog Feed</title>
         <link>https://tinkertim.github.io/blog</link>
         <description>Let's see what we have here ...</description>
-        <lastBuildDate>Sun, 06 Aug 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 09 Apr 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -13,7 +13,7 @@
             <title><![CDATA[Avoid The Bike Shed - Don't Get Hung Up On Community Software]]></title>
             <link>https://tinkertim.github.io/blog/community-software</link>
             <guid>https://tinkertim.github.io/blog/community-software</guid>
-            <pubDate>Sun, 06 Aug 2023 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 09 Apr 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[The most frequent question I'm asked is what software I recommend using for building a community. Here's why that's the wrong question to ask, and what to think about instead.]]></description>
             <content:encoded><![CDATA[<p>There are two things that I want you to remember above everything else when
 it comes to initially fostering a new community:</p><ol><li>The organism, especially an online organism, <a href="https://www.azquotes.com/quote/968276" target="_blank" rel="noopener noreferrer">will do whatever it damn well pleases</a>. I'm not kidding.</li><li>Your choice of what software to use should be ultimately decided by users, after being initially
