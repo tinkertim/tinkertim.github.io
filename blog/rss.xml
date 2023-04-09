@@ -10,12 +10,14 @@
         <language>en</language>
         <copyright>Copyright 2023 Tim Post</copyright>
         <item>
-            <title><![CDATA[Avoid The Bike Shed - Don't Get Hung Up On Community Software]]></title>
+            <title><![CDATA[Embrace The Bike Shed! Don't Get Hung Up On Community Software]]></title>
             <link>https://tinkertim.github.io/blog/community-software</link>
             <guid>https://tinkertim.github.io/blog/community-software</guid>
             <pubDate>Sun, 09 Apr 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[Here's why you shouldn't fret over what software to use for commuinity hosting along with suggestions on what to consider instead.]]></description>
-            <content:encoded><![CDATA[<p>There are two things that I want you to remember above everything else when
+            <content:encoded><![CDATA[<p><em>"What are we gonna use for <!-- -->[...]<!-- -->?"</em> is always the best <a href="https://en.wikipedia.org/wiki/Law_of_triviality" target="_blank" rel="noopener noreferrer">bike shed</a> question. I once had a coworker
+who said the best color for the bike shed is <em>fire</em>. I agree, <em>usually</em>, but they can be useful
+things in community dynamics. </p><p>There are two things that I want you to remember above everything else when
 it comes to initially fostering a new community:</p><ol><li>The organism, especially an online organism, <a href="https://www.azquotes.com/quote/968276" target="_blank" rel="noopener noreferrer">will do whatever it damn well pleases</a>. I'm not kidding.</li><li>Your choice of what software to use should be ultimately decided by users, after being initially
 driven by user journey stories.</li></ol><p>If you understand both of those things, you might also say that this
 seems a <em>little</em> over-simplified to you and you're not wrong. I'll do
