@@ -28,6 +28,34 @@ function LatestWorkContent() {
         </p>
         <div className="row">
           <div className="col col--12">
+            <h2>Library &amp; Module / Product Spotlight Videos</h2>
+          </div>
+        </div>
+        <div className="row margin-top--lg">
+          <div className="col col--4">
+            <div className="card margin-top--lg">
+              <div className="card__header">
+                <h3>Dax Community Spotlight</h3>
+              </div>
+              <div className="card__body">
+                <p>
+                  Dax is a dream-come-true for anyone that wants the safety of 
+                  TypeScript as the interface to a really portable abstraction 
+                  of Windows / Linux / MacOS. You can write extremely defensive
+                  scripts with it, or use it as a library in a regular application.
+                </p>
+                <p>
+                  This was fun to do and quite a challenge to cover in a single video.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col col--8">
+            <YouTubePlayer id="jjqongB3ao0" />
+          </div>        
+        </div>
+        <div className="row margin-top--lg">
+          <div className="col col--12">
             <h2>Deno's Release Notes (Series 1.29 - 1.31):</h2>
           </div>
         </div>
