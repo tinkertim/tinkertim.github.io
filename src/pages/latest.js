@@ -198,7 +198,7 @@ function LatestWorkContent() {
         </div>
         <div className="row margin-top--lg">
           <div className="col col--12">
-            <h2 className="margin-top--md">Deno's Express Tutorial Series</h2>
+            <h2 className="margin-top--md">Deno's Express Tutorial Series:</h2>
           </div>
         </div>
         <div className="row">
