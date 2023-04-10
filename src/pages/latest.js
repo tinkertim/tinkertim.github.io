@@ -405,14 +405,14 @@ function LatestWrittenWorkContent() {
           </div>
         </div>
 
-        <div class="row margin-top--md margin-bottom--xl">
+        <div class="row margin-top--md">
           <div className="col col--5">
             <a 
               href="https://stackoverflow.blog/2018/11/21/our-theory-of-moderation-re-visited/"
               target="_blank">
               <img src="/img/samples/rallying.png" 
-                alt="screen shot of new badges being announced on stack overflow"
-                title="Coming up with new badges is quite a lengthy process that involves a ton of data and empathy." 
+                alt="blog post screen shot"
+                title="It's never a bad idea to reiterate how valuable volunteers are to your mission." 
                 className={styles.sample} 
                 />
             </a>
@@ -452,6 +452,45 @@ function LatestWrittenWorkContent() {
                 </p>
               </div>
             </div>   
+          </div>
+        </div>
+
+        <div class="row margin-top--lg margin-bottom--xl">
+          <div className="col col--7">
+            <div className="card margin-top--md">
+                <div className="card__header">
+                  <h3>Responsible Disclosure</h3>
+                </div>
+                <div className="card__body">
+                  <p className="margin-top--md">
+                    We hope we never need to write these, but they're inevitable. We also hope 
+                    we're never going to be the only one around who can talk to the community when 
+                    something like this hits, but that's inevitable too. 
+                  </p>
+                  <p className="margin-top--md">
+                    Something cool about Stack Overflow is that they invested in actual press / media 
+                    training for public-facing people. I recommend anyone working in DevRel go through
+                    what LinkedIn learning has on it, which is just as good as the live courses that cost
+                    way too much money. 
+                  </p>
+                  <p>
+                    On Stack Overflow's meta site, posting one of these is just like giving a press conference. The 
+                    comment system puts the poster abruptly in a 1:many dynamic similar to a Reddit AMA, just more 
+                    "real time" with better moderation tools. 
+                  </p>
+                </div>
+            </div>   
+          </div>
+          <div className="col col--5">
+            <a 
+            href="https://meta.stackoverflow.com/questions/340960/a-post-mortem-on-the-recent-developer-story-information-leak"
+            target="_blank">
+              <img src="/img/samples/disclosure.png" 
+                alt="screen shot of stack overflow information leak"
+                title="We never like writing these, but you can shine with how you handle them." 
+                className={styles.sample}
+                />
+            </a>       
           </div>
         </div>
       </div>
