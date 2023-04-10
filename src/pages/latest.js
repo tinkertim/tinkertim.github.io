@@ -28,7 +28,7 @@ function LatestWorkContent() {
         </p>
         <div className="row">
           <div className="col col--12">
-            <h2>Library &amp; Module / Product Spotlight Videos</h2>
+            <h2>Library &amp; Module / Product Spotlight Videos:</h2>
           </div>
         </div>
         <div className="row margin-top--lg">
