@@ -369,9 +369,13 @@ function LatestWrittenWorkContent() {
                   it was a big deal at the time.
                 </p>
                 <p className="margin-top--md">
-                  We couldn't support all of the languages that we wanted to,
-                  but we launched Stack Overflow for Portuguese, Spanish,
-                  Russian and Japanese within just a couple of years.
+                  <a
+                    href="https://area51.meta.stackexchange.com/questions/20987/internationalization-state-of-the-stack-stack-overflow-edition"
+                    target="_blank"
+                    className="button button--secondary button--outline button--md"
+                  >
+                    Read The Post &raquo;
+                  </a>
                 </p>
               </div>
             </div>
@@ -430,6 +434,15 @@ function LatestWrittenWorkContent() {
                     target="_blank"
                   >
                     kind of legendary!
+                  </a>
+                </p>
+                <p className="margin-top--md">
+                  <a
+                    href="https://meta.stackexchange.com/questions/304500/a-moose-some-silly-putty-and-a-desperate-plea-for-help"
+                    target="_blank"
+                    className="button button--secondary button--outline button--md"
+                  >
+                    Read The Post &raquo;
                   </a>
                 </p>
               </div>
@@ -503,6 +516,15 @@ function LatestWrittenWorkContent() {
                   just like them. Well, not
                   <em>just</em> - they're special ;)
                 </p>
+                <p>
+                  <a
+                    href="https://stackoverflow.blog/2018/11/21/our-theory-of-moderation-re-visited/"
+                    target="_blank"
+                    className="button button--secondary button--outline button--md"
+                  >
+                    Read The Post &raquo;
+                  </a>
+                </p>
               </div>
             </div>
           </div>
@@ -532,6 +554,15 @@ function LatestWrittenWorkContent() {
                   like giving a press conference. The comment system puts the
                   poster abruptly in a 1:many dynamic similar to a Reddit AMA,
                   just more "real time" with better moderation tools.
+                </p>
+                <p>
+                  <a
+                    href="https://meta.stackoverflow.com/questions/340960/a-post-mortem-on-the-recent-developer-story-information-leak"
+                    target="_blank"
+                    className="button button--secondary button--outline button--md"
+                  >
+                    Read The Post &raquo;
+                  </a>
                 </p>
               </div>
             </div>
