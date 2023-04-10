@@ -100,7 +100,10 @@ const config = {
         ],
         copyright: `Copyright © ${
           new Date().getFullYear()
-        } Design, Theme And Content By Tim Post. Built with Docusaurus.`,
+        } Design, Theme And Content By Tim Post. Built with Docusaurus.&nbsp;
+        Code samples are licensed under the <a href="https://opensource.org/license/mit/">MIT license</a>.<br />
+        Prosaic content is licensed under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a> license, with attribution required.
+        `,
       },
       prism: {
         theme: lightCodeTheme,
