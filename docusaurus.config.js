@@ -111,16 +111,14 @@ const config = {
         disableSwitch: false,
         respectPrefersColorScheme: true,
       },
-      /*
       announcementBar: {
-        id: "megaphone",
+        id: "banner",
         content:
-          'Very important message goes here. HTML works.',
-        backgroundColor: "#000",
-        textColor: "#ccc",
-        isCloseable: false,
+          "<strong>I'm <a href='/blog/job-hunting'>looking for my next full-time thing</a>; if you're interested or know anyone, <a href='/contact'>please reach out</a>!</strong>",
+        backgroundColor: "#666",
+        textColor: "#fff",
+        isCloseable: true,
       },
-      */
     }),
 };
 
