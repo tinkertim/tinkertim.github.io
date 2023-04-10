@@ -18,9 +18,10 @@ function AboutPageContent() {
               </strong>
             </p>
             <p className="padding-top--md">
-              Curious about the book? It's not real, but it might help you! If you ever have to build a
-              "professional" site and feel like one more picture of your face online will
-              break the universe: paint yourself as a children's book cover. You're welcome.
+              Curious about the book? It's not real, but it might help you! If
+              you ever have to build a "professional" site and feel like one
+              more picture of your face online will break the universe: paint
+              yourself as a children's book cover. You're welcome.
             </p>
             <p className="padding-top--md">
               I got my start in tech back in the 1990s, during the first dot-com
@@ -29,12 +30,12 @@ function AboutPageContent() {
               before on a TRS-80 and C-64.
             </p>
             <p className="padding-top--md">
-              The first half of my programming career was spent pretty strictly in the
-              UNIX world. I worked on file systems, multiple kernels, shells,
-              hypervisors and what led to be known as IAAS / PAAS. It was my
-              journey in the hosting industry that ultimately landed me in The
-              Philippines, where I settled for nearly 15 years and started a
-              family.
+              The first half of my programming career was spent pretty strictly
+              in the UNIX world. I worked on file systems, multiple kernels,
+              shells, hypervisors and what led to be known as IAAS / PAAS. It
+              was my journey in the hosting industry that ultimately landed me
+              in The Philippines, where I settled for nearly 15 years and
+              started a family.
             </p>
           </div>
           <div class="col col--5">
@@ -47,13 +48,13 @@ function AboutPageContent() {
           </div>
         </div>
         <div class="row padding-horiz--md">
-        <p className="padding-top--md">
-              I became known as someone who could pull over-budget death-marches
-              back into the black. This was hugely challenging and rewarding,
-              but too crushing to continue. I decided to explore the human
-              aspects of software development and joined the Stack Overflow
-              Community Growth Team.
-            </p>
+          <p className="padding-top--md">
+            I became known as someone who could pull over-budget death-marches
+            back into the black. This was hugely challenging and rewarding, but
+            too crushing to continue. I decided to explore the human aspects of
+            software development and joined the Stack Overflow Community Growth
+            Team.
+          </p>
           <p className="margin-top--md">
             In 2013, "DevRel" really wasn't a thing yet. While DevRel wasn't
             exactly <em>invented</em>
