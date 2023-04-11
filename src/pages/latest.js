@@ -477,7 +477,7 @@ function LatestWrittenWorkContent() {
             </a>
           </div>
           <div className="col col--7">
-            <div className="card margin-top--lg">
+            <div className="card margin-top--md">
               <div className="card__header">
                 <h3>
                   Leading A Community Means Providing Agency &amp; Purpose
@@ -510,11 +510,6 @@ function LatestWrittenWorkContent() {
                   them. Their time is what addresses every shortcoming that the
                   engine has, and they do it just because they love the
                   communities that they serve.
-                </p>
-                <p>
-                  If you take care of people properly, you'll have a community
-                  just like them. Well, not
-                  <em>just</em> - they're special ;)
                 </p>
                 <p>
                   <a
@@ -596,7 +591,7 @@ function LatestWrittenWorkContent() {
             </a>
           </div>
           <div className="col col--7">
-            <div className="card margin-top--lg">
+            <div className="card margin-top--md">
               <div className="card__header">
                 <h3>
                   Data-driven Engagement Strategies (Directed, Headed Communications)
