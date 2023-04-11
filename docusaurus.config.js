@@ -125,6 +125,10 @@ const config = {
       googleTagManager: {
         containerId: 'GTM-TVD72WD',
       },
+      gtag: {
+        trackingID: 'G-HTWJL43YVE',
+        anonymizeIP: true,
+      },
     }),
 };
 
