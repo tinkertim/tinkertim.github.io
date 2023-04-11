@@ -62,11 +62,6 @@ function HomePageContent() {
               You can't fake a genuine admiration for something. If I can help
               you tell your story, please reach out!
             </p>
-            <p className="margin-top-md">
-              <small>
-                P.S.: Check out dark mode -- upper-right. You're welcome.
-              </small>
-            </p>
             <Link
               className={clsx("button button--primary button--lg", styles.poof)}
               to="/blog/community-software"
