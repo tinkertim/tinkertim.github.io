@@ -52,8 +52,8 @@ function HomePageContent() {
               Storytelling is my favorite past time. I love bring out the care
               and passion that goes into developer products when I demo them. I
               tell myself that I'm an actor, and it's my job to play the person
-              that put everything they own into the development of what I'm
-              showing.
+              that put everything they are into the development of what I'm
+              showing, because that's what developers do.
             </p>
             <p className="margin-top--md">
               Developers do not like or trust traditional marketing. If you
