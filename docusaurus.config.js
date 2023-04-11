@@ -15,6 +15,7 @@ const config = {
   organizationName: "tinkertim",
   projectName: "tinkertim.github.io",
   deploymentBranch: "github-pages",
+  trailingSlash: true,
 
   // How should broken links be handled?
   onBrokenLinks: "warn",
