@@ -462,7 +462,7 @@ function LatestWrittenWorkContent() {
             </a>
           </div>
         </div>
-        <div class="row margin-top--md">
+        <div class="row margin-top--lg">
           <div className="col col--5">
             <a
               href="https://stackoverflow.blog/2018/11/21/our-theory-of-moderation-re-visited/"
