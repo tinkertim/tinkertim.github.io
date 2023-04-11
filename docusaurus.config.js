@@ -48,6 +48,10 @@ const config = {
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
+        gtag: {
+          trackingID: 'G-HTWJL43YVE',
+          anonymizeIP: true,
+        },
       }),
     ],
   ],
@@ -124,10 +128,6 @@ const config = {
       },
       googleTagManager: {
         containerId: 'GTM-TVD72WD',
-      },
-      gtag: {
-        trackingID: 'G-HTWJL43YVE',
-        anonymizeIP: true,
       },
     }),
 };
