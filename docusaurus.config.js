@@ -122,6 +122,9 @@ const config = {
         textColor: "#fff",
         isCloseable: true,
       },
+      googleTagManager: {
+        containerId: 'GTM-TVD72WD',
+      },
     }),
 };
 
