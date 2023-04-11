@@ -62,7 +62,7 @@ const config = {
     ({
       image: "img/tim_header.png",
       navbar: {
-        title: "tinkertim@localhost:~/$ ",
+        title: "@tinkertim.localhost:~/$ ",
         /*
          // for now I just use text, it's fine for me. 
         logo: {
