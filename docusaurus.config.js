@@ -8,7 +8,7 @@ const config = {
   title: "Tim Post's Website",
   tagline: "Code & Culture With An O.G. DevRel",
   favicon: "img/favicon.ico",
-  url: "https://tinkertim.github.io/",
+  url: "https://tinkertim.github.io",
   baseUrl: "/",
 
   // GH Pages 
