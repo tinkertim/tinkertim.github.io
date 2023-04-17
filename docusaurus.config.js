@@ -97,6 +97,10 @@ const config = {
                 href: "https://twitter.com/tinkertim",
               },
               {
+                label: "UpWork",
+                href: "https://www.upwork.com/freelancers/~0155f85cfb27da6675",
+              },
+              {
                 label: "LinkedIn",
                 href: "https://www.linkedin.com/in/tim-post28/",
               },
