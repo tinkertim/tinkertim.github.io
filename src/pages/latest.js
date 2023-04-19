@@ -594,24 +594,31 @@ function LatestWrittenWorkContent() {
             <div className="card margin-top--md">
               <div className="card__header">
                 <h3>
-                  Data-driven Engagement Strategies (Directed, Headed Communications)
+                  Data-driven Engagement Strategies (Directed, Headed
+                  Communications)
                 </h3>
               </div>
               <div className="card__body">
                 <p className="margin-top--md">
-                  Stack Overflow isn't just "gamification." Many of the site's features are born{" "}
-                  through going over lots of data and seeing trends that suggest the balance between{" "}
-                  intrinsic and extrinsic motivation might be slightly out of whack when it comes to{" "}
+                  Stack Overflow isn't just "gamification." Many of the site's
+                  features are born{" "}
+                  through going over lots of data and seeing trends that suggest
+                  the balance between{" "}
+                  intrinsic and extrinsic motivation might be slightly out of
+                  whack when it comes to{" "}
                   using a particular feature to its full potential.
                 </p>
                 <p>
-                  Pictured is the announcement for some badges that we shipped to bolster our user's{" "}
-                  already enormous senses of altruism, and show new users that contributors who help{" "}
-                  other users have a better experience on the site are especially revered.
+                  Pictured is the announcement for some badges that we shipped
+                  to bolster our user's{" "}
+                  already enormous senses of altruism, and show new users that
+                  contributors who help{" "}
+                  other users have a better experience on the site are
+                  especially revered.
                 </p>
                 <p>
-                  One of my super powers is seeing weird trends in data that are fed to me as hunches{" "}
-                  that sort of strike out of nowhere.
+                  One of my super powers is seeing weird trends in data that are
+                  fed to me as hunches that sort of strike out of nowhere.
                 </p>
                 <p>
                   <a
