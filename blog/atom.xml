@@ -19,7 +19,7 @@ who said the best color for the bike shed is <em>fire</em>. I agree, <em>usually
 things in community dynamics. </p><p>There are two things that I really want you to know when it comes to initially fostering a new community:</p><ol><li>The organism, especially an online organism, <a href="https://www.azquotes.com/quote/968276" target="_blank" rel="noopener noreferrer">will do whatever it damn well pleases</a>. I'm not kidding.</li><li>Your choice of what software to use should be ultimately decided by users, after being initially
 driven by user journey stories.</li></ol><p>If you understand both of those things, you might also say that this
 seems a <em>little</em> over-simplified to you, and you're not wrong, but I'll do
-my best to explain it in less than five minutes:</p><p><img loading="lazy" alt="Community Growth" src="/assets/images/community-growth-og-dbbb34fbfdd675958563158124ceda57.png" width="2560" height="1440" class="img_ev3q"></p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="drive-and-protect-growth-dont-try-to-control-it-too-much">Drive And Protect Growth; Don't Try To Control It Too Much<a href="#drive-and-protect-growth-dont-try-to-control-it-too-much" class="hash-link" aria-label="Direct link to Drive And Protect Growth; Don't Try To Control It Too Much" title="Direct link to Drive And Protect Growth; Don't Try To Control It Too Much">​</a></h3><p>Wild idea: Let your community decide on the software it wants so that you're free to build
+my best to explain it in less than five minutes:</p><a href="/blog/community-software/"><img loading="lazy" src="/img/blog/community-software/community-growth-og.png" class="blogImage img_ev3q" title="Communities Like Making Their Own Decisions" alt="Artwork representing a community"></a><h3 class="anchor anchorWithStickyNavbar_LWe7" id="drive-and-protect-growth-dont-try-to-control-it-too-much">Drive And Protect Growth; Don't Try To Control It Too Much<a href="#drive-and-protect-growth-dont-try-to-control-it-too-much" class="hash-link" aria-label="Direct link to Drive And Protect Growth; Don't Try To Control It Too Much" title="Direct link to Drive And Protect Growth; Don't Try To Control It Too Much">​</a></h3><p>Wild idea: Let your community decide on the software it wants so that you're free to build
 things that will delight them. Isn't that reflective of why you wanted a community in the
 first place?</p><p>What if it was <em>just</em> your job to evaluate what's out there so you can rule any clear deal-breakers
 out in conversations, and up to your community to decide on what it wants? For instance, let users
@@ -61,6 +61,7 @@ be the face and voice, and executue on what they decide along with you.</p><p>Ma
             <uri>https://tinkertim.github.io</uri>
         </author>
         <category label="community-strategy" term="community-strategy"/>
+        <category label="community-growth" term="community-growth"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Things I'm Thinking About Getting Edgy With]]></title>
@@ -72,7 +73,7 @@ be the face and voice, and executue on what they decide along with you.</p><p>Ma
 are really appealing to me because the majority of web work that I do involves some
 kind of documentation, which these days usually means using a static site generator
 of some sort. These well-orchestrated SPAs are great, in fact this blg post is being
-brought to you with one of them, but they're just that - static.</p><p><img loading="lazy" alt="Functions" src="/assets/images/functions-og-00c9a935df1380693b6fe8e74d0e20b3.png" width="1280" height="720" class="img_ev3q"></p><p>I used the Google link because the vendors are still figuring it out. This is all
+brought to you with one of them, but they're just that - static.</p><a href="/blog/uses-for-edge-functions/"><img loading="lazy" src="/img/blog/uses-for-edge-functions/functions-og.png" class="blogImage img_ev3q" alt="Artwork representing functions" title="Edge functions are all the rage. Good news is, they're actually useful, too!"></a><p>I used the Google link because the vendors are still figuring it out. This is all
 still kinda new, which is neat (IMHO).</p><p>There are enough places that provide usable "freemium tier" edge functions, some
 even complete with storage, that hobbyists and open-source enthisiasts like me
 can build stuff and not need to pay a monthly bill for it. I might even package
@@ -115,7 +116,7 @@ play with.</p>]]></content>
 milestones, it's now rational for me to think long-term again. Long-term
 survival is never a sure thing for anyone, but cancer survivors feel a lot
 better every year after their fifth year of remission because even older
-survival numbers go up and to the right afterward.</p><p><img loading="lazy" alt="Adventure" src="/assets/images/adventure-og-f4b301e2c5f2aec45917a040444ab8e1.png" width="1280" height="720" class="img_ev3q"></p><p>Being asked something like ...  <em>where do you see yourself in a few years?</em> in
+survival numbers go up and to the right afterward.</p><a href="/blog/job-hunting/"><img loading="lazy" src="/img/blog/job-hunting/adventure-og.png" class="blogImage img_ev3q" alt="Artwork representing a new adventure" title="Never fun, but always exciting!"></a><p>Being asked something like ...  <em>where do you see yourself in a few years?</em> in
 an interview no longer summons existential angst, which is a huge deal for me.
 I can rationally see myself building something long-term, not just contributing
 where I can to short-term needs while I waited to see how things went. </p><p>I've filled in my time by doing some contract work to meet our minimum expenses,
@@ -154,7 +155,7 @@ narrative. There's nothing wrong with adding to the collective, provided that
 you're writing your own version, too.</p><p>So, I had to do the thing I said I wasn't going to do again: I had to build yet
 another personal website. I didn't feel like getting a degree in hot new
 frameworks, so I was originally going to go with Astro but Tailwind is just not
-comfortable for me for a personal project, so I ended up using:</p><p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500" class="img_ev3q"></p><p>... at least for now. I really want to play with Astro, as well as Fresh, but
+comfortable for me for a personal project, so I ended up using:</p><a href="/blog/welcome/"><img loading="lazy" src="/img/blog/welcome/docusaurus-plushie-banner.jpeg" class="blogImage img_ev3q" alt="Docusaurus Plushies" title="Somehow, I always pick Docusaurus when I need to get shit done."></a><p>... at least for now. I really want to play with Astro, as well as Fresh, but
 the ecosystems around both are pretty Tailwind-heavy for the time being.</p><p>And for just a blog with a few static pages - Docusaurus is fine. I may even
 bring back the docs and create some tutorials eventually, but the goal right now
 is to just have a better professional presence.</p>]]></content>
@@ -172,7 +173,7 @@ is to just have a better professional presence.</p>]]></content>
         <summary type="html"><![CDATA[Tim tries Flo Walker by Grow West and writes a comprehensive review.]]></summary>
         <content type="html"><![CDATA[<p>Whatever your late day wind-down cycle entails, you want your cannabis to match your vibe. If you want to watch
 a movie, you need a head clear enough to let you, and possibly get up and make yourself or some companions a
-snack.</p><img loading="lazy" src="/img/reviews/grow-west-flo-walker/grow-west-flo-walker.avif" class="blogImage img_ev3q"><p>Or maybe you just want your couch to defy physics and absorb you slowly throughout the evening <!-- -->—<!-- --> and that's totally
+snack.</p><a href="/blog/flo-walker-by-grow-west/"><img loading="lazy" src="/img/reviews/grow-west-flo-walker/grow-west-flo-walker.avif" class="blogImage img_ev3q" alt="Dried Cannabis Flower" title="Flo Walker By Grow West (Image By Grow West)"></a><p>Or maybe you just want your couch to defy physics and absorb you slowly throughout the evening <!-- -->—<!-- --> and that's totally
 understandable <!-- -->—<!-- --> but can the same bud help you with both? Flo Walker by Forward Grow will definitely try
 its best to meet both demands. </p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="full-relaxation-without-total-sedation">Full Relaxation Without Total Sedation<a href="#full-relaxation-without-total-sedation" class="hash-link" aria-label="Direct link to Full Relaxation Without Total Sedation" title="Direct link to Full Relaxation Without Total Sedation">​</a></h2><p>Flo walker has an <em>absurd</em> amount of the terpene Beta Myrcene, which has a relaxing and sedating effect. It's not
 an inflammation killer, but it will relieve tense tired muscles and tense tired minds. However, with a significant
@@ -199,7 +200,7 @@ strain. Don't use it at work unless you're taking the rest of the day off.</p>]]
         <summary type="html"><![CDATA[Tim tries Sunny Wizard by Curio Wellness and writes a comprehensive review.]]></summary>
         <content type="html"><![CDATA[<p>I ask a lot from a single strain of cannabis. </p><p>I need bright, clear thinking but not the urge to be chatty. I need muscle relaxation without being
 glued to a chair. I need serious help with pain and inflammation. I have debilitating anxiety. </p><p>I also can't afford designer weed that comes in keepsake jars, which unfortunately really narrows my options for something that really meets
-my daytime needs. </p><img loading="lazy" src="/img/reviews/curio-sunny-wizard/curio-sunny-wizard.avif" class="blogImage img_ev3q"><p>For the longest time, only Miracle Alien Cookies really hit the spot. That's not to say that I don't like or use
+my daytime needs. </p><a href="/blog/sunny-wizard-by-curio-wellness/"><img loading="lazy" src="/img/reviews/curio-sunny-wizard/curio-sunny-wizard.avif" class="blogImage img_ev3q" alt="Dried Cannabis Flower" title="Sunny Wizard By Curio Wellness"></a><p>For the longest time, only Miracle Alien Cookies really hit the spot. That's not to say that I don't like or use
 other strains, in fact I love trying new things all the time, it's just that most daytime-appropriate
 strains only help with a few of my symptoms. </p><p>I'd tried Wizard Gum by Curio when I was looking for a nightcap, so when I saw other "day walkers" reviewing
 this sunny cross, I knew I needed to try it. I'm glad that I did. I refer to anyone that consumes cannabis
