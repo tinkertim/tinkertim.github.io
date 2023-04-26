@@ -28,3 +28,11 @@
   --ifm-color-primary-lightest: #a79ee2;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* Only way I could figure out how to have it available to all blog posts yet editable in one place */
+
+.blogImage {
+  width: auto;
+  border-radius: 25px;
+  padding: .5em;
+}
