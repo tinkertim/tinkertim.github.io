@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktinkertim_github_io=self.webpackChunktinkertim_github_io||[]).push([[2464],{9669:e=>{e.exports=JSON.parse('{"label":"cannabis-reviews","permalink":"/blog/tags/cannabis-reviews","allTagsPath":"/blog/tags","count":2}')}}]);
