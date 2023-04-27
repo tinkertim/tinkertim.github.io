@@ -152,6 +152,16 @@ const config = {
       googleTagManager: {
         containerId: 'GTM-TVD72WD',
       },
+      mermaid: {
+        theme: {light: 'base', dark: 'base'},
+        options: {
+          themeVariables: {
+            pieTitleTextSize: '30px',
+            pieSectionTextSize: '24px',
+            pieLegendTextSize: '24px'
+          }
+        }
+      }
     }),
 };
 
