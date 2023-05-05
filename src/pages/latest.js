@@ -12,7 +12,7 @@ function LatestWorkContent() {
         <p className="margin-top--md" style={{ color: "orange" }}>
           <strong>
             This page loads a lot of external content; please allow a second for
-            everything to load, thanks!
+            everything to load, thanks! (<a href="#written">Skip To Written Samples</a>)
           </strong>
         </p>
         <p className="margin-top--md">
@@ -291,8 +291,8 @@ function LatestWrittenWorkContent() {
     <section>
       <div className="container">
         <div className="row margin-top--lg">
-          <div class="col col--12">
-            <h2>Writing & Engagement Project Samples:</h2>
+          <div class="col col--12 padding-top--md">
+            <h2><a name="written">Writing & Engagement Project Samples:</a></h2>
             <p className="margin-top--md">
               I was Stack Overflow's main outward voice in written form for
               almost eight years. You can get a very good feel for how I relate
