@@ -52,7 +52,7 @@ function AboutPageContent() {
           <div className="col col--12">
             <p className="padding-top--md">
               In 2013, "DevRel" really wasn't a thing yet. While DevRel wasn't
-              exactly <em>invented</em>
+              exactly <em>invented</em>{" "}
               at Stack Overflow, we were one of the first teams put in a PR role
               and comprised solely of former developers specifically so we'd
               have that perspective. We may not have been the first, but we were
