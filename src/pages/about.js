@@ -14,7 +14,7 @@ function AboutPageContent() {
             </h1>
             <p className="padding-top--md">
               <strong>
-                I've also been called an inbound funnel mechanic.
+                ... and also called an inbound funnel mechanic, a community-whisperer and a teller of terrible dad jokes; I admit to all of it.
               </strong>
             </p>
             <p className="padding-top--md">
