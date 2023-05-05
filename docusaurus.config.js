@@ -5,7 +5,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Tim Post's Website",
+  title: "Tim Post's Portfolio & Blog",
   tagline: "Code & Culture With An O.G. DevRel",
   favicon: "img/favicon.ico",
   url: "https://tinkertim.github.io",
