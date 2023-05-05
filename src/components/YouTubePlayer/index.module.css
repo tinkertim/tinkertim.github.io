@@ -30,6 +30,11 @@ html[data-theme='dark'] .videoEmbed {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    box-shadow: var(--ifm-global-shadow-tl);
+}
+
+[data-theme="dark"] .videoEmbed iframe {
+    box-shadow: none;
 }
 
 .shortEmbed {
@@ -65,4 +70,9 @@ html[data-theme='dark'] .shortEmbed {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    box-shadow: var(--ifm-global-shadow-tl);
+}
+
+[data-theme="dark"] .shortEmbed iframe {
+    box-shadow: none;
 }
