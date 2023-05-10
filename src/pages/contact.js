@@ -16,34 +16,16 @@ function ContactPageContent() {
         </p>
         <p className="margin-top--md">
           The best way to reach me is via e-mail; I'm{" "}
-          <code>tinkertim@gmail.com</code>.
+          <code>tinkertim@gmail.com</code>. If you want to set up a meeting, you 
+          can <a href="https://calendly.com/timthepost" target="_blank">grab 30 minutes for us</a> 
+          {" "}from my calendar. If you think we'll need more than 30 minutes, please email me in advance.
         </p>
         <p>
           You can also reach out to me on Twitter or LinkedIn - see the links in
           the footer. My DMs on Twitter are open, but it may take me a few days
-          to see your message request. If you're a recruiter, or would be
-          interested in exploring hiring me, you can get a copy of my CV from
-          {" "}
-          <a href="https://notanothercv.com" target="_new">Not Another CV</a>
-          {"  "}who I've teamed up with to host it:
+          to see your message request.
         </p>
-        <iframe
-          title="Download CV"
-          src="https://download.notanothercv.com/embed/640b272923b49b1fd71279aa?theme=dynamic"
-          width="100%"
-        >
-          Error: Failed to load CV Download Component
-        </iframe>
-        <p>
-          Alternately, you can just{" "}
-          <a
-            href="https://notanothercv.com/u/640b272923b49b1fd71279aa"
-            target="_new"
-          >
-            view my CV
-          </a>{" "}
-          at Not Another CV. They're a great alternative to LinkedIn!
-        </p>
+        <p>Please email me directly if you'd like a copy of my CV.</p>
       </div>
     </section>
   );
