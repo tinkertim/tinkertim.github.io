@@ -12,7 +12,7 @@ function LatestWorkContent() {
         <p className="margin-top--md" style={{ color: "orange" }}>
           <strong>
             This page loads a lot of external content; please allow a second for
-            everything to load, thanks! (<a href="#written">Skip To Written Samples</a>)
+            everything to load, thanks! ( <a href="#written"> &darr;&darr; skip to written samples below &darr;&darr;</a> )
           </strong>
         </p>
         <p className="margin-top--md">
