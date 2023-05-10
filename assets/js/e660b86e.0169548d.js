@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktinkertim_github_io=self.webpackChunktinkertim_github_io||[]).push([[8020],{7584:t=>{t.exports=JSON.parse('{"label":"adhd","permalink":"/blog/tags/adhd","allTagsPath":"/blog/tags","count":2}')}}]);
