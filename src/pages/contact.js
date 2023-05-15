@@ -45,10 +45,10 @@ export default function Home() {
             </div>
           </div>
           <div className="row">
-            <div className="col col--8">
+            <div className="col col--9">
               <ContactPageContent />
             </div>
-            <div className="col col--4">
+            <div className="col col--3">
               <ShowCalendly />
             </div>
           </div>
