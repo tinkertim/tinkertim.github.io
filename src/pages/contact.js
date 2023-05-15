@@ -6,7 +6,6 @@ import styles from "./contact.module.css";
 function ContactPageContent() {
   return (
     <section>
-      <div className="container">
         <p className="margin-top--md">
           The best way to reach me is via e-mail; I'm{" "}
           <code>tinkertim@gmail.com</code>. If you want to set up a meeting, you 
@@ -31,17 +30,13 @@ function ContactPageContent() {
           out-of-the-loop. If there's something I can do as an ordinary
           "citizen" of SO or the Stack Exchange network, feel free to drop in!
         </p>
-      </div>
     </section>
   );
 }
 
 export default function Home() {
   return (
-    <Layout
-      title={`Contact Tim`}
-      description="Contacting Tim Post"
-    >
+    <Layout title={`Contact Tim`} description="Contacting Tim Post">
       <main>
         <div className="container">
           <div className="row">
@@ -49,8 +44,6 @@ export default function Home() {
               <h1>How To Get In Touch:</h1>
             </div>
           </div>
-        </div>
-        <div className="container">
           <div className="row">
             <div className="col col--8">
               <ContactPageContent />
