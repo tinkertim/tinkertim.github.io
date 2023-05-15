@@ -1,0 +1,9 @@
+.calendly-inline-widget {
+    display: inline-flex;
+}
+
+.calendly {
+    min-height: 960px;
+    display: flex;
+    margin: 15px 0px 25px 0px;
+}
