@@ -47,6 +47,11 @@ function HomePageContent() {
               when I say it was an accidental career move, but the best one I
               ever made. You might know me from the work I've done at Stack
               Overflow, Swimm and Deno.
+            </p> 
+            <p className="margin-top--md"> 
+              To me, Community Management is part of DevRel, at least when it comes 
+              to products aimed at developers; it's a specialty, not something 
+              different altogether.
             </p>
             <p className="margin-top--md">
               Storytelling is my favorite past time. I love bring out the care
