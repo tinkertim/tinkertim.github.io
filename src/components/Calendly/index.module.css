@@ -6,4 +6,9 @@
     min-height: 960px;
     display: flex;
     margin: 15px 0px 25px 0px;
+    background-color: black;
+    background-image: url('/img/loading-9-16.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
