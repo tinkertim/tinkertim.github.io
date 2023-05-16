@@ -78,7 +78,7 @@ function AboutPageContent() {
             />            
           </div>
           <div className="col col--7">
-            <p className="padding-top--md">
+            <p className="padding-top--lg">
               A few years later, I was running the team as the Director of
               Community Strategy. I had also just been diagnosed with stage IV
               lung cancer that had spread, and spread rapidly, through my brain.
