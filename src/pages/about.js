@@ -51,7 +51,7 @@ function AboutPageContent() {
         <div class="row margin-top--md">
           <div className="col col--12">
             <p
-              className="padding-top--md" 
+              className="padding-top--sm padding-bottom--sm" 
               style={{
                 fontSize: "32px", 
                 fontWeight: "bold", 
