@@ -10,7 +10,7 @@ function AboutPageContent() {
         <div class="row margin-top--lg">
           <div class="col col--7">
             <h1 className="margin-top--lg">
-              About Tim Post: An O.G. DevRel!
+              About Tim Post: O.G. DevRel & Community Leader!
             </h1>
             <p className="padding-top--md">
               <strong>
@@ -42,15 +42,23 @@ function AboutPageContent() {
           <div class="col col--5">
             <img
               className={clsx(styles.book, "item shadow--tl margin-top--md")}
-              src="/img/banner.png"
-              alt="Tim Post Was Here!"
-              title="I might actually write this one day."
+              src="/img/photog.png"
+              alt="Tim Post Holding A Camera (Photographer Selfie)"
+              title="I'm a pretty good photographer, too."
             />
           </div>
         </div>
         <div class="row margin-top--md">
           <div className="col col--12">
-            <p className="padding-top--md">
+            <p
+              className="padding-top--md" 
+              style={{
+                fontSize: "32px", 
+                fontWeight: "bold", 
+                borderLeft: "12px solid #ccc",
+                paddingLeft: "22px",
+                borderTopLeftRadius: "12px",
+                borderBottomLeftRadius: "12px" }}>
               In 2013, "DevRel" really wasn't a thing yet. While DevRel wasn't
               exactly <em>invented</em>{" "}
               at Stack Overflow, we were one of the first teams put in a PR role
@@ -58,6 +66,18 @@ function AboutPageContent() {
               have that perspective. We may not have been the first, but we were
               definitely some of the originals.
             </p>
+          </div>
+        </div>
+        <div className="row margin-top--md margin-bottom--lg">
+          <div className="col col--5">
+            <img
+              className={clsx(styles.book, "item shadow--tl margin-top--md")}
+              src="/img/banner.png"
+              alt="Tim Post Was Here!"
+              title="I might actually write this one day."
+            />            
+          </div>
+          <div className="col col--7">
             <p className="padding-top--md">
               A few years later, I was running the team as the Director of
               Community Strategy. I had also just been diagnosed with stage IV
