@@ -110,6 +110,10 @@ const config = {
                 href: "https://github.com/tinkertim",
               },
               {
+                label: "T2 Social",
+                href: "https://t2.social/tinkertim",
+              },
+              {
                 label: "Twitter",
                 href: "https://twitter.com/tinkertim",
               },
