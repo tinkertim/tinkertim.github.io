@@ -55,7 +55,7 @@ function HomePageContent() {
               different altogether.
             </p>
             <p className="margin-top--md">
-              Storytelling is my favorite past time. I love bring out the care
+              Storytelling is my favorite pastime. I love bring out the care
               and passion that goes into developer products when I demo them. Authentic use and
               admiration leads to authentic conversations that drive growth. If I can 
               help you tell your product or community story, please reach out!
