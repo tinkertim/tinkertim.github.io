@@ -109,33 +109,29 @@ function HomePageContent() {
             </p>
             <div className={styles.bottomish}>
               <p className={styles.coolStory}>
-                When nobody knows what it is, we tell the product story. When
-                nobody knows what to do next, we tell user stories.
+                When users don't know the product exists, we tell the product story. When
+                nobody knows what to build next, we tell the user stories.
                 <br />
                 <br />
                 When we need to hire developers to grow it, we create job
                 descriptions and advise on where to post them.<br />
-                When there are no sales, we're sales folk;<br />
+                When there are no sales, we're sales enablers;<br />
                 when there are no CS engineers, we're support specialists.
                 <br />
                 <br />
                 When we need to publicly learn hard lessons, we write the
                 soliloquies. When there are heroes in our midst, we elevate
-                them.
+                them. Success for us means the success of others.
                 <br />
                 <br />
                 When there are no heroes, we encourage and develop heroes
                 through ambassador programs. We're experts in figuring out what
                 funnels should be built, and why they're clogging. DevRel is
                 anything but simple, and it's <strong>way</strong>{" "}
-                more than just creating content.
-                <br />
-                <br />
-                -- Tim Post
-                <br />
+                more than just creating content. --Tim Post (paraphrased from an email)
               </p>
             </div>
-            <p>
+            <p className="margin-top--lg margin-bottom--lg">
               <strong>
                 I hope you enjoy your visit to my site -{" "}
                 <Link href="/contact">please reach out</Link>{" "}
