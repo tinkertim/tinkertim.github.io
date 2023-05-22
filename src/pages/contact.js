@@ -10,7 +10,7 @@ function ContactPageContent() {
           The best way to reach me is via e-mail; I'm{" "}
           <code>tinkertim@gmail.com</code>. If you want to set up a meeting, you 
           can <a href="https://calendly.com/timthepost" target="_blank">grab 30 minutes for us</a> 
-          {" "}from my calendar on Calendly directly, or just use the widget to the right. Please let me 
+          {" "}from my calendar on Calendly directly, or just use the Calendly widget conveniently located on this page. Please let me 
           know in advance if you think we'll need more than 30 minutes.
         </p>
         <p>
