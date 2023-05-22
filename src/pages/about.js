@@ -13,9 +13,9 @@ function AboutPageContent() {
               About Tim Post: O.G. DevRel & Community Leader!
             </h1>
             <p className="padding-top--md">
-              <strong>
-                ... and also called an inbound funnel mechanic, a community-whisperer and a teller of terrible dad jokes; I admit to all of it.
-              </strong>
+                I've also been called an inbound funnel mechanic, a community-whisperer and a teller 
+                of terrible puns dad jokes; I admit to all of it. If you write a bad pun on a piece
+                of paper, it's automatically tear-able, right?
             </p>
             <p className="padding-top--md">
               I got my start in tech back in the 1990s, during the first dot-com
