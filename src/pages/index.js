@@ -4,6 +4,7 @@ import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import styles from "./index.module.css";
+import YouTubePlayer, { YouTubeShortPlayer } from "../components/YouTubePlayer";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -68,9 +69,31 @@ function HomePageContent() {
           </div>
         </div>
         <div className="row">
+          <div className="col col--12">
+            <h1 className="margin-top--lg">Recent Video & Spotlight Demo Work:</h1>
+            <p className="margin-top--md">
+              Below are a few videos that I've produced geared for both YouTube and TikTok I use 
+              video as one component of storytelling and rely more on simple but effective animations
+              rather than complex effects for most things. The message is what's most important. See
+              {" "}<a href="/latest">my latest work</a> for more samples!
+            </p>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col col--4">
+            <YouTubePlayer id="jjqongB3ao0" />
+          </div>
+          <div className="col col--4">
+            <YouTubeShortPlayer id="hhWPJWNCFrQ" />
+          </div>
+          <div className="col col--4">
+            <YouTubePlayer id="TDFv2hBRUtQ" />
+          </div>
+        </div>
+        <div className="row">
           <div class="col col--12">
             <h1 className="margin-top--lg">
-              DevRel Is More Than Just Content - So Much More!
+             But, DevRel Goes Beyond Content Production &amp; Game Show Hosting!
             </h1>
             <p>
               I don't claim to have the sole authority on what Developer
@@ -116,7 +139,7 @@ function HomePageContent() {
               <strong>
                 I hope you enjoy your visit to my site -{" "}
                 <Link href="/contact">please reach out</Link>{" "}
-                if I can be of service to you!
+                if I can help you tell your product story!
               </strong>
             </p>
           </div>
