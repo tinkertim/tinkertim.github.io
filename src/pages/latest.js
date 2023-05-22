@@ -227,35 +227,6 @@ function LatestWorkContent() {
           </div>
         </div>
         <div className="row margin-top--lg">
-          <div className="col col--4">
-            <div className="card margin-top--lg">
-              <div className="card__header">
-                <h3>Express / Deno II</h3>
-              </div>
-              <div className="card__body">
-                <p>
-                  The{" "}
-                  <Link href="https://github.com/tinkertim/deno-express-project">
-                    companion repository
-                  </Link>{" "}
-                  for this series also links to the{" "}
-                  <Link href="#">blog posts on Deno's site</Link>{" "}
-                  that summarizes the episodes.
-                </p>
-                <p>
-                  Adding a "let's play" energy to tutorial videos makes them
-                  more enjoyable, at least in my experience as a learner. I can
-                  dial my inflections from very conservative to exaggerated for
-                  presentation; I'm comfortable anywhere.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="col col--8">
-            <YouTubePlayer id="Mz59tNtv8" />
-          </div>
-        </div>
-        <div className="row margin-top--lg">
           <div className="col col--12">
             <h2 className="margin-top--md">
               "Shorts" and "Reels" and TikTok, Oh My!
