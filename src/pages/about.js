@@ -14,7 +14,7 @@ function AboutPageContent() {
             </h1>
             <p className="padding-top--md">
                 I've also been called an inbound funnel mechanic, a community-whisperer and a teller 
-                of terrible puns dad jokes; I admit to all of it. If you write a bad pun on a piece
+                of terrible puns &amp; dad jokes; I admit to all of it. If you write a bad pun on a piece
                 of paper, it's automatically tear-able, right?
             </p>
             <p className="padding-top--md">
