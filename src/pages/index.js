@@ -133,9 +133,7 @@ function HomePageContent() {
             </div>
             <p className="margin-top--lg margin-bottom--lg">
               <strong>
-                I hope you enjoy your visit to my site -{" "}
-                <Link href="/contact">please reach out</Link>{" "}
-                if I can help you tell your product story!
+                I hope you enjoy your visit to my site. If I can help you tell your product's story, <a href="/contact">please get in touch</a>!
               </strong>
             </p>
           </div>
