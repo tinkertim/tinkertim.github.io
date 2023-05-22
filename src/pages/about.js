@@ -95,11 +95,10 @@ function AboutPageContent() {
               also those fighting their own cancer battles.
             </p>
             <p className="margin-top--md margin-bottom--xl">
-              Curious about the book? It's not real, but it might help you! If
-              you ever have to build a "professional" site and feel like one
-              more picture of your face online will break the universe: try
-              painting yourself as a book cover. You'll have something that is
-              "you" without more repetition of your mug shot.
+              Curious about the book? It's not real. I couldn't stand another 
+              picture of me on this site, but I needed another image that felt like "me" 
+              to break up the content a bit, so I designed myself as a children's book cover. 
+              I can only take seeing but so many mugshots of me in one place, you know?
             </p>
           </div>
         </div>
