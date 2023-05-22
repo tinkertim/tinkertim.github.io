@@ -12,18 +12,18 @@ function AboutPageContent() {
             <h1 className="margin-top--lg">
               About Tim Post: O.G. DevRel & Community Leader!
             </h1>
-            <p className="padding-top--md">
+            <p className="margin-top--md">
                 I've also been called an inbound funnel mechanic, a community-whisperer and a teller 
                 of terrible puns &amp; dad jokes; I admit to all of it. If you write a bad pun on a piece
                 of paper, it's automatically tear-able, right?
             </p>
-            <p className="padding-top--md">
+            <p className="margin-top--md">
               I got my start in tech back in the 1990s, during the first dot-com
               bubble. I'd been writing code pretty regularly since learning C
               when I was about 15 after learning BASIC and simple assembly years
               before on a TRS-80 and C-64.
             </p>
-            <p className="padding-top--md">
+            <p className="margin-top--md">
               The first half of my programming career was spent pretty strictly
               in the UNIX world. I worked on file systems, multiple kernels,
               shells, hypervisors and what led to be known as IAAS / PAAS. It
@@ -31,7 +31,7 @@ function AboutPageContent() {
               in The Philippines, where I settled for nearly 15 years and
               started a family.
             </p>
-            <p className="padding-top--md">
+            <p className="margin-top--md">
               I became known as someone who could pull over-budget death-marches
               back into the black. This was hugely challenging and rewarding,
               but too crushing to continue. I decided to explore the human
@@ -51,7 +51,7 @@ function AboutPageContent() {
         <div class="row margin-top--md">
           <div className="col col--12">
             <p
-              className="padding-top--sm padding-bottom--sm" 
+              className="margin-top--sm margin-bottom--sm" 
               style={{
                 fontSize: "32px", 
                 fontWeight: "bold", 
@@ -78,7 +78,7 @@ function AboutPageContent() {
             />            
           </div>
           <div className="col col--7">
-            <p className="padding-top--lg">
+            <p className="margin-top--lg">
               A few years later, I was running the team as the Director of
               Community Strategy. I had also just been diagnosed with stage IV
               lung cancer that had spread, and spread rapidly, through my brain.
@@ -88,13 +88,13 @@ function AboutPageContent() {
               about this experience probably more than I should, but going
               through it really turned me into an advocate on many fronts.
             </p>
-            <p className="padding-top--md">
+            <p className="margin-top--md">
               Now, I do mostly contract work as my physical health allows, while
               also focusing time on putting my experiences to work in advocacy
               for not just disabled folks re-gaining their skills in tech, but
               also those fighting their own cancer battles.
             </p>
-            <p className="padding-top--md margin-bottom--xl">
+            <p className="margin-top--md margin-bottom--xl">
               Curious about the book? It's not real, but it might help you! If
               you ever have to build a "professional" site and feel like one
               more picture of your face online will break the universe: try

@@ -40,12 +40,8 @@ export default function Home() {
       <main>
         <div className="container">
           <div className="row">
-            <div className="col col--12 margin-top--lg">
-              <h1>How To Get In Touch:</h1>
-            </div>
-          </div>
-          <div className="row">
             <div className="col col--9">
+              <h1 className="margin-top--lg">How To Get In Touch With Tim:</h1>
               <ContactPageContent />
             </div>
             <div className="col col--3">
