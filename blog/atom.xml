@@ -2,12 +2,62 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://tinkertim.github.io/blog</id>
     <title>Tim Post's Blog Feed</title>
-    <updated>2023-04-09T00:00:00.000Z</updated>
+    <updated>2023-05-31T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://tinkertim.github.io/blog"/>
     <subtitle>Let's see what we have here ...</subtitle>
     <icon>https://tinkertim.github.io/img/favicon.ico</icon>
     <rights>Copyright 2023 Tim Post</rights>
+    <entry>
+        <title type="html"><![CDATA[How To Set Inclusive Priorities For Communities]]></title>
+        <id>https://tinkertim.github.io/blog/explaining-priorities-improves-inclusion</id>
+        <link href="https://tinkertim.github.io/blog/explaining-priorities-improves-inclusion"/>
+        <updated>2023-05-31T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Writing about priorities is more effective and inclusive when approached from a results-oriented perspective. Here's how to do that easily!]]></summary>
+        <content type="html"><![CDATA[<p>I'm not sure who was the first person to speak the following sacred funnel
+wisdom text, or even precisely how it was first conveyed, but it sounded
+something a lot like this:</p><blockquote><p>When troubleshooting funnels, never look for output at the end
+of the funnel unless that's actually the next stage of the funnel.</p></blockquote><p>Some of the most difficult funnels to "debug" are the ones that require busy
+people to devote their full attention to something that you want to show them,
+or have them participate in.</p><a href="/blog/explaining-priorities-improves-inclusion/"><img loading="lazy" src="/img/blog/explaining-priorities-improves-inclusion/priorities-og.png" class="blogImage img_ev3q" title="If deadlines seem arbitrary, neurodivergent people often watch as they fly right by. Here are thoughts on how and when to communicate priorities more effectively AND inclusively." alt="Why Some Priorities Should Be Explained (designer text)"></a><p>And this, my colleagues, is because it's sometimes <em>really</em> tricky to get other
+people to share your sense for how important something is, even when they say it is.
+Whether it's finally getting someone to schedule a demo or getting people to attend
+a webinar, we generally do a not-great job of helping them know why their life just
+won't be as great if they deprioritize our thing. </p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="humans-are-often-aware-of-how-they-re--prioritize">Humans Are Often Aware Of How They (re-) Prioritize.<a href="#humans-are-often-aware-of-how-they-re--prioritize" class="hash-link" aria-label="Direct link to Humans Are Often Aware Of How They (re-) Prioritize." title="Direct link to Humans Are Often Aware Of How They (re-) Prioritize.">​</a></h3><p>The <code>tl;dr</code> of it is simply that people don't prioritize things the same way, and since
+our organic brains do it with lots of <a href="https://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-processing-an-unsorted-array" target="_blank" rel="noopener noreferrer">branch prediction</a>,
+people aren't always cognizant when they de-prioritize a task or even their rationalization
+for why something else is important; they do it because their brain <em>knew</em> it could rationalize
+it, and sent them some dopamine just to make them feel a-okay about your hackathon entry deadline
+flying right by. </p><p>If they knew that the order with their trophy would get all screwed up because they weren't
+on the correct spreadsheet in time, they might not have decided to play another round of Mario
+Kart.</p><p>Prioritization among neurodivergent folks can take on even more levels, and understanding
+priorities differently is one of the biggest causes of spats in open source communities. </p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="we-often-stink-when-it-comes-to-calling-others-to-action">We Often Stink When It Comes To Calling Others To Action<a href="#we-often-stink-when-it-comes-to-calling-others-to-action" class="hash-link" aria-label="Direct link to We Often Stink When It Comes To Calling Others To Action" title="Direct link to We Often Stink When It Comes To Calling Others To Action">​</a></h3><p>How we sort consequences from "scariest thing ever" to "meh" has a lot to do with what we
+tend to let go of when we need to allocate more focus to a single task. If we think that
+the deadline for <!-- -->[X]<!-- --> is arbitrary, some organic CPUs will de-prioritize it in the background
+without even telling the user, causing them to forget it entirely.</p><p>Getting to the WIIFM quickly is critical if you want to get something on people's radar,
+especially people that have highly interrupt-driven jobs. But that's not always enough
+to make them appropriately cognizant of keeping the plate high enough in the air. </p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="to-convey-importance-consider-stating-the-results-first">To Convey Importance, Consider Stating The Results First<a href="#to-convey-importance-consider-stating-the-results-first" class="hash-link" aria-label="Direct link to To Convey Importance, Consider Stating The Results First" title="Direct link to To Convey Importance, Consider Stating The Results First">​</a></h3><p>Consider the following two sentences:</p><blockquote><p><em>"Please send your bio no later than August 15."</em></p></blockquote><p>And:</p><blockquote><p><em>"If you want your name printed on the prize, we need your bio by August 15."</em></p></blockquote><p>Both sentences are professional. The top sentence is laconic and polite, but it's also not
+very effective. People <em>will</em> wait until days before the event to send it in because they
+aren't thinking about contest fulfillment. </p><p>The second sentence starts with a preposition, which helps snap out of someone glazing
+over the text. It doesn't begin with Please because the word often causes people's
+eyes to glaze back over. We're polite, but not easily scrolled past. </p><p>Finally, the sentence conveys a real consequence which will tie not getting the bio in time
+to a sense of disappointment, making it WAY less likely to get optimized away by the human organic
+compiler. </p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="it-matters-in-feedback-too">It Matters In Feedback, Too!<a href="#it-matters-in-feedback-too" class="hash-link" aria-label="Direct link to It Matters In Feedback, Too!" title="Direct link to It Matters In Feedback, Too!">​</a></h3><p>Here are two more sentences, but coming from a user from a perspective of wanting a new
+feature:</p><blockquote><p><em>"Please implement raw markdown mode."</em></p></blockquote><p>Great. Straight. To the point, but it's not going to get the product team to alter the way
+they currently have this prioritized, or give any indication of what would happen if they
+waited 120 days or more to do it. </p><blockquote><p><em>"When raw markdown is enabled, I can clear out our queue faster and get more of my team on board with adopting <!-- -->[product]<!-- -->."</em></p></blockquote><p>This is better for the same reasons that we saw in the first example, but you've effectively:</p><ul><li>Broke the reader out of "scroll mode"</li><li>Described an ideal outcome in a self-empowering way</li></ul><p>The scenario is just an example, and you can't always use titles in this way, but you get
+the general idea. </p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="mutually-shared-priorities-result-in-healthier-communities">Mutually-shared Priorities Result In Healthier Communities<a href="#mutually-shared-priorities-result-in-healthier-communities" class="hash-link" aria-label="Direct link to Mutually-shared Priorities Result In Healthier Communities" title="Direct link to Mutually-shared Priorities Result In Healthier Communities">​</a></h3><p>This really goes without saying, but you'd be surprised how much paying attention to this when
+crafting CTAs can improve your engagemnt across the board: internal to external, and external
+to internal. It helps neurodivergent people feel valued and considered, and results in better
+overall communication.</p>]]></content>
+        <author>
+            <name>Tim Post</name>
+            <uri>https://tinkertim.github.io</uri>
+        </author>
+        <category label="community-strategy" term="community-strategy"/>
+        <category label="community-growth" term="community-growth"/>
+        <category label="inclusive-leadership" term="inclusive-leadership"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Embrace The Bike Shed! Don't Get Hung Up On Community Software]]></title>
         <id>https://tinkertim.github.io/blog/community-software</id>
