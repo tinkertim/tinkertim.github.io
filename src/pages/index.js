@@ -64,7 +64,7 @@ function HomePageContent() {
               className={clsx("button button--primary button--lg", styles.poof)}
               to="/blog/explaining-priorities-improves-inclusion/"
             >
-              Latest Blog: "How To Set Inclusive Community Priorities" &raquo;
+              Latest Blog: "How To Set Inclusive Priorities For Communities" &raquo;
             </Link>
           </div>
         </div>
