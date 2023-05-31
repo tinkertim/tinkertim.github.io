@@ -62,9 +62,9 @@ function HomePageContent() {
             </p>
             <Link
               className={clsx("button button--primary button--lg", styles.poof)}
-              to="/blog/community-software"
+              to="/blog/explaining-priorities-improves-inclusion/"
             >
-              Latest Blog: "Don't Get Hung Up On Community Software" &raquo;
+              Latest Blog: "How To Set Inclusive Community Priorities" &raquo;
             </Link>
           </div>
         </div>
