@@ -44,7 +44,7 @@ function HomePageContent() {
           <div className="col col--9">
             <p className="margin-top--md">
               I'm Tim, and I'm one of the first that I know of to work the role
-              that we call Developer Relations (DevRel) today. Please believe me
+              that we call Community / Developer Relations (DevRel) today. Please believe me
               when I say it was an accidental career move, but the best one I
               ever made. You might know me from the work I've done at Stack
               Overflow, Swimm and Deno.
