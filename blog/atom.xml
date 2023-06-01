@@ -2,12 +2,57 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://tinkertim.github.io/blog</id>
     <title>Tim Post's Blog Feed</title>
-    <updated>2023-05-31T00:00:00.000Z</updated>
+    <updated>2023-06-01T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://tinkertim.github.io/blog"/>
     <subtitle>Let's see what we have here ...</subtitle>
     <icon>https://tinkertim.github.io/img/favicon.ico</icon>
     <rights>Copyright 2023 Tim Post</rights>
+    <entry>
+        <title type="html"><![CDATA[Yes, You Need A Community Newsletter. Here's Some Inspiration!]]></title>
+        <id>https://tinkertim.github.io/blog/you-need-a-community-newsletter</id>
+        <link href="https://tinkertim.github.io/blog/you-need-a-community-newsletter"/>
+        <updated>2023-06-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A newsletter is an essential tool for community building. I talk about ideas for content you can include in them, especially when you don't have much to start with.]]></summary>
+        <content type="html"><![CDATA[<p>I used to be extremely anti-email. I still am, personally, but I no longer
+squint and try to point at my nose with my lips when someone mentions an email
+drip campaign where software developers are the target audience. </p><p>I think I'm also safe in saying that many people expect that they'll be subscribed
+to <em>some</em> kind of list when they join a new community, with an easy one-link / one-click
+way to opt-out, does that sound about right?</p><a href="/blog/you-need-a-community-newsletter/"><img loading="lazy" src="/img/blog/you-need-a-community-newsletter/newsletter-og.png" class="blogImage img_ev3q" title="As long as you're respectful of recipient's time and deliver real value, a community newsletter can be an important early tool." alt="Creative depiction of an electronic newsletter"></a><p>I guess that means there's no good excuse for not having a newsletter for your
+online community. Well, maybe there is one excuse: not knowing what to write about. I can help
+there; let's talk about a bunch of stuff you can do when you really don't have great witty
+ideas to send out.</p><p>How you structure your community digest is up to you. Once a community reaches more than 50
+people, I like to have a <em>community specific</em> newsletter that I launch just for community-related
+updates. It's a great way to focus engagement on things in an easy, relaxed way and a great way
+to keep community satisfaction high.</p><p>I try to keep community newsletters speific to <em>community</em> news, even though that's frequently going
+to overlap with some product news, I like to keep the product stuff to the primary newsletter that
+the investors and everyone else gets. </p><p>Here's some ideas for what can go in your community newsletter perennially, or just as-needed when you
+don't have enough other content to really justify sending something out:</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="spotlight-heroes--welcome-nominations">Spotlight Heroes &amp; Welcome Nominations<a href="#spotlight-heroes--welcome-nominations" class="hash-link" aria-label="Direct link to Spotlight Heroes &amp; Welcome Nominations" title="Direct link to Spotlight Heroes &amp; Welcome Nominations">​</a></h3><p>Set a high threshold for this so it's a big deal when someone crosses it, but make sure you keep track
+of the effort people are putting in, and when they really crush something or go above and beyond, shine
+a light on them by telling the story to everyone else.</p><p>Reach out to the person in advance because this kind of spotlight can be uncomfortable for<br>
+<!-- -->some, and make sure people know you are interested in hearing about other instances that should
+be celebrated. </p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="leak-some-inside-info">"Leak" Some Inside Info<a href="#leak-some-inside-info" class="hash-link" aria-label="Direct link to &quot;Leak&quot; Some Inside Info" title="Direct link to &quot;Leak&quot; Some Inside Info">​</a></h3><p>Everyone loves an inside scoop. Could your product team occasionally provide some screen shots or
+other teasers so your community occasionally gets early access? It's a great way to get early feedback,
+make people feel special, and make sure there's something interesting for them to read about. </p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="interview-a-developer-or-pm">Interview A Developer Or PM<a href="#interview-a-developer-or-pm" class="hash-link" aria-label="Direct link to Interview A Developer Or PM" title="Direct link to Interview A Developer Or PM">​</a></h3><p>I once maintained a newsletter where in each issue, we would ask the community to send some questions for
+one of our product managers as we published the answers to the questions posted the previous week. This was
+a great two-way conduit for our product team with me as a sort of filter and go-between and was a favorite
+part of the newsletter.</p><p>You might find that, upon asking around, other employees might have great insights or topics to share with your
+community as employees see that other interviews are received positively and appreciated. </p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="adopt-a-pr">Adopt A PR<a href="#adopt-a-pr" class="hash-link" aria-label="Direct link to Adopt A PR" title="Direct link to Adopt A PR">​</a></h3><p>Some pull requests represent a great deal of work and care, but need someone else to care about them a little
+before they can be accepted. It's super helpful, extremely welcoming, and very empowering to the whole community.</p><p>It's helpful if you organize outreach to receive nominations for these, with self-nominations being explicitly
+encouraged. Similarly, offer to help maintainers of projects that your community cares about find new contributors,
+or even new maintainers entirely if necessary.</p><p>A little facilitating can get you a lot of goodwill. </p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="community-blog-posts--call-for-submissions">Community Blog Posts &amp; Call For Submissions<a href="#community-blog-posts--call-for-submissions" class="hash-link" aria-label="Direct link to Community Blog Posts &amp; Call For Submissions" title="Direct link to Community Blog Posts &amp; Call For Submissions">​</a></h3><p>It's great when people who don't work at your company write about your product. Make sure your community knows you'll
+syndicate posts they write and tell you about in your main newsletter, even if they aren't 100% flattering. It's also
+great if you reach out to community authors when you have paid writing work available.</p><p>Never offer to pay people with exposure, but giving exposure when they've already done something awesome is
+a great thing to do. </p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="hidden-prizes">Hidden Prizes<a href="#hidden-prizes" class="hash-link" aria-label="Direct link to Hidden Prizes" title="Direct link to Hidden Prizes">​</a></h3><p>Once in a while, deliver some completely spontaneous and random fun. Give stickers for those that participate in a "caption this"
+contest, or something else that just lets people be happy they opened your email. Make a meme or two. Feature your own poorly-drawn
+comic strip, as long as it's relevant to the community. </p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="let-it-become-community-led">Let It Become Community-led<a href="#let-it-become-community-led" class="hash-link" aria-label="Direct link to Let It Become Community-led" title="Direct link to Let It Become Community-led">​</a></h3><p>These are just ideas. The best newsletter is the one you produce based on feedback from your community. What matters is
+that you send it, send it consistently, and make sure you put some real attention toward making each issue valuable.</p>]]></content>
+        <author>
+            <name>Tim Post</name>
+            <uri>https://tinkertim.github.io</uri>
+        </author>
+        <category label="community-growth" term="community-growth"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How To Set Inclusive Priorities For Communities]]></title>
         <id>https://tinkertim.github.io/blog/explaining-priorities-improves-inclusion</id>
