@@ -84,7 +84,7 @@ function HomePageContent() {
             <YouTubeShortPlayer id="hhWPJWNCFrQ" />
           </div>
           <div className="col col--4">
-            <YouTubePlayer id="jjqongB3ao0" />
+            <YouTubePlayer id="YylvDtK5yzk" />
             <YouTubePlayer id="TDFv2hBRUtQ" />
           </div>
           <div className="col col--4">
