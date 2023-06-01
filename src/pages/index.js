@@ -43,7 +43,7 @@ function HomePageContent() {
           </div>
           <div className="col col--9">
             <p className="margin-top--md">
-              I'm Tim, and I'm one of the first that I know of to work the role
+              Hello! I'm Tim, and I'm one of the first that I know of to work the role
               that we call Community / Developer Relations (DevRel) today. Please believe me
               when I say it was an accidental career move, but the best one I
               ever made. You might know me from the work I've done at Stack
@@ -81,19 +81,19 @@ function HomePageContent() {
         </div>
         <div className="row">
           <div className="col col--4">
-            <YouTubePlayer id="jjqongB3ao0" />
-          </div>
-          <div className="col col--4">
             <YouTubeShortPlayer id="hhWPJWNCFrQ" />
           </div>
           <div className="col col--4">
-            <YouTubePlayer id="TDFv2hBRUtQ" />
+            <YouTubePlayer id="jjqongB3ao0" />
+          </div>
+          <div className="col col--4">
+            <YouTubeShortPlayer id="QT6HuKjxU08" />
           </div>
         </div>
         <div className="row">
           <div class="col col--12">
             <h1 className="margin-top--lg">
-             But, DevRel Goes Beyond Content Production &amp; Game Show Hosting!
+             DevRel Also Goes Beyond Content Production &amp; Game Show Hosting!
             </h1>
             <p>
               I don't claim to have the sole authority on what Developer
