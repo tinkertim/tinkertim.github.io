@@ -88,10 +88,10 @@ const config = {
         },
         */
         items: [
-          { to: "/latest", label: "Latest Work/", position: "left" },
           { to: "/about", label: "About Me/", position: "left" },
+          { to: "/latest", label: "Latest Work/", position: "left" },
           { to: "/blog", label: "Blog/", position: "left" },
-          { to: "/stack", label: "Tech Stack/", position: "left" },
+          { to: "/stack", label: "Tech & Studio Stack/", position: "left" },
           { to: "/contact", label: "Contact/", position: "left" },
         ],
       },
