@@ -89,10 +89,12 @@ function AboutPageContent() {
               through it really turned me into an advocate on many fronts.
             </p>
             <p className="margin-top--md">
-              Now, I do mostly contract work as my physical health allows, while
-              also focusing time on putting my experiences to work in advocacy
-              for not just disabled folks re-gaining their skills in tech, but
-              also those fighting their own cancer battles.
+              Now, I'm looking at getting back into a career path after doing mostly 
+              contract work while completing my cancer recovery, and the recovery from
+              the treatment itself. "Next year" isn't so questionable now that I'm in my
+              sixth year of remission, so I'd like to see where else I can go! Meanwhile, 
+              I will always remain as an advocate for those navigating tech careers with 
+              disabilities. 
             </p>
             <p className="margin-top--md margin-bottom--xl">
               Curious about the book? It's not real. I couldn't stand another 
