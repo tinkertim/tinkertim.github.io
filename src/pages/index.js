@@ -103,9 +103,7 @@ function HomePageContent() {
               developer twist, you're missing 85% of the rest (and extremely
               rewarding) parts of the role. Yes,{" "}
               <strong>content is critical</strong>, but it's just{" "}
-              <strong>one part of many</strong> in a successful DevRel strategy.
-            </p>
-            <p>
+              <strong>one part of many</strong> in a successful DevRel strategy. 
               This quote is the best way I've managed to explain it:
             </p>
             <div className={styles.bottomish}>
@@ -134,7 +132,7 @@ function HomePageContent() {
             </div>
             <p className="margin-top--lg margin-bottom--lg">
               <strong>
-                I hope you enjoy your visit to my site. If I can help you tell your product's story, <a href="/contact">please get in touch</a>!
+                I hope you enjoy your visit to my site. If I can help you tell your product's story or help build your community, <a href="/contact">contact me</a>.
               </strong>
             </p>
           </div>
