@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktinkertim_github_io=self.webpackChunktinkertim_github_io||[]).push([[3782],{2807:t=>{t.exports=JSON.parse('{"label":"ga4","permalink":"/blog/tags/ga-4","allTagsPath":"/blog/tags","count":1}')}}]);
