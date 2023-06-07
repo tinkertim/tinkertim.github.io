@@ -1,0 +1,158 @@
+---
+slug: ga4-internal-filtering
+title: How To Stop Polluting Your GA4 Engagement Data "Almost" Quickly 
+description: Google Analytics 4 has the ability to keep your own use from polluting your engagement data. Surprisingly, this functionality is hard-to-find. Here's how!
+authors: [tpost]
+image: /img/blog/ga4-internal-filtering/internal-filtering-og.png
+tags: [ga4, tutorial]
+---
+
+One of the most meaningful metrics for a documentation site is how long
+the average "engaged" session tends to last. Put simply, the longer people
+stay clicking around things could mean great or possibly even problematic
+things depending on context, so you _always_ want that number to be as 
+accurate as possible.
+
+The thing is, your own early use of your site often pollutes engagement data 
+at a really critical time; here's a tutorial on how to avoid that!
+
+<a href="/blog/ga4-internal-filtering/">
+    <img 
+        src="/img/blog/ga4-internal-filtering/internal-filtering-og.png" 
+        className="blogImage" 
+        title="Imagine 'complicated' and then take away reason and accountability"
+        alt="Creative depiction of a need to filter engagement data"    
+    />
+</a>
+
+To get the most out of this short tutorial, make sure you have the IP addresses that 
+your own use of your sites originates from handy, and about ten minutes of time. In fact,
+you'll probably want to set up rules for additional remote workers or even other offices
+that might interact with the sites like users would. 
+
+<!--truncate-->
+
+Depending on how you have Analytics configured (I suggest using Google Tag 
+Manager; this tutorial assumes you are too), you probably don't load the Analytics 
+code while the site is running in development or staging modes. This means
+you don't pollute your data by testing and doing development work, but tag manager
+_will_ always hoist Analytics code in production. 
+
+This means, any time you do _anything_ that a normal visitor would do on your sites, 
+you pollute metrics like average engagement time. This is not ideal at all. 
+
+Here's how to deal with it, step by step:
+
+### Step 1: Define An "internal" `traffic_type` For The Google Tag:
+
+This, unfortunately, entails a lot of clicks. First, go to the Admin
+section of analytics:
+
+<img 
+    src="/img/blog/ga4-internal-filtering/screenshot-1.png" 
+    className="blogImage" 
+    title="Screenshot"
+    alt="Supplementary Screenshot"    
+/>
+
+Next, click on "Data Streams" and click on the site you want to modify
+on the right:
+
+<img 
+    src="/img/blog/ga4-internal-filtering/screenshot-2.png" 
+    className="blogImage" 
+    title="Screenshot"
+    alt="Supplementary Screenshot"    
+/>
+
+Then, scroll down to the "Google Tag" settings part of the site. Click on
+that:
+
+<img 
+    src="/img/blog/ga4-internal-filtering/screenshot-3.png" 
+    className="blogImage" 
+    title="Screenshot"
+    alt="Supplementary Screenshot"    
+/>
+
+Then click on "Configure Tag Settings":
+
+<img 
+    src="/img/blog/ga4-internal-filtering/screenshot-4.png" 
+    className="blogImage" 
+    title="Screenshot"
+    alt="Supplementary Screenshot"    
+/>
+
+Once you've done that, click on "Show All" (I _told_ you this was hidden):
+
+<img 
+    src="/img/blog/ga4-internal-filtering/screenshot-5.png" 
+    className="blogImage" 
+    title="Screenshot"
+    alt="Supplementary Screenshot"    
+/>
+
+Next, click on "Define Internal Traffic":
+
+<img 
+    src="/img/blog/ga4-internal-filtering/screenshot-6.png" 
+    className="blogImage" 
+    title="Screenshot"
+    alt="Supplementary Screenshot"    
+/>
+
+Finally! Create a new location, name it meainingfully, and provide IP addresses 
+individually, or with a netmask (like if you want a whole /24 ignored). **Make 
+absolutely sure that you save it! Note the save button in the top-right:**
+
+<img 
+    src="/img/blog/ga4-internal-filtering/screenshot-7.png" 
+    className="blogImage" 
+    title="Screenshot"
+    alt="Supplementary Screenshot"    
+/>
+
+PHEW. Need some coffee? Maybe you should go get some coffee or stretch out. I 
+kid really, it's not that bad unless you're a product manager.  
+
+### Step 2: The Filter Or Testing Mode
+
+This is the easy part. Go back to the main admin route and this time, click on the 
+"Data Settings" icon, expand the little menu, and then click on the "Filters" link. You 
+will see that Google so thoughtfully created the filter for you, even though they don't 
+show you this functionality when you set it up.
+
+<img 
+    src="/img/blog/ga4-internal-filtering/screenshot-8.png" 
+    className="blogImage" 
+    title="Screenshot"
+    alt="Supplementary Screenshot"    
+/>
+
+Click on the filter and enable it. Make sure you save! You can set it to testing if you 
+want, but that still makes reporting noisy unless you filter it out later, so I recommend
+just turning it off right away. 
+
+<img 
+    src="/img/blog/ga4-internal-filtering/screenshot-9.png" 
+    className="blogImage" 
+    title="Screenshot"
+    alt="Supplementary Screenshot"    
+/>
+
+### Step 3: Wait A Few Hours, Then Test
+
+Google says it can take a while for changes to be applied to all recent data (which seems
+to be the case in my experience), but you will notice that it almost immediately stops all
+logging from the addresses you provided. Confirm this by hitting production links from a 
+location that you squelched. 
+
+### Closing
+
+I think Google should simplify this process, including providing a better tool to 
+look up your own IP address. This is a great example use case for filters in general, and 
+you probably noticed there's a lot more that you can do with them. 
+
+This easy enough to add to your setup checklist, now that you know where it lives. I hope you 
+found this useful!
