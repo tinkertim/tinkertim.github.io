@@ -10,10 +10,45 @@ SLUG=$1
 
 BRANCH=$(git branch --show-current)
 
-[ -z "$BRANCH" ] || [ "$BRANCH" == "main" ] && {
+[ $? -ne 0 ] || [ -z "$BRANCH" ] || [ "$BRANCH" == "main" ] && {
     echo "Could not determine current branch, or current branch is main."
     echo "This script must be run on a branch that is NOT main."
     exit 1
 }
 
-echo "Ok! ${BRANCH}"
+echo "Ok! We can run on ${BRANCH} - setting up everything for ${SLUG} ..."
+
+OUTPUT_PATH="`date +%Y-%m-%d`-${SLUG}"
+
+echo "Path will be ${OUTPUT_PATH}"
+
+mkdir -p blog/${OUTPUT_PATH}
+mkdir -p static/img/blog/${SLUG}
+
+cat << EOF > blog/${OUTPUT_PATH}/index.mdx
+
+---
+slug: ${SLUG}
+title: A Title Case Title
+description: A short, two-sentence-max description of the content (for SEO and eventual search)
+authors: [tpost]
+image: /img/blog/${SLUG}/${SLUG}-og.png
+tags: [tag1, tag2]
+---
+
+Introductory paragraph goes here.
+
+<a href="/blog/ga4-internal-filtering/">
+    <img 
+        src="/img/blog/${SLUG}/${SLUG}-og.png" 
+        className="blogImage" 
+        title="A witty title for anyone curious enough to hover"
+        alt="Creative depiction of [explanation here]"    
+    />
+</a>
+
+<!--truncate-->
+
+EOF
+
+echo "Process completed. Edit blog/${OUTPUT_PATH}/index.mdx"
