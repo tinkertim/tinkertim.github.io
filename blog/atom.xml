@@ -41,7 +41,10 @@ want, but that still makes reporting noisy unless you filter it out later, so I 
 just turning it off right away. </p><img loading="lazy" src="/img/blog/ga4-internal-filtering/screenshot-9.png" class="blogImage img_ev3q" title="Screenshot" alt="Supplementary Screenshot"><h3 class="anchor anchorWithStickyNavbar_LWe7" id="step-3-wait-a-few-hours-then-test">Step 3: Wait A Few Hours, Then Test<a href="#step-3-wait-a-few-hours-then-test" class="hash-link" aria-label="Direct link to Step 3: Wait A Few Hours, Then Test" title="Direct link to Step 3: Wait A Few Hours, Then Test">​</a></h3><p>Google says it can take a while for changes to be applied to all recent data (which seems
 to be the case in my experience), but you will notice that it almost immediately stops all
 logging from the addresses you provided. Confirm this by hitting production links from a
-location that you squelched. </p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="closing">Closing<a href="#closing" class="hash-link" aria-label="Direct link to Closing" title="Direct link to Closing">​</a></h3><p>I think Google should simplify this process, including providing a better tool to
+location that you squelched.</p><p>Initially, even the "live" view stopped registering my visists from internally-flagged IPs,
+but this flickered as changes were applied. I'll update this post in several weeks once enough
+time has passed and note what the end behavior looks like, if it differs from what Google says
+to expect. </p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="closing">Closing<a href="#closing" class="hash-link" aria-label="Direct link to Closing" title="Direct link to Closing">​</a></h3><p>I think Google should simplify this process, including providing a better tool to
 look up your own IP address. This is a great example use case for filters in general, and
 you probably noticed there's a lot more that you can do with them. </p><p>This easy enough to add to your setup checklist, now that you know where it lives. I hope you
 found this useful!</p>]]></content>
