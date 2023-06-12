@@ -26,7 +26,6 @@ mkdir -p blog/${OUTPUT_PATH}
 mkdir -p static/img/blog/${SLUG}
 
 cat << EOF > blog/${OUTPUT_PATH}/index.mdx
-
 ---
 slug: ${SLUG}
 title: A Title Case Title
