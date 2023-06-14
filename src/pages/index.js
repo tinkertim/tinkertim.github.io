@@ -62,9 +62,9 @@ function HomePageContent() {
             </p>
             <Link
               className={clsx("button button--primary button--lg", styles.poof)}
-              to="/blog/ga4-internal-filtering/"
+              to="/blog/ga4-internal-filtering-followup/"
             >
-              Latest Blog: "How To Stop Polluting Your GA4 Engagement Data "Almost" Quickly" &raquo;
+              Latest Blog: Internal Filtering With GA4: After Everything Settled &raquo;
             </Link>
           </div>
         </div>

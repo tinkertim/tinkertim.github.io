@@ -1,0 +1,92 @@
+---
+slug: ga4-internal-filtering-followup
+title: "Internal Filtering With GA4: After Everything Settled"
+description: It was hard to tell at first what effect, if any, filtering out internal use had on the data I already collected. Turned out it was major, so I'm summarizing what to expect.
+authors: [tpost]
+image: /img/blog/ga4-internal-filtering-followup/ga4-internal-filtering-followup-og.png
+tags: [ga4, tutorial-summary]
+---
+
+In [my last GA4 tutorial](/blog/ga4-internal-filtering/), we went over the 
+somewhat inordinate number of steps that you need to take in order to
+make sure that your own use of your sites isn't silently skewing your Google 
+Analytics engagement metrics behind the scenes. 
+
+<a href="/blog/ga4-internal-filtering-followup/#more">
+    <img 
+        src="/img/blog/ga4-internal-filtering-followup/ga4-internal-filtering-followup-og.png" 
+        className="blogImage" 
+        title="Data Pollution Puts Eeek In My Geek, You Know?"
+        alt="Creative depiction of dealing with dirty analytics"    
+    />
+</a>
+
+In this post, I'll go over what you can expect when you apply the filters and 
+how you can be relatively certain that your data is now de-noised. 
+
+<!--truncate-->
+
+<p class="margin-top--md margin-bottom--md"><a id="more">&nbsp;</a>--</p>
+
+As far as I can tell, the de-noising process ran effectively and all historical 
+internal use of the site was regrouped into a group that is excluded by default. In 
+fact it went so well that the process was as miraculous as it was unremarkable, in a 
+great way. 
+
+I'll just get down to what you'll see that's different:
+
+### You'll Still Show Up In The Live User View
+
+Nothing, at least as far as I can figure out from lots of poking around, will 
+prevent traffic that is flagged as internal from activating the "live" user over 
+world map infographic. 
+
+Howver, you ***should*** notice that you no longer affect the event count, which you 
+can generally confirm by setting the date range to "Today" and examine it as you 
+access the site, like below:
+
+<img 
+    src="/img/blog/ga4-internal-filtering-followup/ga4-update-events.png" 
+    className="blogImage" 
+    title="One of these things shouldn't update like the other"
+    alt="GA4 Live View"    
+/>
+
+### Your Engagement Time Will Drop, Likely Significantly
+
+This behavior is somewhat compounded with sites that have a lot of history in GA4 
+prior to filtering out internal use. Each pre-defined period (14 days, 28 days, etc)
+will seem correct but they won't quite be in sync when comparing to the previous frame, 
+so they'll be a bit bizarre for 10 - 15 days.
+
+<img 
+    src="/img/blog/ga4-internal-filtering-followup/ga4-engagement-time.png" 
+    className="blogImage" 
+    title="You spend too much time on that site anyway."
+    alt="GA4 Real Time Engagement Stats Enlarged"    
+/>
+
+### You'll See A New Source 
+
+Your use _is_ still technically counted, and you can look at it just like organic social, 
+search, or anything else:
+
+<img 
+    src="/img/blog/ga4-internal-filtering-followup/ga4-update-unassigned.png" 
+    className="blogImage" 
+    title="It's still technically assigned to unassigned, even if it says unassigned."
+    alt="GA4 Traffic Sources Showing Unassigned Group"    
+/>
+
+
+### You'll Wish You Did It Upon setup
+
+It was somewhat weird watching it normalize and while any _custom_ reports should be correct
+right away as they run through filters prior, it'll be disorienting to look at the generated 
+reports that still reflect the internal use while comparing. 
+
+Hopefully you don't see what I mean (either because you did it early-on, or because Google made
+de-noising it atomic).
+
+
+That's it for this series! I hope you found it helpful!
