@@ -37,7 +37,7 @@ tags: [tag1, tag2]
 
 Introductory paragraph goes here.
 
-<a href="/blog/ga4-internal-filtering/">
+<a href="/blog/${SLUG}/#more">
     <img 
         src="/img/blog/${SLUG}/${SLUG}-og.png" 
         className="blogImage" 
@@ -46,7 +46,13 @@ Introductory paragraph goes here.
     />
 </a>
 
+One more line before the preview is snipped.
+
 <!--truncate-->
+
+<p class="margin-top--md margin-bottom--md"><a id="more">&nbsp;</a>--</p>
+
+Begin here where you left off in the intro.
 
 EOF
 
