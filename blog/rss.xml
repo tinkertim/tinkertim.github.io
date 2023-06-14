@@ -4,11 +4,39 @@
         <title>Tim Post's Blog Feed</title>
         <link>https://tinkertim.github.io/blog</link>
         <description>Let's see what we have here ...</description>
-        <lastBuildDate>Tue, 06 Jun 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 14 Jun 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <copyright>Copyright 2023 Tim Post</copyright>
+        <item>
+            <title><![CDATA[Internal Filtering With GA4: After Everything Settled]]></title>
+            <link>https://tinkertim.github.io/blog/ga4-internal-filtering-followup</link>
+            <guid>https://tinkertim.github.io/blog/ga4-internal-filtering-followup</guid>
+            <pubDate>Wed, 14 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[It was hard to tell at first what effect, if any, filtering out internal use had on the data I already collected. Turned out it was major, so I'm summarizing what to expect.]]></description>
+            <content:encoded><![CDATA[<p>In <a href="/blog/ga4-internal-filtering/">my last GA4 tutorial</a>, we went over the
+somewhat inordinate number of steps that you need to take in order to
+make sure that your own use of your sites isn't silently skewing your Google
+Analytics engagement metrics behind the scenes. </p><a href="/blog/ga4-internal-filtering-followup/#more"><img loading="lazy" src="/img/blog/ga4-internal-filtering-followup/ga4-internal-filtering-followup-og.png" class="blogImage img_ev3q" title="Data Pollution Puts Eeek In My Geek, You Know?" alt="Creative depiction of dealing with dirty analytics"></a><p>In this post, I'll go over what you can expect when you apply the filters and
+how you can be relatively certain that your data is now de-noised. </p><p class="margin-top--md margin-bottom--md"><a id="more">&nbsp;</a>--</p><p>As far as I can tell, the de-noising process ran effectively and all historical
+internal use of the site was regrouped into a group that is excluded by default. In
+fact it went so well that the process was as miraculous as it was unremarkable, in a
+great way. </p><p>I'll just get down to what you'll see that's different:</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="youll-still-show-up-in-the-live-user-view">You'll Still Show Up In The Live User View<a href="#youll-still-show-up-in-the-live-user-view" class="hash-link" aria-label="Direct link to You'll Still Show Up In The Live User View" title="Direct link to You'll Still Show Up In The Live User View">​</a></h3><p>Nothing, at least as far as I can figure out from lots of poking around, will
+prevent traffic that is flagged as internal from activating the "live" user over
+world map infographic. </p><p>Howver, you <strong><em>should</em></strong> notice that you no longer affect the event count, which you
+can generally confirm by setting the date range to "Today" and examine it as you
+access the site, like below:</p><img loading="lazy" src="/img/blog/ga4-internal-filtering-followup/ga4-update-events.png" class="blogImage img_ev3q" title="One of these things shouldn't update like the other" alt="GA4 Live View"><h3 class="anchor anchorWithStickyNavbar_LWe7" id="your-engagement-time-will-drop-likely-significantly">Your Engagement Time Will Drop, Likely Significantly<a href="#your-engagement-time-will-drop-likely-significantly" class="hash-link" aria-label="Direct link to Your Engagement Time Will Drop, Likely Significantly" title="Direct link to Your Engagement Time Will Drop, Likely Significantly">​</a></h3><p>This behavior is somewhat compounded with sites that have a lot of history in GA4
+prior to filtering out internal use. Each pre-defined period (14 days, 28 days, etc)
+will seem correct but they won't quite be in sync when comparing to the previous frame,
+so they'll be a bit bizarre for 10 - 15 days.</p><img loading="lazy" src="/img/blog/ga4-internal-filtering-followup/ga4-engagement-time.png" class="blogImage img_ev3q" title="You spend too much time on that site anyway." alt="GA4 Real Time Engagement Stats Enlarged"><h3 class="anchor anchorWithStickyNavbar_LWe7" id="youll-see-a-new-source">You'll See A New Source<a href="#youll-see-a-new-source" class="hash-link" aria-label="Direct link to You'll See A New Source" title="Direct link to You'll See A New Source">​</a></h3><p>Your use <em>is</em> still technically counted, and you can look at it just like organic social,
+search, or anything else:</p><img loading="lazy" src="/img/blog/ga4-internal-filtering-followup/ga4-update-unassigned.png" class="blogImage img_ev3q" title="It's still technically assigned to unassigned, even if it says unassigned." alt="GA4 Traffic Sources Showing Unassigned Group"><h3 class="anchor anchorWithStickyNavbar_LWe7" id="youll-wish-you-did-it-upon-setup">You'll Wish You Did It Upon setup<a href="#youll-wish-you-did-it-upon-setup" class="hash-link" aria-label="Direct link to You'll Wish You Did It Upon setup" title="Direct link to You'll Wish You Did It Upon setup">​</a></h3><p>It was somewhat weird watching it normalize and while any <em>custom</em> reports should be correct
+right away as they run through filters prior, it'll be disorienting to look at the generated
+reports that still reflect the internal use while comparing. </p><p>Hopefully you don't see what I mean (either because you did it early-on, or because Google made
+de-noising it atomic).</p><p>That's it for this series! I hope you found it helpful!</p>]]></content:encoded>
+            <category>ga4</category>
+            <category>tutorial-summary</category>
+        </item>
         <item>
             <title><![CDATA[How To Stop Polluting Your GA4 Engagement Data "Almost" Quickly]]></title>
             <link>https://tinkertim.github.io/blog/ga4-internal-filtering</link>
@@ -48,7 +76,9 @@ time has passed and note what the end behavior looks like, if it differs from wh
 to expect. </p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="closing">Closing<a href="#closing" class="hash-link" aria-label="Direct link to Closing" title="Direct link to Closing">​</a></h3><p>I think Google should simplify this process, including providing a better tool to
 look up your own IP address. This is a great example use case for filters in general, and
 you probably noticed there's a lot more that you can do with them. </p><p>This easy enough to add to your setup checklist, now that you know where it lives. I hope you
-found this useful!</p>]]></content:encoded>
+found this useful!</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="update-as-promised">Update, As Promised!<a href="#update-as-promised" class="hash-link" aria-label="Direct link to Update, As Promised!" title="Direct link to Update, As Promised!">​</a></h3><p>I've <a href="/blog/ga4-internal-filtering-followup/">posted an update</a> about how it went and what I
+learned to expect when I deploy more documentation domains. I'll definitely be doing this early
+in the process from now on, before it has a chance to get in the way.</p>]]></content:encoded>
             <category>ga4</category>
             <category>tutorial</category>
         </item>
