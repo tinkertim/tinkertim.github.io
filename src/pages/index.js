@@ -79,7 +79,7 @@ function HomePageContent() {
             </p>
           </div>
         </div>
-        <div className="row">
+        <div className={clsx("row", styles.darkRow)}>
           <div className="col col--4">
             <YouTubeShortPlayer id="hhWPJWNCFrQ" />
           </div>
