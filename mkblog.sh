@@ -20,6 +20,11 @@ echo "Ok! We can run on ${BRANCH} - setting up everything for ${SLUG} ..."
 
 OUTPUT_PATH="`date +%Y-%m-%d`-${SLUG}"
 
+[ -d "$OUTPUT_PATH" ] && {
+    echo "Output path $OUTPUT_PATH exists. Aborting."
+    exit 1
+}
+
 echo "Path will be ${OUTPUT_PATH}"
 
 mkdir -p blog/${OUTPUT_PATH}
@@ -53,6 +58,15 @@ One more line before the preview is snipped.
 <p class="margin-top--md margin-bottom--md"><a id="more">&nbsp;</a>--</p>
 
 Begin here where you left off in the intro.
+
+Here is an img tag ready for an extra element if needed:
+
+<img 
+    src="/img/blog/${SLUG}/TODO.png" 
+    className="blogImage" 
+    title="A witty title for anyone curious enough to hover"
+    alt="Creative depiction of [explanation here]"    
+/>
 
 EOF
 
