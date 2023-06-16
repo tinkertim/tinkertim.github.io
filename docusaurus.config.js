@@ -141,6 +141,7 @@ const config = {
         disableSwitch: false,
         respectPrefersColorScheme: true,
       },
+      /*
       announcementBar: {
         id: "banner",
         content:
@@ -149,6 +150,7 @@ const config = {
         textColor: "#fff",
         isCloseable: true,
       },
+      */
       googleTagManager: {
         containerId: 'GTM-TVD72WD',
       },
