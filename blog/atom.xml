@@ -41,6 +41,94 @@ de-noising it atomic).</p><p>That's it for this series! I hope you found it help
         <category label="tutorial-summary" term="tutorial-summary"/>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Tips On Conducting Successful Product Feedback Interviews]]></title>
+        <id>https://tinkertim.github.io/blog/tips-on-product-feedback-interviews</id>
+        <link href="https://tinkertim.github.io/blog/tips-on-product-feedback-interviews"/>
+        <updated>2023-06-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Having a feedback session go really well for everyone involved is a lot of lifting. I've conducted many product interviews and put my experience together in a short primer for you!]]></summary>
+        <content type="html"><![CDATA[<p>Conducting a productive 1:1 product feedback session is difficult. In fact, there's
+an art to running them that isn't obvious to the inexperienced, which I quickly discovered
+when I first sat down with someone to talk about their experience on a new site called
+Stack Overflow years ago.  </p><p>This post contains most of what I wished I knew back then, condensed into a ten minute
+read.</p><a href="/blog/tips-on-product-feedback-interviews/#more"><img loading="lazy" src="/img/blog/tips-on-product-feedback-interviews/tips-on-product-feedback-interviews-og.png" class="blogImage img_ev3q" title="How we imagine user interviews when we plan them. Reality remains unaccountable to our expectations." alt="Creative depiction of people having coffee and talking"></a><p>If you're just skimming, there's one thing I <strong><em>really hope</em></strong> you'll take away today:
+<strong>product interviews are harder than they seem on the surface to pull off well</strong>. If the person
+doing the interview hasn't done an enormous amount of prep first, including sitting in on other
+people doing interviews, they can go from fun to awful really quickly. </p><p class="margin-top--md margin-bottom--md"><a id="more">&nbsp;</a>--</p><p>I'm assuming that you have some kind of community or developer portal that shows people where to
+go depending on what they need, and that you have some kind of analytics running there that shows
+you where you have pockets of users geographically. This leads us to ...</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="location-location-location">Location, Location, Location!<a href="#location-location-location" class="hash-link" aria-label="Direct link to Location, Location, Location!" title="Direct link to Location, Location, Location!">​</a></h3><p>You'll need to know where you should locate yourself in order to maximize being convenient to
+users in-person, or know which time zones you'll have to optimize for in order to conduct these
+virtually. Either way, you need this data.</p><p>If you are friends with a company that markets to the same kinds of developers that you need to
+reach, you could ask them for some advice if you don't have enough meaningful data yourself. But
+I have to warn you: if you're so young that you still don't have this, you might not be ready for
+these interviews yet. Keep reading nonetheless, but that could be your gut trying to tell you
+something. </p><p>Don't expect people to come to you, even if you sweeten the deal with gift cards. Inertia costs
+way more than $50 for many developers to overcome. </p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="understand-each-users-conversational-needs">Understand Each User's Conversational Needs<a href="#understand-each-users-conversational-needs" class="hash-link" aria-label="Direct link to Understand Each User's Conversational Needs" title="Direct link to Understand Each User's Conversational Needs">​</a></h3><p>I'm assuming you have a privacy policy and an event code of conduct. Don't proceed if either are
+lacking, it would be a major trust and safety issue. </p><p>Here are some things that are helpful to collect in advance from people who volunteer to be
+interviewed:</p><ul><li>Person's background with the product and how they use it (work, hobby, etc)</li><li>If any accommodations need to be met, including any accessibility concerns. </li><li>Any social media links that they'd like shared with you and the product team</li><li>A free-form "anything else" box.</li></ul><p>Make sure this info is collected in a way that works with your company's privacy policy and
+data retention policies.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="understand-each-users-stake--goals">Understand Each User's Stake &amp; Goals<a href="#understand-each-users-stake--goals" class="hash-link" aria-label="Direct link to Understand Each User's Stake &amp; Goals" title="Direct link to Understand Each User's Stake &amp; Goals">​</a></h3><p>You will be meeting with a human who may or may not:</p><ul><li>Feel a little star struck</li><li>Be in a <em>massive</em> hurry to tell you about one or two particular things before they forget</li><li>Be extroverted</li><li>Be on-time</li><li>Be nervous</li><li>Be typical in any way at all </li></ul><p>The best thing you can do is open with <em>"Hi I'm <!-- -->[you]<!-- --> and I'm the <!-- -->[title]<!-- --> at <!-- -->[company]<!-- -->. Everyone calls
+me <!-- -->[name]<!-- --> and refers to me as he or him. Your timing is absolutely perfect! Before we get started, is
+there anything you want to make sure we have time to talk about, or anything you need to talk about
+before we begin the interview?"</em></p><p>You know <em>your</em> goals for this interview. To make the experience as fruitful for the user as possible,
+use your interviewing super powers to make sure they know <em>their</em> goals, too!</p><p>This should put everyone at a bit more ease because you can focus on the conversation now that the
+outcome goals have been charted. This also keeps the smalltalk positive, because nobody is apologizing
+for running late or feeling like they look a mess. </p><p>Let them know that there will be time to ask questions at the end. Remember that recording requires
+consent, and you should get a signed release even if you record the consent (DocuSign FTW)</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="practicing-your-presence-is-key">Practicing Your Presence Is Key<a href="#practicing-your-presence-is-key" class="hash-link" aria-label="Direct link to Practicing Your Presence Is Key" title="Direct link to Practicing Your Presence Is Key">​</a></h3><p>You can't throw an interview together on a flight. If you don't try this and practice
+it with a few people that actually know how the thing is supposed to work, things might
+not go very well. </p><p>I am the last person to underestimate someone's ability to accomplish magnificent things
+at the very last minute - that's how I sometimes work too! And as someone that thrives when
+the dopamine can actually keep up, I'm telling you it's going to take longer than you think.</p><p>A user interview is almost like a demo that you have to make a trainee do for you, with the
+patience of a saint. As long as you know what you're up against, you do you. </p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="optimize-for-the-users-time-in-general-and-for-speaking">Optimize For The User's Time (In General, And For Speaking)<a href="#optimize-for-the-users-time-in-general-and-for-speaking" class="hash-link" aria-label="Direct link to Optimize For The User's Time (In General, And For Speaking)" title="Direct link to Optimize For The User's Time (In General, And For Speaking)">​</a></h3><p>Normally, in an interview, you want the person being <em>interviewed</em> to be the primary
+speaker in a transcript, with the interviewer confined to short, broadly-comprehensible questions.</p><p>This means 85% of the talking should be the user, 10% the interviewer, and 5% the muffled junk
+and long silences that you edit out.</p><p>You'll find this a balancing act between injecting just enough anecdotes to keep the conversation
+flowing, but make sure it's to get <em>their</em> story re-started, not to tell yours to completion.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="reiterate-the-users-key-points-frequently">Reiterate The User's Key Points Frequently<a href="#reiterate-the-users-key-points-frequently" class="hash-link" aria-label="Direct link to Reiterate The User's Key Points Frequently" title="Direct link to Reiterate The User's Key Points Frequently">​</a></h3><p>Three French hens, two turtle doves and repetition does wonder for the brain! Not only does the
+user hear you continually reiterate things that they agree with <em>because they said them</em>, it helps
+them (and you) make sure trains of thoughts pas smoothly straight to the kaboose. </p><p>Imagine each main point that the user makes as a separate plate. Each detail about that is a serving
+of something on that plate. Good waiters do this in their heads, you can learn how too, but that takes
+a lot of time.</p><p>There are tips at the end of the post on how to manage this.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="understand-the-halo-effect">Understand The Halo Effect<a href="#understand-the-halo-effect" class="hash-link" aria-label="Direct link to Understand The Halo Effect" title="Direct link to Understand The Halo Effect">​</a></h3><p><strong><em>Don't Be Right, Be A Successful Interviewer!</em></strong></p><p>There's a strong bias in engineering culture that makes some of us -- okay, <em>most</em> of us --
+feel as if we're already qualified to be a junior engineer in every other field of engineering
+once we've come really far in another.</p><p>There's <em>just enough</em> merit to that silly notion that it causes us to think we've completely
+figured out how everything else in the world <em>surely</em> works, and causes us to offer advice, often
+unsolicited, on how to improve things.</p><p>So when users in interviews tell you stuff like <em>"and by the way, if you just frob the pulse normalizers,
+you'll be able to scale much better!"</em> just smile and write it down, even if you don't use whatever
+it is that they think you can improve. </p><p>The point is, it's about harvesting, not planting. Of course you should correct major misinformation or
+rumor or other things, but save the good fights for the product team themselves.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="practice-belaying-bewilderment-yes-you-read-that-correctly">Practice Belaying Bewilderment (Yes, You Read That Correctly)<a href="#practice-belaying-bewilderment-yes-you-read-that-correctly" class="hash-link" aria-label="Direct link to Practice Belaying Bewilderment (Yes, You Read That Correctly)" title="Direct link to Practice Belaying Bewilderment (Yes, You Read That Correctly)">​</a></h3><p>I once observed a designer that had a unique disposition in regards to their shift keys: they only
+ever touched them when caps lock wouldn't accomplish the goal. </p><p>This means:</p><blockquote><p>Hello, World!</p></blockquote><p>Was typed as:</p><blockquote><p><code>&lt;caps lock&gt;H&lt;/caps lock&gt;+e+l+l+o+,+ &lt;caps lock&gt;W&lt;/caps lock&gt;+o+r+l+d+&lt;shift&gt;1&lt;/shift&gt;</code></p></blockquote><p>And for the next 75 minutes, <strong><em>they were going to be hand-coding HTML, JS and CSS right in front
+of me</em></strong>. </p><p>My reaction was visceral, to say the least, but my curiosity kicked in quickly. It turned out
+to be really cool that I could watch this very unique work flow, and I just observed. I knew
+I'd need a day or two to process what I'd actually learned from watching them, and that was fine.</p><p>But there are more things where you have to have a reflex to suppress reactions that, unless managed,
+tend to be expressed quite viscerally, without adequate filtering. Hold yourself to where you needed
+others to be when you were the one that was different.</p><p>It takes practice. </p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="consider-these-helpful-accessories--supplies">Consider These Helpful Accessories &amp; Supplies:<a href="#consider-these-helpful-accessories--supplies" class="hash-link" aria-label="Direct link to Consider These Helpful Accessories &amp; Supplies:" title="Direct link to Consider These Helpful Accessories &amp; Supplies:">​</a></h3><p>This is my standard gear for doing in-person interviews, the only difference in doing them remotely
+is that recording is usually more convenient, and you're likely using some kind of shared document
+and doodle space instead of an actual table between you. </p><p>The last one is optional, of course, and more of an incentive to get people to interrupt their day
+to talk to you.</p><h4 class="anchor anchorWithStickyNavbar_LWe7" id="vox-recorders">Vox Recorders<a href="#vox-recorders" class="hash-link" aria-label="Direct link to Vox Recorders" title="Direct link to Vox Recorders">​</a></h4><p>I carry <a href="https://www.amazon.com/gp/product/B083P5C2Q4/" target="_blank" rel="noopener noreferrer">this small digital recorder</a> for every day
+note taking, which is also an ideal recorder for in-person interviews. It has two features that
+make it especially well-suited to the task:</p><ol><li><p>Instant-record functionality from the off position. I flip a switch upwards and in 15 seconds
+I'm confident that a recording is going. </p></li><li><p>It accepts a standard 3/8" TRS cable as input, which allows for mobile recording with quality
+mics anywhere, using a <a href="https://www.amazon.com/gp/product/B07QRZ77QN/" target="_blank" rel="noopener noreferrer">small black box like this one</a></p></li><li><p>Easy-peasey USB-C fetching of mp3 output which you can set up to dump to your transcription
+service of choice. </p></li></ol><h4 class="anchor anchorWithStickyNavbar_LWe7" id="table--whiteboard-space-w--sticky-notes-as-visual-aides">Table / Whiteboard Space W / Sticky Notes As Visual Aides<a href="#table--whiteboard-space-w--sticky-notes-as-visual-aides" class="hash-link" aria-label="Direct link to Table / Whiteboard Space W / Sticky Notes As Visual Aides" title="Direct link to Table / Whiteboard Space W / Sticky Notes As Visual Aides">​</a></h4><p>During in-person interviews, I use the space between myself and the interviewee as a collaborative,
+fungible medium. Rather than gesture in the air, I capture individual ideas that I want to explore
+in sticky notes, and keep re-ordering and updating them as the conversation flows. </p><p>I like using colored Red, Yellow and Green notes specifically to capture problematic, neutral or
+commendable experiences, as the user related them. This idea branches from something called a
+friction log, which a former PM colleague named Megan Risdal introduced me to.</p><p>I've used her very elegant and simple system ever since.</p><h4 class="anchor anchorWithStickyNavbar_LWe7" id="document-friction-logs">Document Friction Logs<a href="#document-friction-logs" class="hash-link" aria-label="Direct link to Document Friction Logs" title="Direct link to Document Friction Logs">​</a></h4><p>Much like the sticky notes above, you can use red, green and yellow coloring in shared documents.</p><img loading="lazy" src="/img/blog/tips-on-product-feedback-interviews/friction-log.png" class="blogImage img_ev3q" title="The simplest thing ever!" alt="Screen Shot Of A Google Doc"><p>I like to type notes as the user is talking (being careful to remain attentive to what they're
+saying) and highlight / change text color as an activity with the user. I can always fill out the
+text more from the recording, what's important is capturing high-level things and getting the color
+coding correct while the user is with you. </p><h4 class="anchor anchorWithStickyNavbar_LWe7" id="beep-not-a-robot">Beep! Not A Robot<a href="#beep-not-a-robot" class="hash-link" aria-label="Direct link to Beep! Not A Robot" title="Direct link to Beep! Not A Robot">​</a></h4><p>Never underestimate the nerd factor in motivation. At Stack Overflow, we implemented a special badge
+that could only be earned by attending an event and scanning a QR code that was linked to the event.</p><p>It was called "Not A Robot" as a play on the captcha phrasing. </p><img loading="lazy" src="/img/blog/tips-on-product-feedback-interviews/not-a-robot.png" class="blogImage img_ev3q" title="Beep Boo Beep!" alt="Screen Shot Of Not A Robot Badge"><p>There were guard rails in place to make sure the badge didn't become too easy to get just by knowing
+some employees, and it proved to be a significant motivator for people who were considering attending
+one of our live events. </p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="concluding">Concluding<a href="#concluding" class="hash-link" aria-label="Direct link to Concluding" title="Direct link to Concluding">​</a></h3><p>I hope you found some value in what I've shared here, and I hope you also feel more excited and
+inspired when it comes to forming close connections with people that use what you create and promote. </p><p>Adding truly effective user sessions to your product feedback loops will more than pay for the
+amount of prep that they require, and I think you'll find, really deserve. If you feel like you're
+burning out a bit, why not go hit a city where lots of users are and spend time with humans that
+really care about your work? </p><p>It would be very hard to have an uninspiring experience, especially if you're prepared.</p>]]></content>
+        <author>
+            <name>Tim Post</name>
+            <uri>https://tinkertim.github.io</uri>
+        </author>
+        <category label="product-led-growth" term="product-led-growth"/>
+        <category label="feedback-loops" term="feedback-loops"/>
+        <category label="user-interviews" term="user-interviews"/>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[How To Stop Polluting Your GA4 Engagement Data "Almost" Quickly]]></title>
         <id>https://tinkertim.github.io/blog/ga4-internal-filtering</id>
         <link href="https://tinkertim.github.io/blog/ga4-internal-filtering"/>
